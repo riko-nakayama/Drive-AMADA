@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ctlNumExKp.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKp.TitleText" xml:space="preserve">
+    <value>比例增益1</value>
+  </data>
+  <data name="grpPosEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpPosEx.Text" xml:space="preserve">
+    <value>位置环增益</value>
+  </data>
+  <data name="ctlNumExKi.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKi.TitleText" xml:space="preserve">
+    <value>积分增益1</value>
+  </data>
+  <data name="ctlNumExKv.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKv.TitleText" xml:space="preserve">
+    <value>比例增益1</value>
+  </data>
+  <data name="grpVelEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpVelEx.Text" xml:space="preserve">
+    <value>速度环增益</value>
+  </data>
+  <data name="ctlNumExLoad.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExLoad.TitleText" xml:space="preserve">
+    <value>惯量</value>
+  </data>
+  <data name="grpLoadEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpLoadEx.Text" xml:space="preserve">
+    <value>负载惯量</value>
+  </data>
+  <data name="tbtnSaveGain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="tbtnSaveGain.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="tbtnSaveGain.Text" xml:space="preserve">
+    <value>增益保存</value>
+  </data>
+  <data name="tbtnSaveGain.ToolTipText" xml:space="preserve">
+    <value>将设定的增益参数保存到驱动器</value>
+  </data>
+  <data name="ctlNumExCurLpf.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurLpf.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="lblCurLPF3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblCurLPF3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="lblCurLPF3.Text" xml:space="preserve">
+    <value>※以伺服关闭更新</value>
+  </data>
+  <data name="chkCurLPF1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="chkCurLPF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="chkCurLPF1.Text" xml:space="preserve">
+    <value>用1次计算</value>
+  </data>
+  <data name="grpCurLpfEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpCurLpfEx.Text" xml:space="preserve">
+    <value>低通滤波器</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.TitleText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.TitleText" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpCurNotchEx1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx1.Text" xml:space="preserve">
+    <value>陷波滤波器1</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.TitleText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.TitleText" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpCurNotchEx2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx2.Text" xml:space="preserve">
+    <value>陷波滤波器2</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.TitleText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.TitleText" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpCurNotchEx3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx3.Text" xml:space="preserve">
+    <value>陷波滤波器3</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.TitleText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.TitleText" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpCurNotchEx4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx4.Text" xml:space="preserve">
+    <value>陷波滤波器4</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.TitleText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.TitleText" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpCurNotchEx5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx5.Text" xml:space="preserve">
+    <value>陷波滤波器5</value>
+  </data>
+  <data name="tabPageServoGain.Text" xml:space="preserve">
+    <value>伺服增益</value>
+  </data>
+  <data name="tabPageCurrentFillter.Text" xml:space="preserve">
+    <value>电流指令滤波器</value>
+  </data>
+  <data name="ctlNumExVelLpf.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelLpf.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="lblVelLPF3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblVelLPF3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="lblVelLPF3.Text" xml:space="preserve">
+    <value>※以伺服关闭更新</value>
+  </data>
+  <data name="chkVelLPF1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="chkVelLPF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="chkVelLPF1.Text" xml:space="preserve">
+    <value>用1次计算</value>
+  </data>
+  <data name="grpVelLpfEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpVelLpfEx.Text" xml:space="preserve">
+    <value>低通滤波器</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.TitleText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.TitleText" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpVelNotchEx1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpVelNotchEx1.Text" xml:space="preserve">
+    <value>陷波滤波器1</value>
+  </data>
+  <data name="tabPageVelocityFillter.Text" xml:space="preserve">
+    <value>速度指令文件</value>
+  </data>
+  <data name="ctlNumExPosLpf.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosLpf.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="lblPosLPF3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblPosLPF3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="lblPosLPF3.Text" xml:space="preserve">
+    <value>※以伺服关闭更新</value>
+  </data>
+  <data name="chkPosLPF1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="chkPosLPF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="chkPosLPF1.Text" xml:space="preserve">
+    <value>用1次计算</value>
+  </data>
+  <data name="grpPosLpfEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpPosLpfEx.Text" xml:space="preserve">
+    <value>低通滤波器</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.TitleText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.TitleText" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpPosNotchEx1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpPosNotchEx1.Text" xml:space="preserve">
+    <value>陷波滤波器1</value>
+  </data>
+  <data name="tabPagePositionFillter.Text" xml:space="preserve">
+    <value>位置指令文件</value>
+  </data>
+  <data name="ctlNumExGravity.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExGravity.TitleText" xml:space="preserve">
+    <value>重力补正扭矩</value>
+  </data>
+  <data name="ctlNumExGravity.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExGravity.UnitText" xml:space="preserve">
+    <value>±定额电流[0.01A]</value>
+  </data>
+  <data name="ctlNumExDynamic.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExDynamic.TitleText" xml:space="preserve">
+    <value>粘性摩擦系数</value>
+  </data>
+  <data name="ctlNumExCcwTrq.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCcwTrq.TitleText" xml:space="preserve">
+    <value>CCW方向扭矩</value>
+  </data>
+  <data name="ctlNumExCcwTrq.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCcwTrq.UnitText" xml:space="preserve">
+    <value>0-定额电流[0.01A]</value>
+  </data>
+  <data name="ctlNumExCwTrq.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCwTrq.TitleText" xml:space="preserve">
+    <value>CW方向扭矩</value>
+  </data>
+  <data name="ctlNumExCwTrq.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCwTrq.UnitText" xml:space="preserve">
+    <value>0-定额电流[0.01A]</value>
+  </data>
+  <data name="grpFriction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpFriction.Text" xml:space="preserve">
+    <value>摩擦补正</value>
+  </data>
+  <data name="tabPageFriction.Text" xml:space="preserve">
+    <value>摩擦补正</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.TitleText" xml:space="preserve">
+    <value>增益</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 36</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.Text" xml:space="preserve">
+    <value>干扰观测器
+有效</value>
+  </data>
+  <data name="grpTrqOvsEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpTrqOvsEx.Text" xml:space="preserve">
+    <value>干扰观测器</value>
+  </data>
+  <data name="tabPageTorqueObserver.Text" xml:space="preserve">
+    <value>干扰观测器</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.TitleText" xml:space="preserve">
+    <value>干扰误差补正</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.TitleText" xml:space="preserve">
+    <value>速度误差补正</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.Text" xml:space="preserve">
+    <value>干扰抑制功能有效</value>
+  </data>
+  <data name="ctlNumExVelObsTime.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsTime.TitleText" xml:space="preserve">
+    <value>误差估计时间</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.Text" xml:space="preserve">
+    <value>速度稳定化控制</value>
+  </data>
+  <data name="grpVelOvsEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpVelOvsEx.Text" xml:space="preserve">
+    <value>速度稳定化控制</value>
+  </data>
+  <data name="tabPageVelocityObserver.Text" xml:space="preserve">
+    <value>速度稳定化控制</value>
+  </data>
+  <data name="ctlNumExModelFillter1.TitleText" xml:space="preserve">
+    <value>Fillter1</value>
+  </data>
+  <data name="chkModelControlMotorModel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="chkModelControlMotorModel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 70</value>
+  </data>
+  <data name="chkModelControlMotorModel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 36</value>
+  </data>
+  <data name="chkModelControlMotorModel1.Text" xml:space="preserve">
+    <value>马达模型用
+3相计算</value>
+  </data>
+  <data name="ctlNumExModelGain3.TitleText" xml:space="preserve">
+    <value>Model Gain3</value>
+  </data>
+  <data name="ctlNumExModelGain2.TitleText" xml:space="preserve">
+    <value>Model Gain2</value>
+  </data>
+  <data name="ctlNumExModelGain1.TitleText" xml:space="preserve">
+    <value>Model Gain1</value>
+  </data>
+  <data name="chkModelControlEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="chkModelControlEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="chkModelControlEnable1.Text" xml:space="preserve">
+    <value>模拟跟踪控制有效</value>
+  </data>
+  <data name="grpModelEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpModelEx.Text" xml:space="preserve">
+    <value>模拟跟踪控制</value>
+  </data>
+  <data name="tabPageModel.Text" xml:space="preserve">
+    <value>模拟跟踪控制</value>
+  </data>
+  <data name="lblVelFBEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblVelFBEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 32</value>
+  </data>
+  <data name="lblVelFBEx.Text" xml:space="preserve">
+    <value>※以伺服关闭
+    更新</value>
+  </data>
+  <data name="ctlNumExVelFB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExVelFB.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFB.TitleText" xml:space="preserve">
+    <value>移动平均次数</value>
+  </data>
+  <data name="grpVelFBEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpVelFBEx.Text" xml:space="preserve">
+    <value>速度反馈滤波器</value>
+  </data>
+  <data name="lblPosFBEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblPosFBEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 32</value>
+  </data>
+  <data name="lblPosFBEx.Text" xml:space="preserve">
+    <value>※以伺服关闭 
+    更新</value>
+  </data>
+  <data name="grpPosFBEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpPosFBEx.Text" xml:space="preserve">
+    <value>位置反馈滤波器</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpCurLpfFB.Text" xml:space="preserve">
+    <value>电流反馈滤波器</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.TitleText" xml:space="preserve">
+    <value>截断频率</value>
+  </data>
+  <data name="grpVelLpfFB.Text" xml:space="preserve">
+    <value>速度反馈滤波器</value>
+  </data>
+  <data name="tabPageFeedback.Text" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="ctlNumExPosFFGain.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosFFGain.TitleText" xml:space="preserve">
+    <value>FF增益</value>
+  </data>
+  <data name="grpPosFF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpPosFF.Text" xml:space="preserve">
+    <value>位置前馈</value>
+  </data>
+  <data name="lblVelFFFillter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblVelFFFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 64</value>
+  </data>
+  <data name="lblVelFFFillter.Text" xml:space="preserve">
+    <value>※指令平均化次数
+　0：无平均化
+　1：2次平均
+　2：4次平均</value>
+  </data>
+  <data name="lblVelFFPeriod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblVelFFPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 80</value>
+  </data>
+  <data name="lblVelFFPeriod.Text" xml:space="preserve">
+    <value>※加速度计算周期
+　0：高速
+　1：控制周期的2倍
+　2：控制周期的3倍
+　3：控制周期的4倍</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.TitleText" xml:space="preserve">
+    <value>指令平均化次数</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.TitleText" xml:space="preserve">
+    <value>加速度计算周期</value>
+  </data>
+  <data name="ctlNumExVelFFGain.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFGain.TitleText" xml:space="preserve">
+    <value>FF增益</value>
+  </data>
+  <data name="grpVelFF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="grpVelFF.Text" xml:space="preserve">
+    <value>速度前馈</value>
+  </data>
+  <data name="tabPageFeedforward.Text" xml:space="preserve">
+    <value>前馈</value>
+  </data>
+  <data name="tabServoGain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="tabServoGain.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAOHLwf+QUzb/4MKz/6tkQP8AAAAAhE0y/+POw/+gXTz/2K+a/wAAAACITzP/5c/F/wAA
+        AAAAAAAAAAAAAAAAAACYWDn/26mQ/854Tv/Od03/AAAAAJhYOf+3akX/78u5/9R7UP8AAAAAl1c4/6tj
+        QP/Ab0j/ynVM/wAAAAAAAAAAwXFI/wAAAAAAAAAA0XpP/wAAAADAcEn/9tnM/wAAAADYf1L/AAAAALhr
+        Rf/46eP/34JU//rp4v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//+cQYQnnEGEIZxBtKGcQf//nEHve5xB73ucQe97nEHve5xB73ucQe97nEHve5xB73ucQe97
+        nEH//5xB//+cQQ==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>伺服增益</value>
+  </data>
+</root>

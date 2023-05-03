@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 250</value>
+  </data>
+  <data name="btnFriction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 60</value>
+  </data>
+  <data name="&gt;&gt;btnFriction.Name" xml:space="preserve">
+    <value>btnFriction</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnFriction.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSweep.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAdjust.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAABiUlE
+        QVQ4T2P4//8/RRirICkYTBTOem6b0POECV2SGAwmwspO/I+b8FoDaAgzugJCGExkTHn6P6jh5mugASCX
+        oBhya73G0g+nnab8f1W14/Y65d//XxTs/nrFqwUoXgc3ILH36f/OrX//u5Ve/g80wB7ZkF83/ase7DD8
+        9/9jz//HhyL+//844f/9bXr/vlzybIUbENX9+H/tmr//U2f//W+TexbVEKDN/z9P+///9/H/n5+uBdKH
+        /4P5IHGYAcEtj/7nLQS6oOnbf5mYa/+NI5f9dyg6Gw+Su7lK/vfD/cH/v7xY///v/w//v73e8h/Ef7LL
+        6BfcAK+aB/992r//l46+9l/Rpee/tM/qQJA4GINs+jj5//8f+8GGgFwC5iO7wKHs3n+97LtQzSu94JqB
+        +PetgIr72w3+/X1Z+//Zsdj//z9MxgwDi7w7MM1ayJpBGBja08Cx8DRzz/P9Zj9BNoM0o8SCYdbtTVJe
+        yw2QNRKLwYRO2g1tdAliMVZBUjBWQVIwVkHi8X8GAI454bcCJRyOAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnAdjust.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoad.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="btnSweep.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAKFSURBVDhPxZNLTxNhGIX7p3Tp3ujGvTsXKkLkogk/wMR4JTEExSAaiQYJCikE5VagUEovlFJa
+        2s600+n0MvRCKYXeoY9fO/4CNr7JzKzO851z3m9M/392vFEsrigrzghLdok/thDz1gDmdR8zFi8/lz1M
+        LbqZXHDwbX6br7ObfJmxMj69xtjUKiarI0x7Wi0onVVpXLSoNS4pFCuUqxeUyhfkCmVy+QoZvYSeK5PM
+        1Yln6ly7eQ/T8lZAiFtcXLY4LpapN1tU6pdkhagtPjlvks6doX4cIz45jXZUQhPimF4zAPPCZipzQjxd
+        QEnkkdUswWgGv6yzH0rhCSTYm1sh+GQA35t3bDhkLDsirk3i+p27mH6JfE1xekOcnMqcUqmJUxVNAIsU
+        Sk2y+gnSQB8JT4jIy1eE55aIpqpIiarh4Me8o5O7LnKrqQJ5uxO5pwt5epb8aQN1eATp8wTJbB1VFB7u
+        70XSzgnFKwZgYsaGpheIJY6Rzb+Rens4XLAQftyDf3Sc4OAgdk+MrV2VDVeM/WfPsX+aZMEaNgDjU1aq
+        7dJW15AEPR/ROC41CGy4kLvuo7n87AV1FFFaRFjfXfd0Ih1ESgZg7vUoiZERok/78Tv8IrdYW7HB3mGa
+        ZLyAlq3hPEh1xFKigs2bJDQ0TOC72QD4uh8hdz8k4o8SUnL4IxnRvi7aT+H0Jdn2amwK++tOhdUdhUWb
+        uHRmG4G+Xm7cEoC3YwvGvs+auA4SZE4apPMNIYwTP6qhpKtY3SpBUZpfrQhIDI98TmDoveHgxQdzR5wX
+        K7N7VfTjeuemWd0xYkIsJ6tYHAoBIfYp5Y4Dd/gc907cALRfV3mu337Q+f77pa46JtNfuMamUjoRbO4A
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lblTuningControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btnSweep.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnFriction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSweep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btnAdjust.Text" xml:space="preserve">
+    <value>サーボゲイン
+調整実行</value>
+  </data>
+  <data name="btnLoad.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnSweep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSweep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 160</value>
+  </data>
+  <data name="btnLoad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnSweep.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnFriction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSweep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 60</value>
+  </data>
+  <data name="btnAdjust.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Name" xml:space="preserve">
+    <value>btnLoad</value>
+  </data>
+  <data name="btnLoad.Text" xml:space="preserve">
+    <value>負荷イナーシャ
+推定実行</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnFriction.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAE8SURBVDhP7ZA7S4IBFEBdW/sNTdHU1hLV0lBYQ0RjRU0ORTa1pIv0wMDCFjU1qDTDEhXtM9BE
+        MBURTVSyJBMVehDWIAR1KgWbrKXRA3e4nMsZrqjFP5HN3+PwJVAf+FAaBUyOIPFMnr9cjXSuzKEQI51/
+        4h2oVMEVyCBTWbAKkabOH07WI0dClFzphS2jgx6xhNEZOTu2MLvOS7S2KMe+K/T2KL1jczWntXgx2iIs
+        KnT1gNLg+WpDZ/8k17dFbP5sba9+QKkCycIbwfQrS6s6CuVHNvd8BFPPdA9J6oF9Z4hIqoTK4GBBYUBt
+        Oqe9a4S2jsHGDIxLG856lmBFe8qUdK0eiGfu2NC7MLtjXKQe8ESKLKvtDE/L0JiFpu7EHfh5ZDR5w7rG
+        inhWTt/EIvPybVzeUO3gN9fiG5HoE3Q6KgTUO7igAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 60</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnAdjust.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTuningControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="btnSweep.Text" xml:space="preserve">
+    <value>周波数スイープ
+実行</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblTuningControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnFriction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 70</value>
+  </data>
+  <data name="btnLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 70</value>
+  </data>
+  <data name="btnAdjust.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnAdjust.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>519, 307</value>
+  </data>
+  <data name="btnAdjust.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btnAdjust.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnLoad.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAL1SURBVDhPhZPbT5JxGMff1UXrorZqq4v6C7rzostWa221WunWlm42S9uazrJkKtMpSZtOOYiA
+        ZzxgoMDrqwiCmq+EICcRRF+P4IHUmIdXQ8UD2uxJ5E3zwvrc/J7t83x/e5799kP+Rqi2X6ZKhIua5rmY
+        SROq2XLDJWaN5vyhOI3yDucZUafLWvWFaKrFiUdo3wzIHV6yQG6K5ch6tnKrNQyq9XS0xLzePusHN7kD
+        U6t74F7fBdfiGkiNY5Av+cqk2k7CwczXa3VD1s4xn2Z4Pbgw/SMIyi4jVKktUKayQBcxB86VAEhNHh+/
+        rd+ZwmrEqGgYNmq6WqcjtlzkJkwGgsBTdEIGk+2Lo5c+iGfUJxYp9NsG9wIMrgagVkfA+8K6bip6TNv4
+        9+yhjR3oJLxA/8gafZrMP0cpJKemK6LJ5vHhXj/I7NOQIZCdpVSYOpxw4V4S+g8mEKFaiE7l3aTUESLc
+        1WhYDIBydAFYmAESckpLKIUgEsMI3uVd9TvXgvBZhUNituA2pY4Q6wmFmdwG5dgifBTj7nhGRSGlwjRa
+        3C8dBxcYZ0molKDLaSXqoxXyZPo7MvPomn55Dxrs85DMKL9LqTD0ivaLxa3Wb7rJJXBs7oNphgSZVrck
+        VXUMiHSDbIHattLgXARseBmKlVZI5Sl8oVzUO1Z41RSu4kp6aatE0G5XdM8t/7QE9kG/sgda3y60zGyD
+        lAiAsHcbhNqhfZYIBa1rCkoPnvdVTqUiKrnweJq0MtUFTrNxXNLrBmHHCNTb16HKQAKzXgf5mA1yODVg
+        c8/ulTTp/YpegixuNgMVDUPjYdfeFkonaHysIb1M/ZBRj0NWJbbyIrMkMlMgDar7J36xxG3+UG+V2qgR
+        qqzwOldUcxj+Q1KB9EbCp+rDTxOTwa+LSePmhurnNHZEy8AMSLodG6hlvFHpnJ4sQntOTvAv7sdl3coX
+        t0+gdg/IrZ59fosBPnAa+qJp3Eiq5f/ci6U/CZ1JeeKB0Pn4DfMZgiDIb/HbzelBpFRgAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="lblTuningControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;btnAdjust.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTuningControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 20</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 40</value>
+  </data>
+  <data name="&gt;&gt;btnSweep.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblTuningControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>チューニング機能選択</value>
+  </data>
+  <data name="lblTuningControl.Text" xml:space="preserve">
+    <value>実行するチューニング機能を選択してください。</value>
+  </data>
+  <data name="&gt;&gt;lblTuningControl.Name" xml:space="preserve">
+    <value>lblTuningControl</value>
+  </data>
+  <data name="btnFriction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btnAdjust.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 60</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;btnFriction.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTuningControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSweep.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnSweep.Name" xml:space="preserve">
+    <value>btnSweep</value>
+  </data>
+  <data name="btnFriction.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnFriction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTuningControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAQAAAAAAAoAQAANgAAABAQAAABAAgAaAUAAF4BAAAQEAAAAQAgAGgEAADGBgAAKAAAABAA
+        AAAgAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAgACAAAAAgACAAICA
+        AACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAREREREAAREREREQAQMBABEREQswCw
+        AzARERELM/A7DxEREDC/v7AwEREQO/AA+zAQAQADAPAPAA9wBws38LMB8Id/AwDwCwEHD3/w+HEQEQj/
+        AA//ARERcHAPAHABEREQ/w8PgBEREReA9wDwEREREXEPAQERERERERcREREREf+PAAD8iQAA+AAAAPwA
+        AAD4AAAA+AAAAJAAAAAAAQAAAAEAAAAbAAAAHwAAAB8AAIA/AACAPwAA0X8AAPv/AAAoAAAAEAAAACAA
+        AAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICA
+        gADA3MAA8MqmAKo/KgD/PyoAAF8qAFVfKgCqXyoA/18qAAB/KgBVfyoAqn8qAP9/KgAAnyoAVZ8qAKqf
+        KgD/nyoAAL8qAFW/KgCqvyoA/78qAADfKgBV3yoAqt8qAP/fKgAA/yoAVf8qAKr/KgD//yoAAABVAFUA
+        VQCqAFUA/wBVAAAfVQBVH1UAqh9VAP8fVQAAP1UAVT9VAKo/VQD/P1UAAF9VAFVfVQCqX1UA/19VAAB/
+        VQBVf1UAqn9VAP9/VQAAn1UAVZ9VAKqfVQD/n1UAAL9VAFW/VQCqv1UA/79VAADfVQBV31UAqt9VAP/f
+        VQAA/1UAVf9VAKr/VQD//1UAAAB/AFUAfwCqAH8A/wB/AAAffwBVH38Aqh9/AP8ffwAAP38AVT9/AKo/
+        fwD/P38AAF9/AFVffwCqX38A/19/AAB/fwBVf38Aqn9/AP9/fwAAn38AVZ9/AKqffwD/n38AAL9/AFW/
+        fwCqv38A/79/AADffwBV338Aqt9/AP/ffwAA/38AVf9/AKr/fwD//38AAACqAFUAqgCqAKoA/wCqAAAf
+        qgBVH6oAqh+qAP8fqgAAP6oAVT+qAKo/qgD/P6oAAF+qAFVfqgCqX6oA/1+qAAB/qgBVf6oAqn+qAP9/
+        qgAAn6oAVZ+qAKqfqgD/n6oAAL+qAFW/qgCqv6oA/7+qAADfqgBV36oAqt+qAP/fqgAA/6oAVf+qAKr/
+        qgD//6oAAADUAFUA1ACqANQA/wDUAAAf1ABVH9QAqh/UAP8f1AAAP9QAVT/UAKo/1AD/P9QAAF/UAFVf
+        1ACqX9QA/1/UAAB/1ABVf9QAqn/UAP9/1AAAn9QAVZ/UAKqf1AD/n9QAAL/UAFW/1ACqv9QA/7/UAADf
+        1ABV39QAqt/UAP/f1AAA/9QAVf/UAKr/1AD//9QAVQD/AKoA/wAAH/8AVR//AKof/wD/H/8AAD//AFU/
+        /wCqP/8A/z//AABf/wBVX/8Aql//AP9f/wAAf/8AVX//AKp//wD/f/8AAJ//AFWf/wCqn/8A/5//AAC/
+        /wBVv/8Aqr//AP+//wAA3/8AVd//AKrf/wD/3/8AVf//AKr//wD/zMwA/8z/AP//MwD//2YA//+ZAP//
+        zAAAfwAAVX8AAKp/AAD/fwAAAJ8AAFWfAACqnwAA/58AAAC/AABVvwAAqr8AAP+/AAAA3wAAVd8AAKrf
+        AAD/3wAAVf8AAKr/AAAAACoAVQAqAKoAKgD/ACoAAB8qAFUfKgCqHyoA/x8qAAA/KgBVPyoA8Pv/AKSg
+        oACAgIAAAAD/AAD/AAAA//8A/wAAAAAAAAD//wAA////AP39/f39/f39/f39/f39/f39/TIy/YIy/f39
+        /f39/f39/f0uVvUu9f39/f39/f39/TIuNjIyWzJW9f39/f39/f1bWloyglsyMjL9/f39/f39/Vpb9f0I
+        VzL9/f39/f39/V6Dg1oxMjIy8TIy/V4y/f0JfwmDW1pWWjYyMi0u9f39/f2DglpbMjItVzIyWzJW9f39
+        g4P9WlpbWloygloyMjL9/f39/f39/VpfLf0IMzL9/f39/f39/VqDg1YxMloy8f39/f39/f2rX4eDW1sy
+        Wlr9/f39/f39/f2Cg1pbVv39/f39/f39/f39gwn9Wlr9/f39/f39/f39/f39/f39/f3//wAAyf8AAMH/
+        AAAAfwAAAH8AAIj/AAAAEwAAAAMAAMAAAADIAAAA/xEAAP4AAAD+AAAA/4MAAP+TAAD//wAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIdGROCNS0rtAAAAAKRT
+        SpqVUlP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACKRkXysWJm/3A8
+        PP+VUlP/cDw8/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJhXVf9+QkL5wG5q/7th
+        Xv+4V07q2nBv/8RjY/+NRUDIbTU2/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADch4b/wHV3/9yH
+        hv+ITU7yg0hLf7lubdDEY2P/sVZX/7FWV/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8amrENOH
+        hv/gj43/cDw8+XA8PDyaV1xezW5u/7FWV/+/RTkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN2Q
+        jv/lpKb/8Kio/6prbv9wPDzch05O5cJsbf+xVlf/bTU2/4dGROCNS0rtAAAAAKRTSpqVUlP/AAAAAAAA
+        AADmqanD2Y2O8/Wxseftqaj/3YmG/9Z9d//CbG3/wHJy/71yc/+KRkXysWJm/3A8PP+VUlP/cDw8/wAA
+        AAAAAAAAAAAAAAAAAADioKPr25+e/9CCfv/Ofnr/uW9w/5hXVf9+QkL5wG5q/7thXv+4V07q2nBv/8Rj
+        Y/+NRUDIbTU2/wAAAAAAAAAA3Zyb/9qNirzomJgQzn56/71yc//ch4b/wHV3/9yHhv+ITU7yg0hLf7lu
+        bdDEY2P/sVZX/7FWV/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8amrENOHhv/gj43/cDw8+XA8
+        PDyaV1xezW5u/7FWV/+/RTkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN2Qjv/lpKb/8Kio/6pr
+        bv9wPDzch05O5cJsbf+xVlf/bTU2/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmqanD2Y2O8/Wx
+        seftqaj/3YmG/9Z9d//CbG3/wHJy/71yc/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADioKPr25+e/9CCfv/Ofnr/uW9w/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA3Zyb/9qNirzomJgQzn56/71yc/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///39yf/9/cH//f0Af/39AH8yMgB/
+        Mv0AE/39AAP9/cAALlbAAPX9/gD9/f4A/f3+ADYy/4MyVv+D/f3///39
+</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TuningSelectDialog</value>
+  </data>
+  <data name="btnFriction.Text" xml:space="preserve">
+    <value>摩擦補正
+調整実行</value>
+  </data>
+  <data name="btnLoad.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAdjust.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 70</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAdjust.Name" xml:space="preserve">
+    <value>btnAdjust</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

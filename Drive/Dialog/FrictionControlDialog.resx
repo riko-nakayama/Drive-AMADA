@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblFrictionCwNow.Text" xml:space="preserve">
+    <value>１．現在の正方向摩擦補正値は  0 [0.01A] です。</value>
+  </data>
+  <data name="btnFriction.Text" xml:space="preserve">
+    <value>摩擦補正自動推定実行</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblFrictionExclamation2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFrictionCcwNow.Text" xml:space="preserve">
+    <value>２．現在の負方向摩擦補正値は  0 [0.01A] です。</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFrictionExclamation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblFrictionExclamation5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblFrictionCcwNow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lblFrictionExclamation4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 260</value>
+  </data>
+  <data name="&gt;&gt;btnFriction.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblFrictionExclamation3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lblFrictionCcwNow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFrictionExclamation5.Text" xml:space="preserve">
+    <value>機械の安全を確認してから実行してください。</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblFrictionCcwNow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFrictionExclamation3.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblFrictionExclamation2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblFrictionExclamation5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionCcwNow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFrictionExclamation5.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>摩擦補正</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="lblFrictionExclamation2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 20</value>
+  </data>
+  <data name="lblFrictionExclamation4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblFrictionExclamation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 20</value>
+  </data>
+  <data name="lblFrictionExclamation.Text" xml:space="preserve">
+    <value>※摩擦補正を行うことで加工機等で使用する場合に発生する、</value>
+  </data>
+  <data name="&gt;&gt;btnFriction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionCcwNow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFrictionExclamation2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 190</value>
+  </data>
+  <data name="lblFrictionExclamation4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation4.Name" xml:space="preserve">
+    <value>lblFrictionExclamation4</value>
+  </data>
+  <data name="btnFriction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnFriction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblFrictionCcwNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 60</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 105</value>
+  </data>
+  <data name="lblFrictionExclamation3.Text" xml:space="preserve">
+    <value>※位置決め機能で使用される場合には本機能は不要です。</value>
+  </data>
+  <data name="btnFriction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 40</value>
+  </data>
+  <data name="lblFrictionCcwNow.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnFriction.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnFriction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation3.Name" xml:space="preserve">
+    <value>lblFrictionExclamation3</value>
+  </data>
+  <data name="lblFrictionExclamation3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrictionControlDialog</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionCwNow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblFrictionExclamation4.Text" xml:space="preserve">
+    <value>※摩擦自動補正を実行するとモータ出力軸で1回転程度し往復動作を繰り返します。</value>
+  </data>
+  <data name="lblFrictionCwNow.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblFrictionCwNow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFrictionCwNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 20</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 40</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblFrictionExclamation5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 20</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation2.Name" xml:space="preserve">
+    <value>lblFrictionExclamation2</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionCwNow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFrictionExclamation3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 225</value>
+  </data>
+  <data name="lblFrictionExclamation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 171</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation5.Name" xml:space="preserve">
+    <value>lblFrictionExclamation5</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionCcwNow.Name" xml:space="preserve">
+    <value>lblFrictionCcwNow</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionCwNow.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFrictionExclamation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFrictionExclamation4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lblFrictionExclamation2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>534, 312</value>
+  </data>
+  <data name="lblFrictionCcwNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 20</value>
+  </data>
+  <data name="&gt;&gt;btnFriction.Name" xml:space="preserve">
+    <value>btnFriction</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFrictionExclamation2.Text" xml:space="preserve">
+    <value>象限突起現象が改善される場合があります。</value>
+  </data>
+  <data name="lblFrictionExclamation3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 20</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="lblFrictionExclamation3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnFriction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 105</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionCwNow.Name" xml:space="preserve">
+    <value>lblFrictionCwNow</value>
+  </data>
+  <data name="lblFrictionExclamation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lblFrictionExclamation.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation.Name" xml:space="preserve">
+    <value>lblFrictionExclamation</value>
+  </data>
+  <data name="lblFrictionExclamation5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFrictionExclamation4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 20</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionCcwNow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblFrictionCwNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="lblFrictionCwNow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lblFrictionExclamation4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblFrictionExclamation4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFrictionExclamation5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 280</value>
+  </data>
+  <data name="lblFrictionExclamation2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFrictionCwNow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>English (United States)</value>
+  </metadata>
+</root>

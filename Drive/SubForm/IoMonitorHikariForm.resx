@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fpnlIo.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picIn1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picIn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="picIn1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIn1.Name" xml:space="preserve">
+    <value>picIn1</value>
+  </data>
+  <data name="&gt;&gt;picIn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblI1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 1</value>
+  </data>
+  <data name="lblI1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblI1.Text" xml:space="preserve">
+    <value>IN1</value>
+  </data>
+  <data name="lblI1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI1.Name" xml:space="preserve">
+    <value>lblI1</value>
+  </data>
+  <data name="&gt;&gt;lblI1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblIn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 1</value>
+  </data>
+  <data name="lblIn1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIn1.Text" xml:space="preserve">
+    <value>サーボON</value>
+  </data>
+  <data name="lblIn1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn1.Name" xml:space="preserve">
+    <value>lblIn1</value>
+  </data>
+  <data name="&gt;&gt;lblIn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picIn2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 18</value>
+  </data>
+  <data name="picIn2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIn2.Name" xml:space="preserve">
+    <value>picIn2</value>
+  </data>
+  <data name="&gt;&gt;picIn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblI2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="lblI2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblI2.Text" xml:space="preserve">
+    <value>IN2</value>
+  </data>
+  <data name="lblI2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI2.Name" xml:space="preserve">
+    <value>lblI2</value>
+  </data>
+  <data name="&gt;&gt;lblI2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblIn2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 18</value>
+  </data>
+  <data name="lblIn2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIn2.Text" xml:space="preserve">
+    <value>加圧プログラム開始</value>
+  </data>
+  <data name="lblIn2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn2.Name" xml:space="preserve">
+    <value>lblIn2</value>
+  </data>
+  <data name="&gt;&gt;lblIn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="picIn3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 35</value>
+  </data>
+  <data name="picIn3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIn3.Name" xml:space="preserve">
+    <value>picIn3</value>
+  </data>
+  <data name="&gt;&gt;picIn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblI3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 35</value>
+  </data>
+  <data name="lblI3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblI3.Text" xml:space="preserve">
+    <value>IN3</value>
+  </data>
+  <data name="lblI3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI3.Name" xml:space="preserve">
+    <value>lblI3</value>
+  </data>
+  <data name="&gt;&gt;lblI3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblIn3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 35</value>
+  </data>
+  <data name="lblIn3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIn3.Text" xml:space="preserve">
+    <value>原点復帰開始</value>
+  </data>
+  <data name="lblIn3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn3.Name" xml:space="preserve">
+    <value>lblIn3</value>
+  </data>
+  <data name="&gt;&gt;lblIn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="picIn4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 52</value>
+  </data>
+  <data name="picIn4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIn4.Name" xml:space="preserve">
+    <value>picIn4</value>
+  </data>
+  <data name="&gt;&gt;picIn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblI4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 52</value>
+  </data>
+  <data name="lblI4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblI4.Text" xml:space="preserve">
+    <value>IN4</value>
+  </data>
+  <data name="lblI4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI4.Name" xml:space="preserve">
+    <value>lblI4</value>
+  </data>
+  <data name="&gt;&gt;lblI4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblIn4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 52</value>
+  </data>
+  <data name="lblIn4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIn4.Text" xml:space="preserve">
+    <value>加圧力切り替え</value>
+  </data>
+  <data name="lblIn4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn4.Name" xml:space="preserve">
+    <value>lblIn4</value>
+  </data>
+  <data name="&gt;&gt;lblIn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="picIn5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 69</value>
+  </data>
+  <data name="picIn5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIn5.Name" xml:space="preserve">
+    <value>picIn5</value>
+  </data>
+  <data name="&gt;&gt;picIn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblI5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 69</value>
+  </data>
+  <data name="lblI5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblI5.Text" xml:space="preserve">
+    <value>IN5</value>
+  </data>
+  <data name="lblI5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI5.Name" xml:space="preserve">
+    <value>lblI5</value>
+  </data>
+  <data name="&gt;&gt;lblI5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblIn5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 69</value>
+  </data>
+  <data name="lblIn5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIn5.Text" xml:space="preserve">
+    <value>プログラム番号 Bit0</value>
+  </data>
+  <data name="lblIn5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn5.Name" xml:space="preserve">
+    <value>lblIn5</value>
+  </data>
+  <data name="&gt;&gt;lblIn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="picIn6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 86</value>
+  </data>
+  <data name="picIn6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIn6.Name" xml:space="preserve">
+    <value>picIn6</value>
+  </data>
+  <data name="&gt;&gt;picIn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn6.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblI6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 86</value>
+  </data>
+  <data name="lblI6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblI6.Text" xml:space="preserve">
+    <value>IN6</value>
+  </data>
+  <data name="lblI6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI6.Name" xml:space="preserve">
+    <value>lblI6</value>
+  </data>
+  <data name="&gt;&gt;lblI6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI6.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblIn6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 86</value>
+  </data>
+  <data name="lblIn6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblIn6.Text" xml:space="preserve">
+    <value>プログラム番号 Bit1</value>
+  </data>
+  <data name="lblIn6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn6.Name" xml:space="preserve">
+    <value>lblIn6</value>
+  </data>
+  <data name="&gt;&gt;lblIn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn6.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="picIn7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 103</value>
+  </data>
+  <data name="picIn7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIn7.Name" xml:space="preserve">
+    <value>picIn7</value>
+  </data>
+  <data name="&gt;&gt;picIn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn7.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblI7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 103</value>
+  </data>
+  <data name="lblI7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblI7.Text" xml:space="preserve">
+    <value>IN7</value>
+  </data>
+  <data name="lblI7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI7.Name" xml:space="preserve">
+    <value>lblI7</value>
+  </data>
+  <data name="&gt;&gt;lblI7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI7.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblIn7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 103</value>
+  </data>
+  <data name="lblIn7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIn7.Text" xml:space="preserve">
+    <value>プログラム番号 Bit2</value>
+  </data>
+  <data name="lblIn7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn7.Name" xml:space="preserve">
+    <value>lblIn7</value>
+  </data>
+  <data name="&gt;&gt;lblIn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn7.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="picIn8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 120</value>
+  </data>
+  <data name="picIn8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIn8.Name" xml:space="preserve">
+    <value>picIn8</value>
+  </data>
+  <data name="&gt;&gt;picIn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn8.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn8.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblI8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 120</value>
+  </data>
+  <data name="lblI8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblI8.Text" xml:space="preserve">
+    <value>IN8</value>
+  </data>
+  <data name="lblI8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI8.Name" xml:space="preserve">
+    <value>lblI8</value>
+  </data>
+  <data name="&gt;&gt;lblI8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI8.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI8.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblIn8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 120</value>
+  </data>
+  <data name="lblIn8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIn8.Text" xml:space="preserve">
+    <value>プログラム番号 Bit3</value>
+  </data>
+  <data name="lblIn8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn8.Name" xml:space="preserve">
+    <value>lblIn8</value>
+  </data>
+  <data name="&gt;&gt;lblIn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn8.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn8.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="picIn9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 137</value>
+  </data>
+  <data name="picIn9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;picIn9.Name" xml:space="preserve">
+    <value>picIn9</value>
+  </data>
+  <data name="&gt;&gt;picIn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn9.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn9.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lblI9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 137</value>
+  </data>
+  <data name="lblI9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblI9.Text" xml:space="preserve">
+    <value>IN9</value>
+  </data>
+  <data name="lblI9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI9.Name" xml:space="preserve">
+    <value>lblI9</value>
+  </data>
+  <data name="&gt;&gt;lblI9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI9.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI9.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblIn9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 137</value>
+  </data>
+  <data name="lblIn9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn9.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblIn9.Text" xml:space="preserve">
+    <value>アプローチ入力</value>
+  </data>
+  <data name="lblIn9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn9.Name" xml:space="preserve">
+    <value>lblIn9</value>
+  </data>
+  <data name="&gt;&gt;lblIn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn9.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn9.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="picIn10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picIn10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 154</value>
+  </data>
+  <data name="picIn10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picIn10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picIn10.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;picIn10.Name" xml:space="preserve">
+    <value>picIn10</value>
+  </data>
+  <data name="&gt;&gt;picIn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIn10.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;picIn10.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblI10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblI10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblI10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 154</value>
+  </data>
+  <data name="lblI10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblI10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblI10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblI10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblI10.Text" xml:space="preserve">
+    <value>IN10</value>
+  </data>
+  <data name="lblI10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblI10.Name" xml:space="preserve">
+    <value>lblI10</value>
+  </data>
+  <data name="&gt;&gt;lblI10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblI10.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblI10.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lblIn10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblIn10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIn10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 154</value>
+  </data>
+  <data name="lblIn10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblIn10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblIn10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="lblIn10.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblIn10.Text" xml:space="preserve">
+    <value>大開放入力</value>
+  </data>
+  <data name="lblIn10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIn10.Name" xml:space="preserve">
+    <value>lblIn10</value>
+  </data>
+  <data name="&gt;&gt;lblIn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIn10.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblIn10.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 171</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>grpIn_Hikari</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpIn_Hikari.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="grpIn_Hikari.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpIn_Hikari.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 197</value>
+  </data>
+  <data name="grpIn_Hikari.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpIn_Hikari.Text" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="&gt;&gt;grpIn_Hikari.Name" xml:space="preserve">
+    <value>grpIn_Hikari</value>
+  </data>
+  <data name="&gt;&gt;grpIn_Hikari.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpIn_Hikari.Parent" xml:space="preserve">
+    <value>fpnlIo</value>
+  </data>
+  <data name="&gt;&gt;grpIn_Hikari.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picOut1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picOut1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="picOut1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picOut1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picOut1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picOut1.Name" xml:space="preserve">
+    <value>picOut1</value>
+  </data>
+  <data name="&gt;&gt;picOut1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOut1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;picOut1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblO1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblO1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblO1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 1</value>
+  </data>
+  <data name="lblO1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblO1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblO1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="lblO1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblO1.Text" xml:space="preserve">
+    <value>OUT1</value>
+  </data>
+  <data name="lblO1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblO1.Name" xml:space="preserve">
+    <value>lblO1</value>
+  </data>
+  <data name="&gt;&gt;lblO1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblO1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblO1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOut1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblOut1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOut1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 1</value>
+  </data>
+  <data name="lblOut1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblOut1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblOut1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="lblOut1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOut1.Text" xml:space="preserve">
+    <value>サーボON状態</value>
+  </data>
+  <data name="lblOut1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOut1.Name" xml:space="preserve">
+    <value>lblOut1</value>
+  </data>
+  <data name="&gt;&gt;lblOut1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOut1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblOut1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picOut2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picOut2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 18</value>
+  </data>
+  <data name="picOut2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picOut2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picOut2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picOut2.Name" xml:space="preserve">
+    <value>picOut2</value>
+  </data>
+  <data name="&gt;&gt;picOut2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOut2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;picOut2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblO2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblO2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblO2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="lblO2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblO2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblO2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="lblO2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblO2.Text" xml:space="preserve">
+    <value>OUT2</value>
+  </data>
+  <data name="lblO2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblO2.Name" xml:space="preserve">
+    <value>lblO2</value>
+  </data>
+  <data name="&gt;&gt;lblO2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblO2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblO2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblOut2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblOut2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOut2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 18</value>
+  </data>
+  <data name="lblOut2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblOut2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblOut2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="lblOut2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOut2.Text" xml:space="preserve">
+    <value>アラーム状態</value>
+  </data>
+  <data name="lblOut2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOut2.Name" xml:space="preserve">
+    <value>lblOut2</value>
+  </data>
+  <data name="&gt;&gt;lblOut2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOut2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblOut2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="picOut3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picOut3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 35</value>
+  </data>
+  <data name="picOut3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picOut3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picOut3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picOut3.Name" xml:space="preserve">
+    <value>picOut3</value>
+  </data>
+  <data name="&gt;&gt;picOut3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOut3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;picOut3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblO3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblO3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblO3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 35</value>
+  </data>
+  <data name="lblO3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblO3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblO3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="lblO3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblO3.Text" xml:space="preserve">
+    <value>OUT3</value>
+  </data>
+  <data name="lblO3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblO3.Name" xml:space="preserve">
+    <value>lblO3</value>
+  </data>
+  <data name="&gt;&gt;lblO3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblO3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblO3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblOut3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblOut3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOut3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 35</value>
+  </data>
+  <data name="lblOut3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblOut3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblOut3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="lblOut3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOut3.Text" xml:space="preserve">
+    <value>原点復帰完了</value>
+  </data>
+  <data name="lblOut3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOut3.Name" xml:space="preserve">
+    <value>lblOut3</value>
+  </data>
+  <data name="&gt;&gt;lblOut3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOut3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblOut3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="picOut4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picOut4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 52</value>
+  </data>
+  <data name="picOut4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picOut4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picOut4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picOut4.Name" xml:space="preserve">
+    <value>picOut4</value>
+  </data>
+  <data name="&gt;&gt;picOut4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOut4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;picOut4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblO4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblO4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblO4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 52</value>
+  </data>
+  <data name="lblO4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblO4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblO4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="lblO4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblO4.Text" xml:space="preserve">
+    <value>OUT4</value>
+  </data>
+  <data name="lblO4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblO4.Name" xml:space="preserve">
+    <value>lblO4</value>
+  </data>
+  <data name="&gt;&gt;lblO4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblO4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblO4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblOut4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblOut4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOut4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 52</value>
+  </data>
+  <data name="lblOut4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblOut4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblOut4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="lblOut4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOut4.Text" xml:space="preserve">
+    <value>準備完了</value>
+  </data>
+  <data name="lblOut4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOut4.Name" xml:space="preserve">
+    <value>lblOut4</value>
+  </data>
+  <data name="&gt;&gt;lblOut4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOut4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblOut4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="picOut5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picOut5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 69</value>
+  </data>
+  <data name="picOut5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picOut5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picOut5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picOut5.Name" xml:space="preserve">
+    <value>picOut5</value>
+  </data>
+  <data name="&gt;&gt;picOut5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOut5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;picOut5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblO5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblO5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblO5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 69</value>
+  </data>
+  <data name="lblO5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblO5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblO5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="lblO5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblO5.Text" xml:space="preserve">
+    <value>OUT5</value>
+  </data>
+  <data name="lblO5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblO5.Name" xml:space="preserve">
+    <value>lblO5</value>
+  </data>
+  <data name="&gt;&gt;lblO5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblO5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblO5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblOut5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblOut5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOut5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 69</value>
+  </data>
+  <data name="lblOut5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblOut5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblOut5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="lblOut5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOut5.Text" xml:space="preserve">
+    <value>加圧力到達</value>
+  </data>
+  <data name="lblOut5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOut5.Name" xml:space="preserve">
+    <value>lblOut5</value>
+  </data>
+  <data name="&gt;&gt;lblOut5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOut5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblOut5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="picOut6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picOut6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 86</value>
+  </data>
+  <data name="picOut6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picOut6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picOut6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picOut6.Name" xml:space="preserve">
+    <value>picOut6</value>
+  </data>
+  <data name="&gt;&gt;picOut6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOut6.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;picOut6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblO6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblO6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblO6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 86</value>
+  </data>
+  <data name="lblO6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblO6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblO6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="lblO6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblO6.Text" xml:space="preserve">
+    <value>OUT6</value>
+  </data>
+  <data name="lblO6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblO6.Name" xml:space="preserve">
+    <value>lblO6</value>
+  </data>
+  <data name="&gt;&gt;lblO6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblO6.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblO6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblOut6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblOut6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOut6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 86</value>
+  </data>
+  <data name="lblOut6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblOut6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblOut6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="lblOut6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOut6.Text" xml:space="preserve">
+    <value>予約</value>
+  </data>
+  <data name="lblOut6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOut6.Name" xml:space="preserve">
+    <value>lblOut6</value>
+  </data>
+  <data name="&gt;&gt;lblOut6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOut6.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblOut6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="picOut7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picOut7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 103</value>
+  </data>
+  <data name="picOut7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picOut7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picOut7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picOut7.Name" xml:space="preserve">
+    <value>picOut7</value>
+  </data>
+  <data name="&gt;&gt;picOut7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOut7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;picOut7.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblO7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblO7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblO7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 103</value>
+  </data>
+  <data name="lblO7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblO7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblO7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="lblO7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblO7.Text" xml:space="preserve">
+    <value>OUT7</value>
+  </data>
+  <data name="lblO7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblO7.Name" xml:space="preserve">
+    <value>lblO7</value>
+  </data>
+  <data name="&gt;&gt;lblO7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblO7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblO7.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblOut7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblOut7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOut7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 103</value>
+  </data>
+  <data name="lblOut7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblOut7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblOut7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="lblOut7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOut7.Text" xml:space="preserve">
+    <value>予約</value>
+  </data>
+  <data name="lblOut7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOut7.Name" xml:space="preserve">
+    <value>lblOut7</value>
+  </data>
+  <data name="&gt;&gt;lblOut7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOut7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblOut7.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="picOut8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picOut8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 120</value>
+  </data>
+  <data name="picOut8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="picOut8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picOut8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picOut8.Name" xml:space="preserve">
+    <value>picOut8</value>
+  </data>
+  <data name="&gt;&gt;picOut8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOut8.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;picOut8.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblO8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblO8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblO8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 120</value>
+  </data>
+  <data name="lblO8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblO8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblO8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="lblO8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblO8.Text" xml:space="preserve">
+    <value>OUT8</value>
+  </data>
+  <data name="lblO8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblO8.Name" xml:space="preserve">
+    <value>lblO8</value>
+  </data>
+  <data name="&gt;&gt;lblO8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblO8.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblO8.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblOut8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 6.75pt</value>
+  </data>
+  <data name="lblOut8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOut8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 120</value>
+  </data>
+  <data name="lblOut8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblOut8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblOut8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="lblOut8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOut8.Text" xml:space="preserve">
+    <value>予約</value>
+  </data>
+  <data name="lblOut8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOut8.Name" xml:space="preserve">
+    <value>lblOut8</value>
+  </data>
+  <data name="&gt;&gt;lblOut8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOut8.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblOut8.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 137</value>
+  </data>
+  <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Name" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Parent" xml:space="preserve">
+    <value>grpOut_Hikari</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpOut_Hikari.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="grpOut_Hikari.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 8</value>
+  </data>
+  <data name="grpOut_Hikari.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 197</value>
+  </data>
+  <data name="grpOut_Hikari.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpOut_Hikari.Text" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="&gt;&gt;grpOut_Hikari.Name" xml:space="preserve">
+    <value>grpOut_Hikari</value>
+  </data>
+  <data name="&gt;&gt;grpOut_Hikari.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpOut_Hikari.Parent" xml:space="preserve">
+    <value>fpnlIo</value>
+  </data>
+  <data name="&gt;&gt;grpOut_Hikari.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblProgramName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblProgramName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblProgramName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="lblProgramName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 0</value>
+  </data>
+  <data name="lblProgramName.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 0, 0</value>
+  </data>
+  <data name="lblProgramName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 38</value>
+  </data>
+  <data name="lblProgramName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblProgramName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblProgramName.Name" xml:space="preserve">
+    <value>lblProgramName</value>
+  </data>
+  <data name="&gt;&gt;lblProgramName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProgramName.Parent" xml:space="preserve">
+    <value>grpProgram</value>
+  </data>
+  <data name="&gt;&gt;lblProgramName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpProgram.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="grpProgram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 211</value>
+  </data>
+  <data name="grpProgram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 71</value>
+  </data>
+  <data name="grpProgram.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpProgram.Text" xml:space="preserve">
+    <value>プログラム選択</value>
+  </data>
+  <data name="&gt;&gt;grpProgram.Name" xml:space="preserve">
+    <value>grpProgram</value>
+  </data>
+  <data name="&gt;&gt;grpProgram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpProgram.Parent" xml:space="preserve">
+    <value>fpnlIo</value>
+  </data>
+  <data name="&gt;&gt;grpProgram.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fpnlIo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlIo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlIo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlIo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 292</value>
+  </data>
+  <data name="fpnlIo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;fpnlIo.Name" xml:space="preserve">
+    <value>fpnlIo</value>
+  </data>
+  <data name="&gt;&gt;fpnlIo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlIo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fpnlIo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>436, 292</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC/qpv/kXxq/3hhTP9jSTX/Y0k1/2NJNf9jSTX/Y0k1/7+qm/+RfGr/eGFM/2NJNf9jSTX/Y0k1/2NJ
+        Nf9jSTX/v6qb//359//Yz8r/3bmj/923n//etpv/37SX/2NJNf+/qpv//fn3/9jPyv/duaP/3bef/962
+        m//ftJf/Y0k1/8CrnP/rxKH/5baN/92hcP/bnGr/2JNd/9aOWP9jSTX/wKuc/+vEof/lto3/3aFw/9uc
+        av/Yk13/1o5Y/2NJNf/BrJ3//v38//37+v/55df/+OLT//jfz//dt5//Y0k1/8Gsnf/+/fz//fv6//nl
+        1//44tP/+N/P/923n/9jSTX/wq2e/+/SuP/ov5v/36h5/96kdP/anGn/1YxX/2NJNf/CrZ7/79K4/+i/
+        m//fqHn/3qR0/9qcaf/VjFf/Y0k1/8Oun//+/v7//v7+//rq4P/559v/+eXX/9y9p/9jSTX/w66f//7+
+        /v/+/v7/+urg//nn2//55df/3L2n/2NJNf/Fr6D/8NO6/+rEo//gqn3/3qZ2/9yebf/Wjln/Y0k1/8Wv
+        oP/w07r/6sSj/+Cqff/epnb/3J5t/9aOWf9jSTX/xrCh//7+/v/+/v7/++/o//vt5P/66uD/28Gw/2NJ
+        Nf/GsKH//v7+//7+/v/77+j/++3k//rq4P/bwbD/Y0k1/8exov/y1r3/7Mmq/+Ktgf/hqn3/3qV1/9mW
+        Y/9jSTX/x7Gi//LWvf/syar/4q2B/+Gqff/epXX/2ZZj/2NJNf/IsqP//v7+//7+/v/89fD//PLs//vv
+        6P/bx7n/Y0k1/8iyo//+/v7//v7+//z18P/88uz/++/o/9vHuf9jSTX/ybOk//Paxf/ty67/47GG/+Kv
+        g//fqHn/2ZVi/2NJNf/Js6T/89rF/+3Lrv/jsYb/4q+D/9+oef/ZlWL/Y0k1/8q0pf/+/v7//v7+////
+        ///+/v7//PXw/9jKwv9jSTX/yrSl//7+/v9Bau3//v7+///////89fD/2MrC/2NJNf/KtKX/9N/N/+3K
+        q//jsYb/6cCb/+Cqff/ZlWL/alM8/8q0pf9RefH/UXnx/1F58f/pwJv/4Kp9/9mVYv9qUzz/y7Wm//7+
+        /v/+/v7///////7+/v/9+ff/2M/K/3hhTP/Ltab//v7+/2SI9P/+/v7///////359//Yz8r/eGFM/8u1
+        pv/+/v7//v7+//7+/v/+/fz//fv6//359/+RfGr/y7Wm//7+/v/+/v7//v7+//79/P/9+/r//fn3/5F8
+        av/Ltab/y7Wm/8u1pv/CrZ7/wayd/8CrnP+/qpv/x7Gi/8u1pv/Ltab/y7Wm/8Ktnv/BrJ3/wKuc/7+q
+        m/+/qpv/AACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAA
+        nEEAAJxBAACcQQ==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>IOモニター</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>IoMonitorHikariForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

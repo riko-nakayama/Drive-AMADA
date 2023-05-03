@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="picServoOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServoOn.Text" xml:space="preserve">
+    <value>Servo ON</value>
+  </data>
+  <data name="lblServoOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picForwardLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForwardLimit.Text" xml:space="preserve">
+    <value>CW Limit</value>
+  </data>
+  <data name="lblForwardLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProfile.Text" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="lblProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picReverseLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReverseLimit.Text" xml:space="preserve">
+    <value>CCW Limit</value>
+  </data>
+  <data name="lblReverseLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picInPosition.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInPosition.Text" xml:space="preserve">
+    <value>In-Position</value>
+  </data>
+  <data name="lblInPosition.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picTorqueLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTorqueLimit.Text" xml:space="preserve">
+    <value>Torque Limit</value>
+  </data>
+  <data name="lblTorqueLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picFault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFault.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="lblFault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picVelocityLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVelocityLimit.Text" xml:space="preserve">
+    <value>Speed Limit</value>
+  </data>
+  <data name="lblVelocityLimit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fpnlStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVelUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPosUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpServoStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="grpServoStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSvdAlarm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCw.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALDAAA
+        CwwBP0AiyAAAAgVJREFUOE/NkOtLU3EYx/emf6L/QDqLWEZgoxdBRGAQs1U0ZhmzWs6EaKxivUjKddkO
+        M7exgZtpMhBzom5dzBZUVszGpkvE3bBj24x2Oe14It3lmxs/GNKFXvqBL/x4nufzwPMTbD1SuTI18XHN
+        aPLwwa7hPHd7KM8Zx7ng4zd5mvn6cwcZ+zPzy+Um+1TJpxng0WbJ4pwpjVZTBoqeNJr1X3C1d2n63Sf2
+        CBn/nUev+GEFvYwDl3yoP+uF6PQU9ii82K/y4fC1BRxSh6A0zE3HEqt1RNlMOr++XXrdG22QO7M3rH57
+        IJxtqOTuYNQmvxPJNGojEDVP4t5AkCbK/9P/gu2V65OgZG5ILo/NkvK/KRbL28hTEEuuiy+YM9UFu6XW
+        VVKuYXlWQCX3XRy0D1NQdUfQoguBtAXxlaK43cpCKPP8fYFuFOiw85DeisH1ekVFWlVGfaW+Ntv3jQUT
+        ONrhmiPlGvQYD3X/GmQGFo3acN44krAsMD/2RVMFsetDyaEbKeQknXFQUie6HL4HRKvR6UzjjCGBg5ow
+        9l4MQNzuh+RmDK0933DenENFFp4axwmNe2ZxKSckWg21jYHJxZiVdOitqOVl9dZKdsmfY6fsKajjQxvy
+        k5nJ90wTUTajpBerHxZP8nX6wXn9MbUnUH+yj6tEcsUd1Dn83eHPLFUd3kIIBL8AMpsuSiVRLsgAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnCw.Text" xml:space="preserve">
+    <value>　CW</value>
+  </data>
+  <data name="btnCw.ToolTip" xml:space="preserve">
+    <value>Start Motor Drive</value>
+  </data>
+  <data name="btnServoOn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARRJREFUOE9jGMbg
+        +YnI/3fP9P1/fqHz/7Pznf/vHm36f2JTxf8107P+nz+48D9UGW4AMuDPkw3//z+p///uUOf/F0tr/j9s
+        b/ofEez9/9nTR/gNgGkG4V8Xy/6/XFUH1pyV5EFYMwjADABpfrWhHqy5o8qLNM0g/PVAHljzgm63/7dv
+        XSGsGQRABoD8DbL905kp/9/vnfD/5YJGsEFx7gb/Xz69j9+gddMT/k9vDv5fmeP2v6cpBmwQSHO2v+b/
+        pw+uE+cKEDi2YwJcc0+G0v97N84Rr/nUvvlwzVPz5f8/fXiLNM0fjk0Ca55fIfv/0d2rxGsGAZABIM1r
+        mxT+P398jzTNMLB8SsL/l88ekqeZNMDAAAAALua0Xe3McAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnServoOn.Text" xml:space="preserve">
+    <value>Servo On</value>
+  </data>
+  <data name="btnServoOn.ToolTip" xml:space="preserve">
+    <value>Do Servo ON</value>
+  </data>
+  <data name="btnServoOff.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAGtJREFUOE9jGMbg
+        wM4l/2/fuoKCQWIwcagy3ACbAfdunPsfEez9/9nTR/gNoEgzCKAbQBXNIDZUCX6AzfkgDDIIKE2c/0E2
+        wjBcs4g+mA1VRhgg2xznbjBUNIMATDPR0YYNgAKSbM2kAQYGALmj8kxkQUghAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnServoOff.Text" xml:space="preserve">
+    <value>Servo Off</value>
+  </data>
+  <data name="btnServoOff.ToolTip" xml:space="preserve">
+    <value>Do Servo OFF</value>
+  </data>
+  <data name="btnStop.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAAAyUlE
+        QVQ4T6WRMQtBYRhGLZTJZrTZ3DIZjUabvyGDwWK4ioEsSoqSWKREGfkBbEpStktSFkUpLj0+i+F9vsGX
+        4Qzn9LzT6wHwF9pogjaaoI0mUKhOXiiPH0jXdxedSyh8xmvnCSs1UMouoVAa3rA9uAgnu0rZJRTs/hUr
+        x0Uo0VTKLqGQ750x37gIxmtK2SUUcu0Tpss7ArGKUnYJhWzriNHiDn+0qJRdQiHT2KMzu8IbsZWySyh8
+        /u2zCt8D6RIKpmijCdr4O/C8AZF98ic9bkEXAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="btnStop.ToolTip" xml:space="preserve">
+    <value>Stop Motor Rotation</value>
+  </data>
+  <data name="btnAlarmReset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAUhJREFUOE+1UiFP
+        xDAY7U9AIvkJlcjJk/sJlchJZCWCQBMgQSAacuICXCgOd81CcoNj0DlkAYOsxH3067pxy24HAl7ysi7v
+        e2/v20b+DbowoLUnXj1neQlRWg0hFSDn8+d2cJY/gpxoMC82hCnPKK2GujUgTlVvCIPdpwPnHEiluzqK
+        8UhQzLjsB/hQ++HAWhvaYKso1QFobJhx0Qm4X1ShlTF+jaJehYullmVZhaemOxxYJgCBq0SZjM/GwYwm
+        vicha+g9xUPVa0uwQRPipATLUmBJCvnd91dAM67EdrttWzRNwlo06Q1h2KD5/VyCZiysFEKWX9hPeDs5
+        BDNKQG0nwDcppCz7fcjr8UFrFhsUnqY3wZSkdYiQa0Ls0X7HXF5ed4bpiIWQwSaaUpBbNJgXF9OVQ2ub
+        oDGYJ1fDNT2wCf4L8fYvQMgX/vM5Gk4Pe10AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnAlarmReset.Text" xml:space="preserve">
+    <value>Alarm Clear</value>
+  </data>
+  <data name="btnAlarmReset.ToolTip" xml:space="preserve">
+    <value>Alarm Cleared</value>
+  </data>
+  <data name="btnCcw.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALDAAA
+        CwwBP0AiyAAAAgRJREFUOE/NkO1LU2EYxvelf6L/QNoilhHo6EMQERjEbBmNWcasljMhGqtYH5JyVtth
+        5jY2cDNNBmJO1K0XswWVFbOx5RJxb9ixbUZ7OZ3jiXQvV5xxKIYr+hT94IKH67nv34db8P9Bfv6+48FL
+        mjBNMaGbozTTM0YzZi8bmn63YUrny0J+rDavP1CHLw+szLUaPkHZn0G7OYsz5gw6rDloh1k4Zkv+xdVy
+        Mz9eTTy5XqcyLswd1IRx6MoS9qn92KP0QXxyFvWnfdh/wQ8lsYr7z9kxfqWa28MhQtw6gyZdFIreaPbW
+        SMwejOQauFyzBRwNCldOdtUXy9Cb2/mVaqQXJ98L5R4oDCkMPaUG+Prv2S2zrXOCc5Ys4qlNCV8LisXy
+        Nv75ZziBSO5Fp41CYq34U9CmD0PdF4XuXhp33AysjwuV8N+/ONLlXhDJp9Fh/4oJf2mQryu4X6ypZTfi
+        6HKw0E+gtqDH6b8rlLkg7U5AP17Iu9+WnLF0QbJEfms0jSetTboILTdS0AxtgJhktwqWV/KiFq1nXnRi
+        qiI5a8mjvf8LpNfjkHQGsPd8EAe0EZwyJtHtymwVcMy8IZtbtA/nhcdGsVP+CLsUT8DdhYu47RlURPiV
+        2U1aNHaytoAj8pES6p2BPuklT6j++CDD5ajGGzSMLBoSKbaOm1ERy78X/GMEgh8BMi5KgKa3TwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnCcw.Text" xml:space="preserve">
+    <value>　CCW</value>
+  </data>
+  <data name="btnCcw.ToolTip" xml:space="preserve">
+    <value>Start Motor Drive</value>
+  </data>
+  <data name="btnPositionClear.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATNJREFUOE9j+P//
+        P0UYqyApGEIAKWSMrAAdS3mvBVIIPgigaELnI2NpnzX/VTwmAJkIMbAGZAGoIIaYlNfy//qpl/9r+E5D
+        kSPKAGmflf8Nkk78l037+l83eB6KHEEDQJr1U87/Nyl68V8l69N/48hlcAxVi1AMwzAxaZ/V/+2Kb/9P
+        n/P7v3/Xt/86he/g2CJ+HVgNTgMcis7+D265+3/R3v//O4BqM+b8/G9X9xNugF3aNrA+nAaA6ISeJ/9D
+        W+/9X7r///9WoCH+nX/hhrjmHQCrwWsACIMMiWi/DzYkc9b//16lJ+AYqhahGIbRxUCGxHQ9ABviX30B
+        RQ6sGFkDOh+G4ya8/h/f/eB/cMM1FDkIAdWESzMMx09++z+8/QGQiRBDUUAMBnkHmY8iSTr+zwAASJqm
+        O6AUI0MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnPositionClear.Text" xml:space="preserve">
+    <value>Pos Reset</value>
+  </data>
+  <data name="btnPositionClear.ToolTip" xml:space="preserve">
+    <value>Set Current Position to 0</value>
+  </data>
+  <data name="grpServoCommand.Text" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="grpServoCommand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoAbs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="rdoAbs.Text" xml:space="preserve">
+    <value>Absolute Pos.</value>
+  </data>
+  <data name="rdoAbs.ToolTip" xml:space="preserve">
+    <value>Position Setting movement by Absolute Position</value>
+  </data>
+  <data name="rdoInc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 21</value>
+  </data>
+  <data name="rdoInc.Text" xml:space="preserve">
+    <value>Relative Pos.</value>
+  </data>
+  <data name="rdoInc.ToolTip" xml:space="preserve">
+    <value>Position Setting movement by Relative Position</value>
+  </data>
+  <data name="numContinue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 67</value>
+  </data>
+  <data name="numContinue.ToolTip" xml:space="preserve">
+    <value>Set waiting time after completion of position setting at </value>
+  </data>
+  <data name="lblContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="lblContinue.Text" xml:space="preserve">
+    <value>Waiting time[msec]</value>
+  </data>
+  <data name="lblContinue.ToolTip" xml:space="preserve">
+    <value>Set waiting time after completion of position setting at </value>
+  </data>
+  <data name="chkContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 21</value>
+  </data>
+  <data name="chkContinue.Text" xml:space="preserve">
+    <value>Forward Reverse Rotation</value>
+  </data>
+  <data name="chkContinue.ToolTip" xml:space="preserve">
+    <value>Set shuttle rotation for position setting
+In case of Relative Position Setting, motor moves between current start position and Target Position 1.
+In case of Absolute Position Setting, motor moves between Target Position 1 and Target Position 2.</value>
+  </data>
+  <data name="chkHardStop.Text" xml:space="preserve">
+    <value>Instant Stop</value>
+  </data>
+  <data name="chkHardStop.ToolTip" xml:space="preserve">
+    <value>Motor is instantly stoped once Stop buttom  is pressed</value>
+  </data>
+  <data name="chkButtonLock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 10</value>
+  </data>
+  <data name="chkButtonLock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 38</value>
+  </data>
+  <data name="chkButtonLock.Text" xml:space="preserve">
+    <value>CW/CCW
+Buttom Lock</value>
+  </data>
+  <data name="chkButtonLock.ToolTip" xml:space="preserve">
+    <value>Forward Rotation and Reverse Rotation Buttom Locked
+Motor is rotated while left buttom of Mouse keeps pressed, in case of not bottum locked.</value>
+  </data>
+  <data name="chkVelocityLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="chkVelocityLimit.Text" xml:space="preserve">
+    <value>Speed Cont.
+Valid Acc.Cont.</value>
+  </data>
+  <data name="chkVelocityLimit.ToolTip" xml:space="preserve">
+    <value>Validate Acceleration/Deceleration control when motor is rotated by Speed Control Mode</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>ReadTarget</value>
+  </data>
+  <data name="btnUpdate.ToolTip" xml:space="preserve">
+    <value>Read Target Speed, Target Position, Acceleration, Deceleration from Driver</value>
+  </data>
+  <data name="lblSep1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPosition.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="lblPosition.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPosition.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVelocity.Text" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="lblVelocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVelocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrent.Text" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="lblCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSep2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverLoad.Text" xml:space="preserve">
+    <value>Over load</value>
+  </data>
+  <data name="lblOverLoad.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOverload.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="llblOverLoadUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDriverTemp.Text" xml:space="preserve">
+    <value>InnerTemp.</value>
+  </data>
+  <data name="lblDriverTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDriverTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDriverTempUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPowerVoltage.Text" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="lblPowerVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPowerVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPowerVoltageUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fpnlFeedback.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpServoFeedBack.Text" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="grpServoFeedBack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDummy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctlNumTargetVelocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpVelocity.Text" xml:space="preserve">
+    <value>Target Speed [rpm]</value>
+  </data>
+  <data name="grpVelocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="lblAccTime.Text" xml:space="preserve">
+    <value>Acceleration Time</value>
+  </data>
+  <data name="lblAccTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctlNumTargetAcceleration.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpAcceleration.Text" xml:space="preserve">
+    <value>Acc [10rpm/s]</value>
+  </data>
+  <data name="grpAcceleration.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDccTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="lblDccTime.Text" xml:space="preserve">
+    <value>Deceleration Time</value>
+  </data>
+  <data name="lblDccTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctlNumTargetDeceleration.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpDeceleration.Text" xml:space="preserve">
+    <value>Dec [10rpm/s]</value>
+  </data>
+  <data name="grpDeceleration.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctlNumTargetPosition1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpPosition1.Text" xml:space="preserve">
+    <value>Target Position [pulse]＿1</value>
+  </data>
+  <data name="grpPosition1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusPage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ctlNumTargetPosition2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpPosition2.Text" xml:space="preserve">
+    <value>Target Position [pulse]＿2</value>
+  </data>
+  <data name="grpPosition2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Pos Setting</value>
+  </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Basic Setting</value>
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAnalogZeorAdjust.Text" xml:space="preserve">
+    <value>Adj. of analog input</value>
+  </data>
+  <data name="btnAnalogZeorAdjust.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAbsReset.Text" xml:space="preserve">
+    <value>Absolute encoder reset</value>
+  </data>
+  <data name="btnAbsReset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Ext Setting</value>
+  </data>
+  <data name="tabPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabJogSetting.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTarget.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblTarget.Text" xml:space="preserve">
+    <value>Read data from Driver</value>
+  </data>
+  <data name="lblTarget.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBack2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAATxJREFUOE9j+P//P0UYqyA2nNDzhBmbOIYAOgZqZIqf/FYlvP0BkIspjyGAjEG2xk14
+        rRHf/eB/cMM1oBCmGgwBGAZpBmLbmK4Hv5bu///fv/oCUBhTHYYACEM120e03/8P0pw56/9/r9ITQClM
+        tRgCMM2hrffAmlvXAW3v/PvfJf8AUBpVLQhjCDgUnXUKbrn7f9He//87gJoz5vz8b1f38799xnagNKpa
+        EMYQAGFpn9WBdsW3/6fP+f3fv+vbf53Cd/8tEtYDpTDVYgjAsLTPSi/9lPP/TYpe/FfJ+vTfOHIZUBhT
+        HYYAMgYaYmOQdOK/bNrX/7rB84BCmGowBNCxlNdyV/3Uy/81fKcBuZjyEEaWFRO6BDKW9lnjq+IxAcjE
+        lMMQwIalvVcwS3mv9cMmhyFAKsYqSDz+zwAAcYDYAyLJIhkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnBack2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGo2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAARZJREFUOE9j+P//PwZO6HnCjE0cG8YqCDRABoiZsMmhY6yChbOe/4+f/FaJGEOwCubO
+        fPY/ofve/7gJrzUIeQerYMaUp//n7f/9P6jh5mugAbb4DMEqCNTwf/a+X/87t/7971Z6+T+Qb4/LEAwB
+        EI7sevR/yrZf/0uW/v2fMP3vf5vcszgNQeHAcGDzw/+ta9+DNRuXfPkvHX3tv3Hksv8ORWfj0Q1B0QjD
+        HlX3/5fMfQfXrOjS81/aZ3UgNrUYAiBsX3r3f2DLMyTNK72wqQNhrIIWeXf+2xRcgWm2waYGhrEKGmbd
+        BmuW8lruik0eGWMV1Em7AbR5jS82OXSMVVDKe62ftPcKnIkHGWMVJAVjFSQe/2cAAOHY1PSOXStVAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGo2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlCommand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSetting.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageCommand.Text" xml:space="preserve">
+    <value>Jog commanｄ＆Monitoring</value>
+  </data>
+  <data name="tabPageCommand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageSetting.Text" xml:space="preserve">
+    <value>Jog Setting</value>
+  </data>
+  <data name="tabPageSetting.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabJogControl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTeaching1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeaching1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAABXElE
+        QVQ4T2P4//8/RRirICkYqyApGIUTnj7lQWrD4b9dnZuF3ANalGwTNnwOK9n/JyF3lVbZnBfMyGphGIXj
+        Ednxf/b2F/9Lp9z+G1R46F9s85X/U7d9/Z/dceV/ZNXp/97Ze/5bJ6wFKsVhQFj+vCj/lBn/5+3/+b9n
+        /ef/+dMe/e9d+/F/4ZzP/7N7b/w1jJz3r0GMhRNZD4oBIOwU0vp/8paP/zvXfftfv/jD/8IZb/771j38
+        YxK3/FutCAsHunoUDgi7xfVVhXoX/M2e8f1/ZPujv+axi/7rhy/+DdTMhq4WhDEEfNKmMlv7NfxI7Trz
+        3yh6/tcaUQ4MW5ExVkE77+oZ5m5lb/stFAWwySNjrIJ6nvUCak6VP1QcKnOxySNjrIIgrGxf3qZoW3YZ
+        mxwyxioIwrIWRYqylkVfJE3zhLDJwzBWQRgWM8phxSaOjLEKkoKxChKP/zMAAC8IyRJMLMUAAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="btnTeaching1.Text" xml:space="preserve">
+    <value>Teaching</value>
+  </data>
+  <data name="btnTeaching1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpTeaching1.Text" xml:space="preserve">
+    <value>Target Position [pulse]＿1</value>
+  </data>
+  <data name="grpTeaching1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTeaching2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeaching2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAABZElE
+        QVQ4T2P4//8/RRirICkYqyApGIUTljbpwd6+gr9nM/y55vmaie1qTX53sDvjzz1TUQlkdcgYheMW3vb/
+        y+a6/+em5fzdWejx72RHxP//Z6b9vzQ16//hlsT/G8vj/rcFBv+Y6GXOhtWAsPx5UZ6xE/7/Pzfp//9t
+        Rf8Plzr+/7+z8v//FWn//09w+zvPz/VHu52DPLIeFANA2Cmk9f//1fn//6/P+P+hwfT//37H/7/Kdf/M
+        cLX50+lgbwS0nRFZPYpmEHaL66sK9c7/+39a4P/3leZ/gRr+dzpb3GyzcZQDspnR1aNwQNgnbSqzrV/N
+        j9khVv+73K1fd9jbWwE18qKrg2Gsgnbe1TNs3QqvdThpy6I7GR1jFdTzrBdQc6r8oeJQWYJNHhljFQRh
+        ZfvyNkXbssvY5JAxVkEQlrUoUpS1LPoiaZonhE0ehrEKwrCYUQ4rNnFkjFWQFIxVkHj8nwEA5uO/2ZqL
+        xm0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTeaching2.Text" xml:space="preserve">
+    <value>Teaching</value>
+  </data>
+  <data name="btnTeaching2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpTeaching2.Text" xml:space="preserve">
+    <value>Target Position [pulse]＿2</value>
+  </data>
+  <data name="grpTeaching2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAATxJREFUOE9j+P//P0UYqyA2nNDzhBmbOIYAOgZqZIqf/FYlvP0BkIspjyGAjEG2xk14
+        rRHf/eB/cMM1oBCmGgwBGAZpBmLbmK4Hv5bu///fv/oCUBhTHYYACEM120e03/8P0pw56/9/r9ITQClM
+        tRgCMM2hrffAmlvXAW3v/PvfJf8AUBpVLQhjCDgUnXUKbrn7f9He//87gJoz5vz8b1f38799xnagNKpa
+        EMYQAGFpn9WBdsW3/6fP+f3fv+vbf53Cd/8tEtYDpTDVYgjAsLTPSi/9lPP/TYpe/FfJ+vTfOHIZUBhT
+        HYYAMgYaYmOQdOK/bNrX/7rB84BCmGowBNCxlNdyV/3Uy/81fKcBuZjyEEaWFRO6BDKW9lnjq+IxAcjE
+        lMMQwIalvVcwS3mv9cMmhyFAKsYqSDz+zwAAcYDYAyLJIhkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

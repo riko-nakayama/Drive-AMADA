@@ -1,0 +1,4229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fpnlServoGain.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExKp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ctlNumExKp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ctlNumExKp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExKp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ctlNumExKp.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExKp.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKp.TitleText" xml:space="preserve">
+    <value>比例ゲイン1</value>
+  </data>
+  <data name="ctlNumExKp.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKp.UnitText" xml:space="preserve">
+    <value>0-3000[rad/s]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKp.Name" xml:space="preserve">
+    <value>ctlNumExKp</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKp.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKp.Parent" xml:space="preserve">
+    <value>grpPosEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpPosEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpPosEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpPosEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 140</value>
+  </data>
+  <data name="grpPosEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpPosEx.Text" xml:space="preserve">
+    <value>位置ループゲイン</value>
+  </data>
+  <data name="&gt;&gt;grpPosEx.Name" xml:space="preserve">
+    <value>grpPosEx</value>
+  </data>
+  <data name="&gt;&gt;grpPosEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPosEx.Parent" xml:space="preserve">
+    <value>fpnlServoGain</value>
+  </data>
+  <data name="&gt;&gt;grpPosEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExKi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExKi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="ctlNumExKi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExKi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ctlNumExKi.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExKi.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKi.TitleText" xml:space="preserve">
+    <value>積分ゲイン1</value>
+  </data>
+  <data name="ctlNumExKi.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKi.UnitText" xml:space="preserve">
+    <value>0-3000[1/s]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKi.Name" xml:space="preserve">
+    <value>ctlNumExKi</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKi.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKi.Parent" xml:space="preserve">
+    <value>grpVelEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExKv.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExKv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExKv.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExKv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ctlNumExKv.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExKv.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKv.TitleText" xml:space="preserve">
+    <value>比例ゲイン1</value>
+  </data>
+  <data name="ctlNumExKv.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExKv.UnitText" xml:space="preserve">
+    <value>0-9999[rad/s]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKv.Name" xml:space="preserve">
+    <value>ctlNumExKv</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKv.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKv.Parent" xml:space="preserve">
+    <value>grpVelEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExKv.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpVelEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpVelEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 8</value>
+  </data>
+  <data name="grpVelEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 140</value>
+  </data>
+  <data name="grpVelEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpVelEx.Text" xml:space="preserve">
+    <value>速度ループゲイン</value>
+  </data>
+  <data name="&gt;&gt;grpVelEx.Name" xml:space="preserve">
+    <value>grpVelEx</value>
+  </data>
+  <data name="&gt;&gt;grpVelEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVelEx.Parent" xml:space="preserve">
+    <value>fpnlServoGain</value>
+  </data>
+  <data name="&gt;&gt;grpVelEx.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblInertiaUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblInertiaUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInertiaUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 119</value>
+  </data>
+  <data name="lblInertiaUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="lblInertiaUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblInertiaUnit.Text" xml:space="preserve">
+    <value>[10⁻⁷ kg･m²]</value>
+  </data>
+  <data name="lblInertiaUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;lblInertiaUnit.Name" xml:space="preserve">
+    <value>lblInertiaUnit</value>
+  </data>
+  <data name="&gt;&gt;lblInertiaUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInertiaUnit.Parent" xml:space="preserve">
+    <value>grpLoadEx</value>
+  </data>
+  <data name="&gt;&gt;lblInertiaUnit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExLoad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExLoad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 77</value>
+  </data>
+  <data name="ctlNumExLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ctlNumExLoad.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExLoad.TitleText" xml:space="preserve">
+    <value>イナーシャ量</value>
+  </data>
+  <data name="ctlNumExLoad.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExLoad.UnitText" xml:space="preserve">
+    <value>0-999999[kg・m2]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExLoad.Name" xml:space="preserve">
+    <value>ctlNumExLoad</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExLoad.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExLoad.Parent" xml:space="preserve">
+    <value>grpLoadEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExLoad.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblUnit1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblUnit1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 103</value>
+  </data>
+  <data name="lblUnit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="lblUnit1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblUnit1.Text" xml:space="preserve">
+    <value>0-999999</value>
+  </data>
+  <data name="lblUnit1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;lblUnit1.Name" xml:space="preserve">
+    <value>lblUnit1</value>
+  </data>
+  <data name="&gt;&gt;lblUnit1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit1.Parent" xml:space="preserve">
+    <value>grpLoadEx</value>
+  </data>
+  <data name="&gt;&gt;lblUnit1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpLoadEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpLoadEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 8</value>
+  </data>
+  <data name="grpLoadEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 140</value>
+  </data>
+  <data name="grpLoadEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpLoadEx.Text" xml:space="preserve">
+    <value>負荷イナーシャ</value>
+  </data>
+  <data name="&gt;&gt;grpLoadEx.Name" xml:space="preserve">
+    <value>grpLoadEx</value>
+  </data>
+  <data name="&gt;&gt;grpLoadEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpLoadEx.Parent" xml:space="preserve">
+    <value>fpnlServoGain</value>
+  </data>
+  <data name="&gt;&gt;grpLoadEx.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rdoLoadFriction.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoLoadFriction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoLoadFriction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 50</value>
+  </data>
+  <data name="rdoLoadFriction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 22</value>
+  </data>
+  <data name="rdoLoadFriction.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rdoLoadFriction.Text" xml:space="preserve">
+    <value>負荷+摩擦</value>
+  </data>
+  <data name="&gt;&gt;rdoLoadFriction.Name" xml:space="preserve">
+    <value>rdoLoadFriction</value>
+  </data>
+  <data name="&gt;&gt;rdoLoadFriction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoLoadFriction.Parent" xml:space="preserve">
+    <value>grpTuningFree</value>
+  </data>
+  <data name="&gt;&gt;rdoLoadFriction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rdoLoadOnly.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoLoadOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 50</value>
+  </data>
+  <data name="rdoLoadOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="rdoLoadOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rdoLoadOnly.Text" xml:space="preserve">
+    <value>負荷推定</value>
+  </data>
+  <data name="&gt;&gt;rdoLoadOnly.Name" xml:space="preserve">
+    <value>rdoLoadOnly</value>
+  </data>
+  <data name="&gt;&gt;rdoLoadOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoLoadOnly.Parent" xml:space="preserve">
+    <value>grpTuningFree</value>
+  </data>
+  <data name="&gt;&gt;rdoLoadOnly.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExTuningFree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExTuningFree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExTuningFree.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExTuningFree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ctlNumExTuningFree.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ctlNumExTuningFree.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExTuningFree.TitleText" xml:space="preserve">
+    <value>チューニング強度</value>
+  </data>
+  <data name="ctlNumExTuningFree.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExTuningFree.UnitText" xml:space="preserve">
+    <value>0-31</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTuningFree.Name" xml:space="preserve">
+    <value>ctlNumExTuningFree</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTuningFree.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTuningFree.Parent" xml:space="preserve">
+    <value>grpTuningFree</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTuningFree.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkTuningFree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkTuningFree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkTuningFree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 25</value>
+  </data>
+  <data name="chkTuningFree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="chkTuningFree.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkTuningFree.Text" xml:space="preserve">
+    <value>チューニングフリー有効</value>
+  </data>
+  <data name="&gt;&gt;chkTuningFree.Name" xml:space="preserve">
+    <value>chkTuningFree</value>
+  </data>
+  <data name="&gt;&gt;chkTuningFree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkTuningFree.Parent" xml:space="preserve">
+    <value>grpTuningFree</value>
+  </data>
+  <data name="&gt;&gt;chkTuningFree.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkAdaptiveFilter1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkAdaptiveFilter1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAdaptiveFilter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 80</value>
+  </data>
+  <data name="chkAdaptiveFilter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="chkAdaptiveFilter1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkAdaptiveFilter1.Text" xml:space="preserve">
+    <value>適応フィルタ1有効</value>
+  </data>
+  <data name="&gt;&gt;chkAdaptiveFilter1.Name" xml:space="preserve">
+    <value>chkAdaptiveFilter1</value>
+  </data>
+  <data name="&gt;&gt;chkAdaptiveFilter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAdaptiveFilter1.Parent" xml:space="preserve">
+    <value>grpTuningFree</value>
+  </data>
+  <data name="&gt;&gt;chkAdaptiveFilter1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkAdaptiveFilter2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkAdaptiveFilter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAdaptiveFilter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 105</value>
+  </data>
+  <data name="chkAdaptiveFilter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="chkAdaptiveFilter2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkAdaptiveFilter2.Text" xml:space="preserve">
+    <value>適応フィルタ2有効</value>
+  </data>
+  <data name="&gt;&gt;chkAdaptiveFilter2.Name" xml:space="preserve">
+    <value>chkAdaptiveFilter2</value>
+  </data>
+  <data name="&gt;&gt;chkAdaptiveFilter2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAdaptiveFilter2.Parent" xml:space="preserve">
+    <value>grpTuningFree</value>
+  </data>
+  <data name="&gt;&gt;chkAdaptiveFilter2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpTuningFree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpTuningFree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 8</value>
+  </data>
+  <data name="grpTuningFree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 140</value>
+  </data>
+  <data name="grpTuningFree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpTuningFree.Text" xml:space="preserve">
+    <value>チューニングフリー</value>
+  </data>
+  <data name="&gt;&gt;grpTuningFree.Name" xml:space="preserve">
+    <value>grpTuningFree</value>
+  </data>
+  <data name="&gt;&gt;grpTuningFree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpTuningFree.Parent" xml:space="preserve">
+    <value>fpnlServoGain</value>
+  </data>
+  <data name="&gt;&gt;grpTuningFree.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="fpnlServoGain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlServoGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlServoGain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlServoGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlServoGain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fpnlServoGain.Name" xml:space="preserve">
+    <value>fpnlServoGain</value>
+  </data>
+  <data name="&gt;&gt;fpnlServoGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlServoGain.Parent" xml:space="preserve">
+    <value>tabPageServoGain</value>
+  </data>
+  <data name="&gt;&gt;fpnlServoGain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStripGain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="tbtnSaveGain.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbtnSaveGain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="tbtnSaveGain.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA/nSURBVGhDzZp5cFvXdcY9nUzqyhQlbgD3XVzAneAmkiBA
+        Yl8JkAABEiQBiSS4ivtOSqRMrdZOraYWWqsVarUtW4pkW62TxkrtpJm20//S/teZdibNZJxk0irV13Me
+        QLXTaSeeCG5yZ+5c4BHEO7/3ne+c+/j42u8a6tYekc3dFWNvH4kz0uTXPM2uDrHG3hHucDhCaH478PE/
+        vmEyjfy7we3+ja7F81Wd0/cvtTbvPyjr238kt7o/VJibz8pNznFVQ5vB2tafwVAez9Bmj8fzOk+TybeB
+        p5wghUnH/t9h7T1zUNm7QIFDbmlDtbEZVQYXZKZmKOrbobR3QO/uR/22Mdg6p9DQNU1zCtaOiRdmj+e5
+        prXj17rm3p9pHJ0/1di3P1NaW2+pbG37tI3tzdZmX7WusT1fbW5NqTO7xIFTBncwgHNgEc7+BTT1L8HR
+        vweOgX1wjx1B28RxeCZPYNvcKXinjsE9vA+NPTuhbx0ksC7IzC0oVzdCqjBDKjeiRGGi9w0E3wJ1UxcM
+        rTtgah96YfIMvzC4+78KnDK4gwH4qlL+w9XZD5d3G9p7+uHoHEZz3wzsndNw9C5S4LvR2LcnMPfBTrOh
+        by+te9HYuwf27nk0+HaioXsOtq4ZmD1jUDp8qNS7kF+pg6RMScenwOfk9BNOHozBAPq2MVi9O3BosQGz
+        wzqsHjZhx4AdJ/Y50dfbhH27PejqbsP4pA/ebh/6hgfg9g1g+45RuHxjcHVPUMCjMLSNw9A+AaVzGAp7
+        L2psPigs7ajWO1FjcsPiHYPEO/JbPu/CwsKfCAG86mCAOjqhs8OH1UMaLE2q8OCcEguTJnx0XocDO834
+        7LoWhxfM+ORKPZbmGvHeBSsWpu14cNGKyVE7Vo82YXtXMw7ubsE2XzuGR1rhaG2GtYWCN5G3zG1CWjFk
+        lrQGRlvPLwOnf/XBADJrNxravFjZr8X8qAY3jmswPmjGzWUDdk9b8GRVg/1zZnx61Yi9c/V4es2Mw4tW
+        /M09HY4uWvCTewbsmrTh7z/QYWm2Hn9+VYdd4wbcWLZB72iHorFPKAgMUCQzgM8ZOP2rD/6yKksnzM5W
+        XDygwvyICqP9egz01mNiyITpUSt2TxLIlIUUoHXGhkerFuzfacPnN43YP2/BD9bMmBu34a/v6LE0U4/v
+        XdNi/6yeAPXwdragxj4CZcN2ASBvqyb4AFsNXmgbXTizR4m7y3JcPqzGu8e1uH1Gjw8vGPH+iomucD3m
+        x/yBPlo1Yh8p8WzNQMpY8DkBzNLxL27psWvCTArosXfGgC9v6bCtw4XqhiHUWj0BAHXwAaoNrVCYXXC3
+        6DHUrcFYvwbTQ5xOeixO6HFwTotPLhvx4IIFn14x4/3zZixN1+PHd/weeXbbD/bsOzrMjZrw2Q0D9s4a
+        8Vdreng6qK/YBimFWgMAquADlCkdkOkasDiuw81jdbhxVIW7pzW4f1aPD1b0eHDegLfm9bh3zowvb+so
+        ML8X9syYhckKzI3X4+/u67AwYcQPCWTfjB5f3DbA0+VGNQGsK5BTXhd8gEJZPapUJpzaXYu9EwrMDSkx
+        PajBLjL03Ajl9aQOf3FNh+OLnBqUPjS/vG3E0+tWHJg3kj/MVG5t5BWj4J3d43p6raPP6OH2ulBVP4C6
+        AEBmUVXwAfIrjSiTa3F0XkFBswJ1GO3T4OYJLYZ7jXh3WY/ZEQMeXTJRmrAvLJRCJhxfMFDeG/Cj2ybK
+        ewuVVQvWztjIO6TKTR2ZWItWAqgw91M/cAsAWcWy4ANIytSQVqtxZE6B+WEFbh6vxXi/CndOqzExqMfj
+        i2rBDwfndBjpN+Jj8sMXt4w4uUTqTBvpuAGHKMXYK5xy98/q8NGKBmunjNQPKIXq+1BD+ysBQPoNAGSV
+        KJFfrsDBKRnmBkmBw3WYGlRj7YQaIz0aPDyvwsK4Fg8vaDDSy4GS2fvMAsiP77AKlPdUkR6tGrA0pSdY
+        Aymmx9iAEWaHE1XmTurEgUZW9A0AZBTWQCKtIoAq7J9SUClVYKy3DmvLSgpYg0cXNZTXWjwigElS5NEl
+        PSlDPWBGJ7zfM01VZ4oq1TsafP+GBp9d1eAnd1T0XosGpx1StRdVOocAkJZbFnyAdPrSxMwy9HmrcHxe
+        jmc35JRKKtw7oxJK6pNVNVUoDR5f0lJ5JQ+s+EvsX9IWY3FCh/fP6dHp0WH3hBZ9XfQZKgBv0uef3dTD
+        3mJHscqDSm2jAJCSXRx8gC25JUgliFxpJZobqzA3IMOQT4E3x2pJCbqSqyosjauoPGqoU2uEK7tzVIfP
+        39VShdLiY3o/TEo9I+PODtHPL/u3JN+7riMFGlFY14qtGj9AXFpu8AHSJMVIzymiWYr0/CpkFsqQV6ZA
+        cVUdymuUMFvq0O6m5kZXdog8ceEAg3A/0ArG/eEapdIOSpu7eixQ4E+vaEkNNb5PAFaHDfmKFlSobQJA
+        THJW8AGSt+QhJbNAkDc1uwTpeRUEUSUYLqekFpJSFTUgDXLLdSiRG1Bao4NcrUdDoxZdXg2mKPj+Tqpi
+        OzW0HVfj6WU1liaUQu/QmK3Ir3EIv8cAsSmS4AMkpOYgOnELqhRanDlzHkePnkL/4AT0VhfKKNicEjmy
+        aRucW1qLvHIlTRXBEFSZhiqYGlmlWuolWlJMi3KFCkZjLVqc1HHtWpSqnChXNUBKu1AGiE7KCD6AOD4d
+        mZIiHD2yjOGxGczMLeLk8jl88N4D3L3zHi5fvo5jx8+gf2gKaqMd5XIdBaSnNKtFfoUK9U4v3l55B48+
+        eoyHH34Xh46epbrfAkm5AVVaB0rplrOoSiMARMWlBh8gMjYFeUXlOHToGAaHJ5EqKaGqVIgrl2/AQCq4
+        Wjuxc2EvLly4jA8/eIg7t+7j4sUr6OoZhsXejmvXbmLP/iPQ1btgbfLgrcPLuHLlXSiNTSiWGWkSLCnH
+        ABExScEHCBclIKegFEeOnEB33xBVpVIkZuTj+tWbqFGaXgKtrx09gxTgDYyMz+Hs2Qs4eWoFCZnF1Etq
+        aK9TTf6pxPLJt3Hw0LKQWgW0hc6vqBMAwqLigw8QIU5AWmYe3rl0le59ByloIwpLZbhKCsiV5pdAvK5D
+        rKysYmZ+CfcoxVztPmzJryCvyJBbUoMMKgLNHh8p8x2ozC3ILpYjh+AYIDQiOvgAothkRBLErl1v4uL5
+        VZw7ex6HD5+gVLmHvoGxl0C8rsOcOb2C2fk38cmTT1Eu01AzLEFmQQWyCrcig2BKZSo8fvQEzvZeJFNl
+        yy6uFgA2hou/AQ+I4xEVk4io6ETEp2SivLIW7rYOzJGZT59+G1feuYbzBHb82KmXMOcodcYmZvHJ40+h
+        NjUicUsBtuSVUfDlNMsgrVTi8cMncLV1I0VSSiW5SgDYsCkiuACN3TOIEMULEKLYJMQmbEF8cibikjIR
+        nZBOFYrep+SgolpFUJ2YDUDdXruLzu4duERmnpicR3JmEZIyyCdZRUjOKkRDU7tg5MbmDiRkFCCL1GGA
+        198IDS4A/1ErLCqOIGJJgQREx6chjnoCQySkZCGRWn9iqgRJ6bmIT8tBXEo2YpKy/JO6KnvmCJVfo8WB
+        NGqEydQQE6kx7tn7Fg4cOIYKhZGOFZIvygSAP9u4ObgAts6pF+GRcQiPjEZEVCxEcckEkUpKpBNEFuII
+        JJaAElKzCSYHCTwZaEsuzTwU0C6WAZaWDqDN66Mr34qFxb24dOkK6hvdSMmibQr5Iz2nxJ9CoWHBBph8
+        EU6lLYyqQ3gkAZCho2NSEB1LEBT4+oyjDppIHZuDT0yTCGsCrQxVQXumqemduH/3faH5HT12EuZ6JymW
+        i8z8rUJaJZHxBQVCNgUXwLp9/EWkOFEAiKBUEkcnQRyTDBGt0dQ1OZ38EBnCGk9pFZ+cISjDrwUQPkap
+        FRWXTgqmQURpKKLunppdhGzaU6WQB5LSc/we2LAxuAByufw/oqKTsTlMRBBiiAhGxBWJJkPEkCLiOFKE
+        0iqG0iqGgotJIJ+QyTnN1kHWJ6ea/1gmkumqc+4L6ZaRFwAICS6AZNvYbyPFSdi8WYRNmyMQSSpEUU/g
+        ksorQ4jJF+L4FMQkphMIwST4YVghAYYC5hSLpZ/H0ioA0GTjp1MJ9adctt8DG4NchSwez3MG2LQ5imYk
+        IsgHEeSJSNpeCBC0dxGzLwIqRBMMG13wCqvCilDgvHIZ5tIbQ+nGxzi10sjEnGYMJXiAFGj0zSBJLn+d
+        1P8WhfBqf6XmR0yimFQhhTaFiQUfRHJfEPnXKEqpKFJBRDDcK9gjHCjDCSAEyDAMKShFoDGU/wwXR15h
+        AEEhes0Af7oh5IVl2yhyimvpR7KYggL5ZqlUukEikXz79wISAGLTEBYuIggxwiJjqBrFCKnEVYlnFAXO
+        MFxmhZXg/OownF8pAYKCFyDoNfuITZ+WJRX8wqkmeOCNjc/5yU1OSU1pdmltjqRInl5QUReXIZVHppeV
+        hbIyDEOhfT0QNnGEOAUhIWEI3RRJIARBUwCIIBgurxS4P3hueP/V9FiRSF5pshIRgWOCQgEArkAMxe8Z
+        4I2Nob/RtfQhu1RWI5HKyrJK5LlZpdXkdXl8bnmd+L8rEgjx/x4Oz1Chta3/Y7mt8xf8BIVvIbnThlHg
+        mwN9gQHYF/4+QUAE4geiFKNgwznVeF0/znAULEPxVedOLqRZAGBjaOivNc5uuk2V63JLFHKGyC2qzmcI
+        ibQqMT9/q4gBKLzfrQA/5nF6exMa23s1jm2DS2Z3zw/0Tdv/WdPkeV6pa8KWgkq6emkIJYNzieWrz0D8
+        Wki1ABS/5skg/vRKEEDY+PHJ2XQ87iVASEjIr1T2TrpFrbYyxLoSDJFfJkvhNKLQfj9j8wNuhaW13O4d
+        cDS0953Subr+Vk/qaJq6XhTXGGmPk4/N4dEEFEmrmCb3DgKhbQivHLRfCT5GXZ36S1xipgDFKcgAGzZs
+        +KquwQtJcU3LOkSOVK7IKa/JllRUhFMYr1aV1od8YeFbZntniszgrLS6uzzmlu57hqbuf9K5el5UqBvp
+        CsqoCqVS5YoiEJ5cxXglMFaIJivCPggnMIYwe8fIW9G/UNS38e93MISkpMaSV1FXHNTg/7fhdu8IrbU6
+        05o7hs0Nnv7TBkfnF/Lmvl/xo6NiuYn2/CVCGm2icizAkEphUdFCBdtE71kVBhCJxT/nv5NKimX9klKF
+        RyKtK/vGg/+fg5/zqm2tIqXemeHaPthT39a7pnd1/KPB7Xm+VWOnOzApVaREQQkuu/6UEwmPWaOion6m
+        sLbTTX5tF1WeColEHhL42j/M4EJg8vk2MJDD0yu1tvac1jZ1/VTe2vdvmiYfCqt0iKNtBHuHAUSi5H81
+        tg0ygJRrfuBr/ngG/7OHTucO1drcMW7fSKupueup1tn9c+43fPO01eb9ZZ3ZNfm16vwferA6DMT/xeLa
+        vqPI0uzb5/D2e77+U/rXXvtP03vG1EkUIrAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbtnSaveGain.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbtnSaveGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="tbtnSaveGain.Text" xml:space="preserve">
+    <value>ゲイン保存</value>
+  </data>
+  <data name="tbtnSaveGain.ToolTipText" xml:space="preserve">
+    <value>ゲインを本体メモリに保存します。</value>
+  </data>
+  <data name="sep1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="toolStripGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripGain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 1, 0</value>
+  </data>
+  <data name="toolStripGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1329, 25</value>
+  </data>
+  <data name="toolStripGain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripGain.Name" xml:space="preserve">
+    <value>toolStripGain</value>
+  </data>
+  <data name="&gt;&gt;toolStripGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripGain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripGain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="TimerGain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>108, 1</value>
+  </metadata>
+  <data name="fpnlCurrentFillter.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurLpf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurLpf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExCurLpf.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurLpf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExCurLpf.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurLpf.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurLpf.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExCurLpf.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurLpf.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurLpf.Name" xml:space="preserve">
+    <value>ctlNumExCurLpf</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurLpf.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurLpf.Parent" xml:space="preserve">
+    <value>grpCurLpfEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurLpf.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCurLPF3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCurLPF3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblCurLPF3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCurLPF3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="lblCurLPF3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="lblCurLPF3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCurLPF3.Text" xml:space="preserve">
+    <value>※サーボオフで更新</value>
+  </data>
+  <data name="&gt;&gt;lblCurLPF3.Name" xml:space="preserve">
+    <value>lblCurLPF3</value>
+  </data>
+  <data name="&gt;&gt;lblCurLPF3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurLPF3.Parent" xml:space="preserve">
+    <value>grpCurLpfEx</value>
+  </data>
+  <data name="&gt;&gt;lblCurLPF3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkCurLPF1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCurLPF1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkCurLPF1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCurLPF1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="chkCurLPF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="chkCurLPF1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkCurLPF1.Text" xml:space="preserve">
+    <value>1次で計算する</value>
+  </data>
+  <data name="&gt;&gt;chkCurLPF1.Name" xml:space="preserve">
+    <value>chkCurLPF1</value>
+  </data>
+  <data name="&gt;&gt;chkCurLPF1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCurLPF1.Parent" xml:space="preserve">
+    <value>grpCurLpfEx</value>
+  </data>
+  <data name="&gt;&gt;chkCurLPF1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpCurLpfEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpCurLpfEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpCurLpfEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpCurLpfEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCurLpfEx.Text" xml:space="preserve">
+    <value>ローパスフィルタ</value>
+  </data>
+  <data name="&gt;&gt;grpCurLpfEx.Name" xml:space="preserve">
+    <value>grpCurLpfEx</value>
+  </data>
+  <data name="&gt;&gt;grpCurLpfEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCurLpfEx.Parent" xml:space="preserve">
+    <value>fpnlCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;grpCurLpfEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.TitleText" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_q.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_q.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch1_q</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_q.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_q.Parent" xml:space="preserve">
+    <value>grpCurNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_q.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.TitleText" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_d.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_d.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch1_d</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_d.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_d.Parent" xml:space="preserve">
+    <value>grpCurNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch1_f.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_f.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch1_f</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_f.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_f.Parent" xml:space="preserve">
+    <value>grpCurNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch1_f.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpCurNotchEx1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 8</value>
+  </data>
+  <data name="grpCurNotchEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpCurNotchEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCurNotchEx1.Text" xml:space="preserve">
+    <value>ノッチフィルタ1</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx1.Name" xml:space="preserve">
+    <value>grpCurNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx1.Parent" xml:space="preserve">
+    <value>fpnlCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.TitleText" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_q.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_q.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch2_q</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_q.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_q.Parent" xml:space="preserve">
+    <value>grpCurNotchEx2</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_q.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.TitleText" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_d.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_d.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch2_d</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_d.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_d.Parent" xml:space="preserve">
+    <value>grpCurNotchEx2</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch2_f.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_f.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch2_f</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_f.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_f.Parent" xml:space="preserve">
+    <value>grpCurNotchEx2</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch2_f.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpCurNotchEx2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 8</value>
+  </data>
+  <data name="grpCurNotchEx2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpCurNotchEx2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCurNotchEx2.Text" xml:space="preserve">
+    <value>ノッチフィルタ2</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx2.Name" xml:space="preserve">
+    <value>grpCurNotchEx2</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx2.Parent" xml:space="preserve">
+    <value>fpnlCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.TitleText" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_q.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_q.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch3_q</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_q.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_q.Parent" xml:space="preserve">
+    <value>grpCurNotchEx3</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_q.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.TitleText" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_d.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_d.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch3_d</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_d.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_d.Parent" xml:space="preserve">
+    <value>grpCurNotchEx3</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch3_f.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_f.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch3_f</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_f.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_f.Parent" xml:space="preserve">
+    <value>grpCurNotchEx3</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch3_f.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpCurNotchEx3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>746, 8</value>
+  </data>
+  <data name="grpCurNotchEx3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpCurNotchEx3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCurNotchEx3.Text" xml:space="preserve">
+    <value>ノッチフィルタ3</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx3.Name" xml:space="preserve">
+    <value>grpCurNotchEx3</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx3.Parent" xml:space="preserve">
+    <value>fpnlCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.TitleText" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_q.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_q.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch4_q</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_q.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_q.Parent" xml:space="preserve">
+    <value>grpCurNotchEx4</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_q.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.TitleText" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_d.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_d.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch4_d</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_d.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_d.Parent" xml:space="preserve">
+    <value>grpCurNotchEx4</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch4_f.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_f.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch4_f</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_f.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_f.Parent" xml:space="preserve">
+    <value>grpCurNotchEx4</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch4_f.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpCurNotchEx4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>992, 8</value>
+  </data>
+  <data name="grpCurNotchEx4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpCurNotchEx4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCurNotchEx4.Text" xml:space="preserve">
+    <value>ノッチフィルタ4</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx4.Name" xml:space="preserve">
+    <value>grpCurNotchEx4</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx4.Parent" xml:space="preserve">
+    <value>fpnlCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.TitleText" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_q.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_q.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch5_q</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_q.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_q.Parent" xml:space="preserve">
+    <value>grpCurNotchEx5</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_q.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.TitleText" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_d.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_d.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch5_d</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_d.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_d.Parent" xml:space="preserve">
+    <value>grpCurNotchEx5</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 25</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurNotch5_f.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_f.Name" xml:space="preserve">
+    <value>ctlNumExCurNotch5_f</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_f.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_f.Parent" xml:space="preserve">
+    <value>grpCurNotchEx5</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurNotch5_f.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpCurNotchEx5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpCurNotchEx5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 154</value>
+  </data>
+  <data name="grpCurNotchEx5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpCurNotchEx5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCurNotchEx5.Text" xml:space="preserve">
+    <value>ノッチフィルタ5</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx5.Name" xml:space="preserve">
+    <value>grpCurNotchEx5</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx5.Parent" xml:space="preserve">
+    <value>fpnlCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;grpCurNotchEx5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="fpnlCurrentFillter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlCurrentFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlCurrentFillter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlCurrentFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlCurrentFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fpnlCurrentFillter.Name" xml:space="preserve">
+    <value>fpnlCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;fpnlCurrentFillter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlCurrentFillter.Parent" xml:space="preserve">
+    <value>tabPageCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;fpnlCurrentFillter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabServoGain.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabPageServoGain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="tabPageServoGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageServoGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageServoGain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageServoGain.Text" xml:space="preserve">
+    <value>サーボゲイン</value>
+  </data>
+  <data name="&gt;&gt;tabPageServoGain.Name" xml:space="preserve">
+    <value>tabPageServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageServoGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageServoGain.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageServoGain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageCurrentFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageCurrentFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageCurrentFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageCurrentFillter.Text" xml:space="preserve">
+    <value>電流指令フィルタ</value>
+  </data>
+  <data name="&gt;&gt;tabPageCurrentFillter.Name" xml:space="preserve">
+    <value>tabPageCurrentFillter</value>
+  </data>
+  <data name="&gt;&gt;tabPageCurrentFillter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageCurrentFillter.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageCurrentFillter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fpnlVelocityFillter.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelLpf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelLpf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExVelLpf.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelLpf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExVelLpf.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExVelLpf.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelLpf.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExVelLpf.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelLpf.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelLpf.Name" xml:space="preserve">
+    <value>ctlNumExVelLpf</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelLpf.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelLpf.Parent" xml:space="preserve">
+    <value>grpVelLpfEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelLpf.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblVelLPF3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVelLPF3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblVelLPF3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVelLPF3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="lblVelLPF3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="lblVelLPF3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblVelLPF3.Text" xml:space="preserve">
+    <value>※サーボオフで更新</value>
+  </data>
+  <data name="&gt;&gt;lblVelLPF3.Name" xml:space="preserve">
+    <value>lblVelLPF3</value>
+  </data>
+  <data name="&gt;&gt;lblVelLPF3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVelLPF3.Parent" xml:space="preserve">
+    <value>grpVelLpfEx</value>
+  </data>
+  <data name="&gt;&gt;lblVelLPF3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkVelLPF1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkVelLPF1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkVelLPF1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkVelLPF1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="chkVelLPF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="chkVelLPF1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkVelLPF1.Text" xml:space="preserve">
+    <value>1次で計算する</value>
+  </data>
+  <data name="&gt;&gt;chkVelLPF1.Name" xml:space="preserve">
+    <value>chkVelLPF1</value>
+  </data>
+  <data name="&gt;&gt;chkVelLPF1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkVelLPF1.Parent" xml:space="preserve">
+    <value>grpVelLpfEx</value>
+  </data>
+  <data name="&gt;&gt;chkVelLPF1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpVelLpfEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpVelLpfEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpVelLpfEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpVelLpfEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpVelLpfEx.Text" xml:space="preserve">
+    <value>ローパスフィルタ</value>
+  </data>
+  <data name="&gt;&gt;grpVelLpfEx.Name" xml:space="preserve">
+    <value>grpVelLpfEx</value>
+  </data>
+  <data name="&gt;&gt;grpVelLpfEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVelLpfEx.Parent" xml:space="preserve">
+    <value>fpnlVelocityFillter</value>
+  </data>
+  <data name="&gt;&gt;grpVelLpfEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 25</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.TitleText" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_q.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_q.Name" xml:space="preserve">
+    <value>ctlNumExVelNotch1_q</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_q.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_q.Parent" xml:space="preserve">
+    <value>grpVelNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_q.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.TitleText" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_d.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_d.Name" xml:space="preserve">
+    <value>ctlNumExVelNotch1_d</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_d.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_d.Parent" xml:space="preserve">
+    <value>grpVelNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 25</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelNotch1_f.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_f.Name" xml:space="preserve">
+    <value>ctlNumExVelNotch1_f</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_f.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_f.Parent" xml:space="preserve">
+    <value>grpVelNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelNotch1_f.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpVelNotchEx1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpVelNotchEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 8</value>
+  </data>
+  <data name="grpVelNotchEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpVelNotchEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpVelNotchEx1.Text" xml:space="preserve">
+    <value>ノッチフィルタ1</value>
+  </data>
+  <data name="&gt;&gt;grpVelNotchEx1.Name" xml:space="preserve">
+    <value>grpVelNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;grpVelNotchEx1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVelNotchEx1.Parent" xml:space="preserve">
+    <value>fpnlVelocityFillter</value>
+  </data>
+  <data name="&gt;&gt;grpVelNotchEx1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fpnlVelocityFillter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlVelocityFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlVelocityFillter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlVelocityFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlVelocityFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fpnlVelocityFillter.Name" xml:space="preserve">
+    <value>fpnlVelocityFillter</value>
+  </data>
+  <data name="&gt;&gt;fpnlVelocityFillter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlVelocityFillter.Parent" xml:space="preserve">
+    <value>tabPageVelocityFillter</value>
+  </data>
+  <data name="&gt;&gt;fpnlVelocityFillter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageVelocityFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageVelocityFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageVelocityFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageVelocityFillter.Text" xml:space="preserve">
+    <value>速度指令フィルタ</value>
+  </data>
+  <data name="&gt;&gt;tabPageVelocityFillter.Name" xml:space="preserve">
+    <value>tabPageVelocityFillter</value>
+  </data>
+  <data name="&gt;&gt;tabPageVelocityFillter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageVelocityFillter.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageVelocityFillter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fpnlPositionFillter.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExPosLpf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExPosLpf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExPosLpf.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExPosLpf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExPosLpf.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExPosLpf.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosLpf.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExPosLpf.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosLpf.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosLpf.Name" xml:space="preserve">
+    <value>ctlNumExPosLpf</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosLpf.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosLpf.Parent" xml:space="preserve">
+    <value>grpPosLpfEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosLpf.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPosLPF3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPosLPF3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblPosLPF3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPosLPF3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="lblPosLPF3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="lblPosLPF3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblPosLPF3.Text" xml:space="preserve">
+    <value>※サーボオフで更新</value>
+  </data>
+  <data name="&gt;&gt;lblPosLPF3.Name" xml:space="preserve">
+    <value>lblPosLPF3</value>
+  </data>
+  <data name="&gt;&gt;lblPosLPF3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPosLPF3.Parent" xml:space="preserve">
+    <value>grpPosLpfEx</value>
+  </data>
+  <data name="&gt;&gt;lblPosLPF3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkPosLPF1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkPosLPF1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkPosLPF1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkPosLPF1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="chkPosLPF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="chkPosLPF1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkPosLPF1.Text" xml:space="preserve">
+    <value>1次で計算する</value>
+  </data>
+  <data name="&gt;&gt;chkPosLPF1.Name" xml:space="preserve">
+    <value>chkPosLPF1</value>
+  </data>
+  <data name="&gt;&gt;chkPosLPF1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPosLPF1.Parent" xml:space="preserve">
+    <value>grpPosLpfEx</value>
+  </data>
+  <data name="&gt;&gt;chkPosLPF1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpPosLpfEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpPosLpfEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpPosLpfEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpPosLpfEx.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="grpPosLpfEx.Text" xml:space="preserve">
+    <value>ローパスフィルタ</value>
+  </data>
+  <data name="&gt;&gt;grpPosLpfEx.Name" xml:space="preserve">
+    <value>grpPosLpfEx</value>
+  </data>
+  <data name="&gt;&gt;grpPosLpfEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPosLpfEx.Parent" xml:space="preserve">
+    <value>fpnlPositionFillter</value>
+  </data>
+  <data name="&gt;&gt;grpPosLpfEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 25</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.TitleText" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_q.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_q.Name" xml:space="preserve">
+    <value>ctlNumExPosNotch1_q</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_q.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_q.Parent" xml:space="preserve">
+    <value>grpPosNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_q.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.TitleText" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_d.UnitText" xml:space="preserve">
+    <value>0-999</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_d.Name" xml:space="preserve">
+    <value>ctlNumExPosNotch1_d</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_d.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_d.Parent" xml:space="preserve">
+    <value>grpPosNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 25</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 100</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosNotch1_f.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_f.Name" xml:space="preserve">
+    <value>ctlNumExPosNotch1_f</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_f.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_f.Parent" xml:space="preserve">
+    <value>grpPosNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosNotch1_f.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpPosNotchEx1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpPosNotchEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 8</value>
+  </data>
+  <data name="grpPosNotchEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 140</value>
+  </data>
+  <data name="grpPosNotchEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="grpPosNotchEx1.Text" xml:space="preserve">
+    <value>ノッチフィルタ1</value>
+  </data>
+  <data name="&gt;&gt;grpPosNotchEx1.Name" xml:space="preserve">
+    <value>grpPosNotchEx1</value>
+  </data>
+  <data name="&gt;&gt;grpPosNotchEx1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPosNotchEx1.Parent" xml:space="preserve">
+    <value>fpnlPositionFillter</value>
+  </data>
+  <data name="&gt;&gt;grpPosNotchEx1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fpnlPositionFillter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlPositionFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlPositionFillter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlPositionFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlPositionFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fpnlPositionFillter.Name" xml:space="preserve">
+    <value>fpnlPositionFillter</value>
+  </data>
+  <data name="&gt;&gt;fpnlPositionFillter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlPositionFillter.Parent" xml:space="preserve">
+    <value>tabPagePositionFillter</value>
+  </data>
+  <data name="&gt;&gt;fpnlPositionFillter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPagePositionFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPagePositionFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPagePositionFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPagePositionFillter.Text" xml:space="preserve">
+    <value>位置指令フィルタ</value>
+  </data>
+  <data name="&gt;&gt;tabPagePositionFillter.Name" xml:space="preserve">
+    <value>tabPagePositionFillter</value>
+  </data>
+  <data name="&gt;&gt;tabPagePositionFillter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPagePositionFillter.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPagePositionFillter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="fpnlFriction.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExGravity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExGravity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 25</value>
+  </data>
+  <data name="ctlNumExGravity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExGravity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 100</value>
+  </data>
+  <data name="ctlNumExGravity.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExGravity.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExGravity.TitleText" xml:space="preserve">
+    <value>重力補正トルク</value>
+  </data>
+  <data name="ctlNumExGravity.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExGravity.UnitText" xml:space="preserve">
+    <value>±定格電流[0.01A]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExGravity.Name" xml:space="preserve">
+    <value>ctlNumExGravity</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExGravity.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExGravity.Parent" xml:space="preserve">
+    <value>grpFriction</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExGravity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExDynamic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExDynamic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 25</value>
+  </data>
+  <data name="ctlNumExDynamic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExDynamic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 100</value>
+  </data>
+  <data name="ctlNumExDynamic.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExDynamic.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExDynamic.TitleText" xml:space="preserve">
+    <value>粘性摩擦係数</value>
+  </data>
+  <data name="ctlNumExDynamic.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExDynamic.UnitText" xml:space="preserve">
+    <value>0-32767</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExDynamic.Name" xml:space="preserve">
+    <value>ctlNumExDynamic</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExDynamic.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExDynamic.Parent" xml:space="preserve">
+    <value>grpFriction</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExDynamic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCcwTrq.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCcwTrq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 25</value>
+  </data>
+  <data name="ctlNumExCcwTrq.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCcwTrq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 100</value>
+  </data>
+  <data name="ctlNumExCcwTrq.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCcwTrq.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCcwTrq.TitleText" xml:space="preserve">
+    <value>CCW方向トルク</value>
+  </data>
+  <data name="ctlNumExCcwTrq.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCcwTrq.UnitText" xml:space="preserve">
+    <value>0-定格電流[0.01A]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCcwTrq.Name" xml:space="preserve">
+    <value>ctlNumExCcwTrq</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCcwTrq.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCcwTrq.Parent" xml:space="preserve">
+    <value>grpFriction</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCcwTrq.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExCwTrq.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCwTrq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExCwTrq.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCwTrq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 100</value>
+  </data>
+  <data name="ctlNumExCwTrq.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExCwTrq.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCwTrq.TitleText" xml:space="preserve">
+    <value>CW方向トルク</value>
+  </data>
+  <data name="ctlNumExCwTrq.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCwTrq.UnitText" xml:space="preserve">
+    <value>0-定格電流[0.01A]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCwTrq.Name" xml:space="preserve">
+    <value>ctlNumExCwTrq</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCwTrq.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCwTrq.Parent" xml:space="preserve">
+    <value>grpFriction</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCwTrq.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpFriction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpFriction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpFriction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 140</value>
+  </data>
+  <data name="grpFriction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpFriction.Text" xml:space="preserve">
+    <value>摩擦補正</value>
+  </data>
+  <data name="&gt;&gt;grpFriction.Name" xml:space="preserve">
+    <value>grpFriction</value>
+  </data>
+  <data name="&gt;&gt;grpFriction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpFriction.Parent" xml:space="preserve">
+    <value>fpnlFriction</value>
+  </data>
+  <data name="&gt;&gt;grpFriction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fpnlFriction.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlFriction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlFriction.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlFriction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlFriction.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;fpnlFriction.Name" xml:space="preserve">
+    <value>fpnlFriction</value>
+  </data>
+  <data name="&gt;&gt;fpnlFriction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlFriction.Parent" xml:space="preserve">
+    <value>tabPageFriction</value>
+  </data>
+  <data name="&gt;&gt;fpnlFriction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageFriction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageFriction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageFriction.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabPageFriction.Text" xml:space="preserve">
+    <value>摩擦補正</value>
+  </data>
+  <data name="&gt;&gt;tabPageFriction.Name" xml:space="preserve">
+    <value>tabPageFriction</value>
+  </data>
+  <data name="&gt;&gt;tabPageFriction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageFriction.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageFriction.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="fpnlTorqueObserver.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExTrqObsFrq.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTrqObsFrq.Name" xml:space="preserve">
+    <value>ctlNumExTrqObsFrq</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTrqObsFrq.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTrqObsFrq.Parent" xml:space="preserve">
+    <value>grpTrqOvsEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTrqObsFrq.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.TitleText" xml:space="preserve">
+    <value>ゲイン</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExTrqObsGain.UnitText" xml:space="preserve">
+    <value>0-1000</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTrqObsGain.Name" xml:space="preserve">
+    <value>ctlNumExTrqObsGain</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTrqObsGain.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTrqObsGain.Parent" xml:space="preserve">
+    <value>grpTrqOvsEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExTrqObsGain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 35</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 38</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkTorqueObserverEnable1.Text" xml:space="preserve">
+    <value>外乱オブザーバ
+有効</value>
+  </data>
+  <data name="&gt;&gt;chkTorqueObserverEnable1.Name" xml:space="preserve">
+    <value>chkTorqueObserverEnable1</value>
+  </data>
+  <data name="&gt;&gt;chkTorqueObserverEnable1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkTorqueObserverEnable1.Parent" xml:space="preserve">
+    <value>grpTrqOvsEx</value>
+  </data>
+  <data name="&gt;&gt;chkTorqueObserverEnable1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpTrqOvsEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpTrqOvsEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpTrqOvsEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 140</value>
+  </data>
+  <data name="grpTrqOvsEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpTrqOvsEx.Text" xml:space="preserve">
+    <value>外乱オブザーバ</value>
+  </data>
+  <data name="&gt;&gt;grpTrqOvsEx.Name" xml:space="preserve">
+    <value>grpTrqOvsEx</value>
+  </data>
+  <data name="&gt;&gt;grpTrqOvsEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpTrqOvsEx.Parent" xml:space="preserve">
+    <value>fpnlTorqueObserver</value>
+  </data>
+  <data name="&gt;&gt;grpTrqOvsEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fpnlTorqueObserver.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlTorqueObserver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlTorqueObserver.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlTorqueObserver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlTorqueObserver.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fpnlTorqueObserver.Name" xml:space="preserve">
+    <value>fpnlTorqueObserver</value>
+  </data>
+  <data name="&gt;&gt;fpnlTorqueObserver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlTorqueObserver.Parent" xml:space="preserve">
+    <value>tabPageTorqueObserver</value>
+  </data>
+  <data name="&gt;&gt;fpnlTorqueObserver.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageTorqueObserver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageTorqueObserver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageTorqueObserver.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabPageTorqueObserver.Text" xml:space="preserve">
+    <value>外乱オブサーバー</value>
+  </data>
+  <data name="&gt;&gt;tabPageTorqueObserver.Name" xml:space="preserve">
+    <value>tabPageTorqueObserver</value>
+  </data>
+  <data name="&gt;&gt;tabPageTorqueObserver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageTorqueObserver.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageTorqueObserver.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="fpnlVelocityObserver.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.TitleText" xml:space="preserve">
+    <value>外乱誤差補正</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsTdisComp.UnitText" xml:space="preserve">
+    <value>0-1000</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsTdisComp.Name" xml:space="preserve">
+    <value>ctlNumExVelObsTdisComp</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsTdisComp.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsTdisComp.Parent" xml:space="preserve">
+    <value>grpVelOvsEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsTdisComp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.TitleText" xml:space="preserve">
+    <value>速度誤差補正</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsVelComp.UnitText" xml:space="preserve">
+    <value>0-1000</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsVelComp.Name" xml:space="preserve">
+    <value>ctlNumExVelObsVelComp</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsVelComp.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsVelComp.Parent" xml:space="preserve">
+    <value>grpVelOvsEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsVelComp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 70</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkVelocityObserverTdisEnable1.Text" xml:space="preserve">
+    <value>外乱抑制機能有効</value>
+  </data>
+  <data name="&gt;&gt;chkVelocityObserverTdisEnable1.Name" xml:space="preserve">
+    <value>chkVelocityObserverTdisEnable1</value>
+  </data>
+  <data name="&gt;&gt;chkVelocityObserverTdisEnable1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkVelocityObserverTdisEnable1.Parent" xml:space="preserve">
+    <value>grpVelOvsEx</value>
+  </data>
+  <data name="&gt;&gt;chkVelocityObserverTdisEnable1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExVelObsTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelObsTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExVelObsTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelObsTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExVelObsTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExVelObsTime.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsTime.TitleText" xml:space="preserve">
+    <value>誤差推定時間</value>
+  </data>
+  <data name="ctlNumExVelObsTime.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelObsTime.UnitText" xml:space="preserve">
+    <value>0-500[msec]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsTime.Name" xml:space="preserve">
+    <value>ctlNumExVelObsTime</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsTime.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsTime.Parent" xml:space="preserve">
+    <value>grpVelOvsEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelObsTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 35</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 21</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkVelocityObserverEnable1.Text" xml:space="preserve">
+    <value>速度安定化制御有効</value>
+  </data>
+  <data name="&gt;&gt;chkVelocityObserverEnable1.Name" xml:space="preserve">
+    <value>chkVelocityObserverEnable1</value>
+  </data>
+  <data name="&gt;&gt;chkVelocityObserverEnable1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkVelocityObserverEnable1.Parent" xml:space="preserve">
+    <value>grpVelOvsEx</value>
+  </data>
+  <data name="&gt;&gt;chkVelocityObserverEnable1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpVelOvsEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpVelOvsEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpVelOvsEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 140</value>
+  </data>
+  <data name="grpVelOvsEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpVelOvsEx.Text" xml:space="preserve">
+    <value>速度安定化制御</value>
+  </data>
+  <data name="&gt;&gt;grpVelOvsEx.Name" xml:space="preserve">
+    <value>grpVelOvsEx</value>
+  </data>
+  <data name="&gt;&gt;grpVelOvsEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVelOvsEx.Parent" xml:space="preserve">
+    <value>fpnlVelocityObserver</value>
+  </data>
+  <data name="&gt;&gt;grpVelOvsEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fpnlVelocityObserver.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlVelocityObserver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlVelocityObserver.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlVelocityObserver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlVelocityObserver.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fpnlVelocityObserver.Name" xml:space="preserve">
+    <value>fpnlVelocityObserver</value>
+  </data>
+  <data name="&gt;&gt;fpnlVelocityObserver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlVelocityObserver.Parent" xml:space="preserve">
+    <value>tabPageVelocityObserver</value>
+  </data>
+  <data name="&gt;&gt;fpnlVelocityObserver.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageVelocityObserver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageVelocityObserver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageVelocityObserver.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabPageVelocityObserver.Text" xml:space="preserve">
+    <value>速度安定化制御</value>
+  </data>
+  <data name="&gt;&gt;tabPageVelocityObserver.Name" xml:space="preserve">
+    <value>tabPageVelocityObserver</value>
+  </data>
+  <data name="&gt;&gt;tabPageVelocityObserver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageVelocityObserver.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageVelocityObserver.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="fpnlModel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExModelFillter1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExModelFillter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 25</value>
+  </data>
+  <data name="ctlNumExModelFillter1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExModelFillter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExModelFillter1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExModelFillter1.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExModelFillter1.TitleText" xml:space="preserve">
+    <value>モデルフィルタ1</value>
+  </data>
+  <data name="ctlNumExModelFillter1.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExModelFillter1.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelFillter1.Name" xml:space="preserve">
+    <value>ctlNumExModelFillter1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelFillter1.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelFillter1.Parent" xml:space="preserve">
+    <value>grpModelEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelFillter1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkModelControlMotorModel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModelControlMotorModel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkModelControlMotorModel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkModelControlMotorModel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 85</value>
+  </data>
+  <data name="chkModelControlMotorModel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 38</value>
+  </data>
+  <data name="chkModelControlMotorModel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkModelControlMotorModel1.Text" xml:space="preserve">
+    <value>モータモデルを
+3相で計算する</value>
+  </data>
+  <data name="&gt;&gt;chkModelControlMotorModel1.Name" xml:space="preserve">
+    <value>chkModelControlMotorModel1</value>
+  </data>
+  <data name="&gt;&gt;chkModelControlMotorModel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModelControlMotorModel1.Parent" xml:space="preserve">
+    <value>grpModelEx</value>
+  </data>
+  <data name="&gt;&gt;chkModelControlMotorModel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExModelGain3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExModelGain3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 25</value>
+  </data>
+  <data name="ctlNumExModelGain3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExModelGain3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExModelGain3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExModelGain3.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExModelGain3.TitleText" xml:space="preserve">
+    <value>モデルゲイン3</value>
+  </data>
+  <data name="ctlNumExModelGain3.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExModelGain3.UnitText" xml:space="preserve">
+    <value>0-9999[%]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain3.Name" xml:space="preserve">
+    <value>ctlNumExModelGain3</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain3.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain3.Parent" xml:space="preserve">
+    <value>grpModelEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExModelGain2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExModelGain2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 25</value>
+  </data>
+  <data name="ctlNumExModelGain2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExModelGain2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExModelGain2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExModelGain2.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExModelGain2.TitleText" xml:space="preserve">
+    <value>モデルゲイン2</value>
+  </data>
+  <data name="ctlNumExModelGain2.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExModelGain2.UnitText" xml:space="preserve">
+    <value>0-9999[%]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain2.Name" xml:space="preserve">
+    <value>ctlNumExModelGain2</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain2.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain2.Parent" xml:space="preserve">
+    <value>grpModelEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExModelGain1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExModelGain1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExModelGain1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExModelGain1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExModelGain1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExModelGain1.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExModelGain1.TitleText" xml:space="preserve">
+    <value>モデルゲイン1</value>
+  </data>
+  <data name="ctlNumExModelGain1.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExModelGain1.UnitText" xml:space="preserve">
+    <value>0-9999[%]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain1.Name" xml:space="preserve">
+    <value>ctlNumExModelGain1</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain1.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain1.Parent" xml:space="preserve">
+    <value>grpModelEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExModelGain1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkModelControlEnable1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModelControlEnable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkModelControlEnable1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkModelControlEnable1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 35</value>
+  </data>
+  <data name="chkModelControlEnable1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 38</value>
+  </data>
+  <data name="chkModelControlEnable1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkModelControlEnable1.Text" xml:space="preserve">
+    <value>モデル追従制御
+有効</value>
+  </data>
+  <data name="&gt;&gt;chkModelControlEnable1.Name" xml:space="preserve">
+    <value>chkModelControlEnable1</value>
+  </data>
+  <data name="&gt;&gt;chkModelControlEnable1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModelControlEnable1.Parent" xml:space="preserve">
+    <value>grpModelEx</value>
+  </data>
+  <data name="&gt;&gt;chkModelControlEnable1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpModelEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpModelEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpModelEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>579, 140</value>
+  </data>
+  <data name="grpModelEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpModelEx.Text" xml:space="preserve">
+    <value>モデル追従制御</value>
+  </data>
+  <data name="&gt;&gt;grpModelEx.Name" xml:space="preserve">
+    <value>grpModelEx</value>
+  </data>
+  <data name="&gt;&gt;grpModelEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpModelEx.Parent" xml:space="preserve">
+    <value>fpnlModel</value>
+  </data>
+  <data name="&gt;&gt;grpModelEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fpnlModel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlModel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlModel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fpnlModel.Name" xml:space="preserve">
+    <value>fpnlModel</value>
+  </data>
+  <data name="&gt;&gt;fpnlModel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlModel.Parent" xml:space="preserve">
+    <value>tabPageModel</value>
+  </data>
+  <data name="&gt;&gt;fpnlModel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageModel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabPageModel.Text" xml:space="preserve">
+    <value>モデル追従制御</value>
+  </data>
+  <data name="&gt;&gt;tabPageModel.Name" xml:space="preserve">
+    <value>tabPageModel</value>
+  </data>
+  <data name="&gt;&gt;tabPageModel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageModel.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageModel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblVelFBEx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVelFBEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblVelFBEx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVelFBEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="lblVelFBEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 34</value>
+  </data>
+  <data name="lblVelFBEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblVelFBEx.Text" xml:space="preserve">
+    <value>※サーボオフ
+　で更新</value>
+  </data>
+  <data name="&gt;&gt;lblVelFBEx.Name" xml:space="preserve">
+    <value>lblVelFBEx</value>
+  </data>
+  <data name="&gt;&gt;lblVelFBEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVelFBEx.Parent" xml:space="preserve">
+    <value>grpVelFBEx</value>
+  </data>
+  <data name="&gt;&gt;lblVelFBEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExVelFB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelFB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExVelFB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelFB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExVelFB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExVelFB.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFB.TitleText" xml:space="preserve">
+    <value>平均回数</value>
+  </data>
+  <data name="ctlNumExVelFB.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFB.UnitText" xml:space="preserve">
+    <value>0-100[回]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFB.Name" xml:space="preserve">
+    <value>ctlNumExVelFB</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFB.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFB.Parent" xml:space="preserve">
+    <value>grpVelFBEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpVelFBEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpVelFBEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpVelFBEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 140</value>
+  </data>
+  <data name="grpVelFBEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpVelFBEx.Text" xml:space="preserve">
+    <value>速度フィードバックフィルタ</value>
+  </data>
+  <data name="&gt;&gt;grpVelFBEx.Name" xml:space="preserve">
+    <value>grpVelFBEx</value>
+  </data>
+  <data name="&gt;&gt;grpVelFBEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVelFBEx.Parent" xml:space="preserve">
+    <value>fpnlFeedbackFillter</value>
+  </data>
+  <data name="&gt;&gt;grpVelFBEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPosFBEx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPosFBEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblPosFBEx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPosFBEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="lblPosFBEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 34</value>
+  </data>
+  <data name="lblPosFBEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblPosFBEx.Text" xml:space="preserve">
+    <value>※サーボオフ
+　で更新</value>
+  </data>
+  <data name="&gt;&gt;lblPosFBEx.Name" xml:space="preserve">
+    <value>lblPosFBEx</value>
+  </data>
+  <data name="&gt;&gt;lblPosFBEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPosFBEx.Parent" xml:space="preserve">
+    <value>grpPosFBEx</value>
+  </data>
+  <data name="&gt;&gt;lblPosFBEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExPosFB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExPosFB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExPosFB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExPosFB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 100</value>
+  </data>
+  <data name="ctlNumExPosFB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExPosFB.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosFB.TitleText" xml:space="preserve">
+    <value>平均回数</value>
+  </data>
+  <data name="ctlNumExPosFB.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosFB.UnitText" xml:space="preserve">
+    <value>0-100[回]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosFB.Name" xml:space="preserve">
+    <value>ctlNumExPosFB</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosFB.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosFB.Parent" xml:space="preserve">
+    <value>grpPosFBEx</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosFB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpPosFBEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpPosFBEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 8</value>
+  </data>
+  <data name="grpPosFBEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 140</value>
+  </data>
+  <data name="grpPosFBEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpPosFBEx.Text" xml:space="preserve">
+    <value>位置フィードバックフィルタ</value>
+  </data>
+  <data name="grpPosFBEx.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpPosFBEx.Name" xml:space="preserve">
+    <value>grpPosFBEx</value>
+  </data>
+  <data name="&gt;&gt;grpPosFBEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPosFBEx.Parent" xml:space="preserve">
+    <value>fpnlFeedbackFillter</value>
+  </data>
+  <data name="&gt;&gt;grpPosFBEx.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExCurLpfFB.UnitText" xml:space="preserve">
+    <value>0-5000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurLpfFB.Name" xml:space="preserve">
+    <value>ctlNumExCurLpfFB</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurLpfFB.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurLpfFB.Parent" xml:space="preserve">
+    <value>grpCurLpfFB</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExCurLpfFB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpCurLpfFB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpCurLpfFB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 8</value>
+  </data>
+  <data name="grpCurLpfFB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 140</value>
+  </data>
+  <data name="grpCurLpfFB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCurLpfFB.Text" xml:space="preserve">
+    <value>電流FB_LPF</value>
+  </data>
+  <data name="&gt;&gt;grpCurLpfFB.Name" xml:space="preserve">
+    <value>grpCurLpfFB</value>
+  </data>
+  <data name="&gt;&gt;grpCurLpfFB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCurLpfFB.Parent" xml:space="preserve">
+    <value>fpnlFeedbackFillter</value>
+  </data>
+  <data name="&gt;&gt;grpCurLpfFB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.TitleText" xml:space="preserve">
+    <value>遮断周波数</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelLpfFB.UnitText" xml:space="preserve">
+    <value>0-2000[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelLpfFB.Name" xml:space="preserve">
+    <value>ctlNumExVelLpfFB</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelLpfFB.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelLpfFB.Parent" xml:space="preserve">
+    <value>grpVelLpfFB</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelLpfFB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpVelLpfFB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpVelLpfFB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 8</value>
+  </data>
+  <data name="grpVelLpfFB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 140</value>
+  </data>
+  <data name="grpVelLpfFB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpVelLpfFB.Text" xml:space="preserve">
+    <value>速度FB_LPF</value>
+  </data>
+  <data name="&gt;&gt;grpVelLpfFB.Name" xml:space="preserve">
+    <value>grpVelLpfFB</value>
+  </data>
+  <data name="&gt;&gt;grpVelLpfFB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVelLpfFB.Parent" xml:space="preserve">
+    <value>fpnlFeedbackFillter</value>
+  </data>
+  <data name="&gt;&gt;grpVelLpfFB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="fpnlFeedbackFillter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlFeedbackFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlFeedbackFillter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlFeedbackFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlFeedbackFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fpnlFeedbackFillter.Name" xml:space="preserve">
+    <value>fpnlFeedbackFillter</value>
+  </data>
+  <data name="&gt;&gt;fpnlFeedbackFillter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlFeedbackFillter.Parent" xml:space="preserve">
+    <value>tabPageFeedback</value>
+  </data>
+  <data name="&gt;&gt;fpnlFeedbackFillter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageFeedback.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageFeedback.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageFeedback.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tabPageFeedback.Text" xml:space="preserve">
+    <value>フィードバック</value>
+  </data>
+  <data name="&gt;&gt;tabPageFeedback.Name" xml:space="preserve">
+    <value>tabPageFeedback</value>
+  </data>
+  <data name="&gt;&gt;tabPageFeedback.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageFeedback.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageFeedback.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="fpnlFeedforward.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExPosFFGain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExPosFFGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="ctlNumExPosFFGain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExPosFFGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ctlNumExPosFFGain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlNumExPosFFGain.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosFFGain.TitleText" xml:space="preserve">
+    <value>FFゲイン</value>
+  </data>
+  <data name="ctlNumExPosFFGain.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExPosFFGain.UnitText" xml:space="preserve">
+    <value>0-100[%]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosFFGain.Name" xml:space="preserve">
+    <value>ctlNumExPosFFGain</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosFFGain.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosFFGain.Parent" xml:space="preserve">
+    <value>grpPosFF</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExPosFFGain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpPosFF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpPosFF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="grpPosFF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="grpPosFF.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpPosFF.Text" xml:space="preserve">
+    <value>位置フィードフォワード</value>
+  </data>
+  <data name="&gt;&gt;grpPosFF.Name" xml:space="preserve">
+    <value>grpPosFF</value>
+  </data>
+  <data name="&gt;&gt;grpPosFF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPosFF.Parent" xml:space="preserve">
+    <value>fpnlFeedforward</value>
+  </data>
+  <data name="&gt;&gt;grpPosFF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblVelFFFillter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVelFFFillter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblVelFFFillter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVelFFFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 30</value>
+  </data>
+  <data name="lblVelFFFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 68</value>
+  </data>
+  <data name="lblVelFFFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblVelFFFillter.Text" xml:space="preserve">
+    <value>※指令平均化回数
+　0：平均化無し
+　1：2回平均
+　2：4回平均</value>
+  </data>
+  <data name="&gt;&gt;lblVelFFFillter.Name" xml:space="preserve">
+    <value>lblVelFFFillter</value>
+  </data>
+  <data name="&gt;&gt;lblVelFFFillter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVelFFFillter.Parent" xml:space="preserve">
+    <value>grpVelFF</value>
+  </data>
+  <data name="&gt;&gt;lblVelFFFillter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblVelFFPeriod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVelFFPeriod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblVelFFPeriod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVelFFPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 30</value>
+  </data>
+  <data name="lblVelFFPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 85</value>
+  </data>
+  <data name="lblVelFFPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblVelFFPeriod.Text" xml:space="preserve">
+    <value>※加速度計算周期
+　0：高速
+　1：制御周期の2倍
+　2：制御周期の3倍
+　3：制御周期の4倍</value>
+  </data>
+  <data name="&gt;&gt;lblVelFFPeriod.Name" xml:space="preserve">
+    <value>lblVelFFPeriod</value>
+  </data>
+  <data name="&gt;&gt;lblVelFFPeriod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVelFFPeriod.Parent" xml:space="preserve">
+    <value>grpVelFF</value>
+  </data>
+  <data name="&gt;&gt;lblVelFFPeriod.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 25</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.TitleText" xml:space="preserve">
+    <value>指令平均化回数</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFFillter.UnitText" xml:space="preserve">
+    <value>0-2</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFFillter.Name" xml:space="preserve">
+    <value>ctlNumExVelFFFillter</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFFillter.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFFillter.Parent" xml:space="preserve">
+    <value>grpVelFF</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFFillter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.TitleText" xml:space="preserve">
+    <value>加速度計算周期</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFPeriod.UnitText" xml:space="preserve">
+    <value>0-3</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFPeriod.Name" xml:space="preserve">
+    <value>ctlNumExVelFFPeriod</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFPeriod.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFPeriod.Parent" xml:space="preserve">
+    <value>grpVelFF</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFPeriod.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ctlNumExVelFFGain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctlNumExVelFFGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="ctlNumExVelFFGain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ctlNumExVelFFGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ctlNumExVelFFGain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlNumExVelFFGain.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFGain.TitleText" xml:space="preserve">
+    <value>FFゲイン</value>
+  </data>
+  <data name="ctlNumExVelFFGain.UnitFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="ctlNumExVelFFGain.UnitText" xml:space="preserve">
+    <value>0-500[%]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFGain.Name" xml:space="preserve">
+    <value>ctlNumExVelFFGain</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFGain.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputEx, drive, Version=1.31.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFGain.Parent" xml:space="preserve">
+    <value>grpVelFF</value>
+  </data>
+  <data name="&gt;&gt;ctlNumExVelFFGain.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpVelFF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpVelFF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 8</value>
+  </data>
+  <data name="grpVelFF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 140</value>
+  </data>
+  <data name="grpVelFF.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpVelFF.Text" xml:space="preserve">
+    <value>速度フィードフォワード</value>
+  </data>
+  <data name="&gt;&gt;grpVelFF.Name" xml:space="preserve">
+    <value>grpVelFF</value>
+  </data>
+  <data name="&gt;&gt;grpVelFF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVelFF.Parent" xml:space="preserve">
+    <value>fpnlFeedforward</value>
+  </data>
+  <data name="&gt;&gt;grpVelFF.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fpnlFeedforward.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fpnlFeedforward.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fpnlFeedforward.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="fpnlFeedforward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="fpnlFeedforward.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;fpnlFeedforward.Name" xml:space="preserve">
+    <value>fpnlFeedforward</value>
+  </data>
+  <data name="&gt;&gt;fpnlFeedforward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpnlFeedforward.Parent" xml:space="preserve">
+    <value>tabPageFeedforward</value>
+  </data>
+  <data name="&gt;&gt;fpnlFeedforward.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageFeedforward.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabPageFeedforward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1321, 404</value>
+  </data>
+  <data name="tabPageFeedforward.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tabPageFeedforward.Text" xml:space="preserve">
+    <value>フィードフォワード</value>
+  </data>
+  <data name="&gt;&gt;tabPageFeedforward.Name" xml:space="preserve">
+    <value>tabPageFeedforward</value>
+  </data>
+  <data name="&gt;&gt;tabPageFeedforward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageFeedforward.Parent" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabPageFeedforward.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tabServoGain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabServoGain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="tabServoGain.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="tabServoGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="tabServoGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1329, 437</value>
+  </data>
+  <data name="tabServoGain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabServoGain.Name" xml:space="preserve">
+    <value>tabServoGain</value>
+  </data>
+  <data name="&gt;&gt;tabServoGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabServoGain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabServoGain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="TimerResize.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>215, 2</value>
+  </metadata>
+  <metadata name="TimerSave.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>340, 2</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>91</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1329, 462</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAOHLwf+QUzb/4MKz/6tkQP8AAAAAhE0y/+POw/+gXTz/2K+a/wAAAACITzP/5c/F/wAA
+        AAAAAAAAAAAAAAAAAACYWDn/26mQ/854Tv/Od03/AAAAAJhYOf+3akX/78u5/9R7UP8AAAAAl1c4/6tj
+        QP/Ab0j/ynVM/wAAAAAAAAAAwXFI/wAAAAAAAAAA0XpP/wAAAADAcEn/9tnM/wAAAADYf1L/AAAAALhr
+        Rf/46eP/34JU//rp4v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//+cQYQnnEGEIZxBtKGcQf//nEHve5xB73ucQe97nEHve5xB73ucQe97nEHve5xB73ucQe97
+        nEH//5xB//+cQQ==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>サーボゲイン</value>
+  </data>
+  <data name="&gt;&gt;tbtnSaveGain.Name" xml:space="preserve">
+    <value>tbtnSaveGain</value>
+  </data>
+  <data name="&gt;&gt;tbtnSaveGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sep1.Name" xml:space="preserve">
+    <value>sep1</value>
+  </data>
+  <data name="&gt;&gt;sep1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimerGain.Name" xml:space="preserve">
+    <value>TimerGain</value>
+  </data>
+  <data name="&gt;&gt;TimerGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimerResize.Name" xml:space="preserve">
+    <value>TimerResize</value>
+  </data>
+  <data name="&gt;&gt;TimerResize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimerSave.Name" xml:space="preserve">
+    <value>TimerSave</value>
+  </data>
+  <data name="&gt;&gt;TimerSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GainControlForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

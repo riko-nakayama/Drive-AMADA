@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drive", "Drive\Drive.csproj", "{5B984589-25A8-4FB0-A7F2-2143038901E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegSet", "RegSet\RegSet.csproj", "{5F1D5BED-A350-47B6-BCC6-ACAF74442428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegDel", "RegDel\RegDel.csproj", "{15AB835F-9DFD-44AA-8C69-4F2887D193C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B984589-25A8-4FB0-A7F2-2143038901E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B984589-25A8-4FB0-A7F2-2143038901E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B984589-25A8-4FB0-A7F2-2143038901E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B984589-25A8-4FB0-A7F2-2143038901E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1D5BED-A350-47B6-BCC6-ACAF74442428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1D5BED-A350-47B6-BCC6-ACAF74442428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1D5BED-A350-47B6-BCC6-ACAF74442428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1D5BED-A350-47B6-BCC6-ACAF74442428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AB835F-9DFD-44AA-8C69-4F2887D193C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AB835F-9DFD-44AA-8C69-4F2887D193C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AB835F-9DFD-44AA-8C69-4F2887D193C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AB835F-9DFD-44AA-8C69-4F2887D193C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

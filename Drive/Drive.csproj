@@ -1,0 +1,1326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B984589-25A8-4FB0-A7F2-2143038901E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Motion_Designer</RootNamespace>
+    <AssemblyName>drive</AssemblyName>
+    <ApplicationIcon>Drive.ico</ApplicationIcon>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomControl\DoubleBufferPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl\DoubleBufferSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inspection\DataBase\MdlDatabase.cs" />
+    <Compile Include="Inspection\DataBase\MdlDataBaseDefine.cs" />
+    <Compile Include="Inspection\Dialog\CustomMessageBox.cs" />
+    <Compile Include="Inspection\Dialog\InputMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\Dialog\InputMessage.designer.cs">
+      <DependentUpon>InputMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\Dialog\DataBaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\Dialog\DataBaseDialog.designer.cs">
+      <DependentUpon>DataBaseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\Dialog\InspectionCycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\Dialog\InspectionCycle.Designer.cs">
+      <DependentUpon>InspectionCycle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\Dialog\OptionPhoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\Dialog\OptionPhoto.Designer.cs">
+      <DependentUpon>OptionPhoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\Dialog\ResultMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\Dialog\ResultMessage.Designer.cs">
+      <DependentUpon>ResultMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\PhotoSensorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\PhotoSensorForm.Designer.cs">
+      <DependentUpon>PhotoSensorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\CustomControl\ctlPhotoParamter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inspection\CustomControl\ctlPhotoParamter.Designer.cs">
+      <DependentUpon>ctlPhotoParamter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\UserClass\iPentecEventTimer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inspection\UserClass\iPentecEventTimerDefine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DebugMonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugMonitorForm.Designer.cs">
+      <DependentUpon>DebugMonitorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\AboutBoxDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\AboutBoxDialog.designer.cs">
+      <DependentUpon>AboutBoxDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoTuningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoTuningForm.Designer.cs">
+      <DependentUpon>AutoTuningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoTuningAdjust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\AutoTuningSaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\AutoTuningSaveDialog.Designer.cs">
+      <DependentUpon>AutoTuningSaveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoTuningTypeDefine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BodeGraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BodeGraphForm.designer.cs">
+      <DependentUpon>BodeGraphForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\DriveCloseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\DriveCloseDialog.Designer.cs">
+      <DependentUpon>DriveCloseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FrequencySweepDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FrequencySweepDialog.Designer.cs">
+      <DependentUpon>FrequencySweepDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FrictionControlDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FrictionControlDialog.Designer.cs">
+      <DependentUpon>FrictionControlDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\DoubleBufferTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl\GradientButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inspection\CustomControl\ctlInspectionParamter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inspection\CustomControl\ctlInspectionParamter.Designer.cs">
+      <DependentUpon>ctlInspectionParamter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\Dialog\OptionInspection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\Dialog\OptionInspection.Designer.cs">
+      <DependentUpon>OptionInspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\ResolverMountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\ResolverMountForm.Designer.cs">
+      <DependentUpon>ResolverMountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\InspectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\InspectionForm.Designer.cs">
+      <DependentUpon>InspectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection\UserClass\InspectionDef.cs" />
+    <Compile Include="Inspection\UserClass\ServoControl.cs" />
+    <Compile Include="ProfileMovementTable\ctlProgramGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProfileMovementTable\ctlProgramGrid.designer.cs">
+      <DependentUpon>ctlProgramGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileMovementTable\ProfileMovementTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileMovementTable\ProfileMovementTableForm.Designer.cs">
+      <DependentUpon>ProfileMovementTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramHelpForm.Designer.cs">
+      <DependentUpon>ProgramHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandAL_RESET.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandAL_RESET.Designer.cs">
+      <DependentUpon>ctlCommandAL_RESET.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandEND_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandEND_C.Designer.cs">
+      <DependentUpon>ctlCommandEND_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandEND_OFF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandEND_OFF.Designer.cs">
+      <DependentUpon>ctlCommandEND_OFF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandEND_P.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandEND_P.Designer.cs">
+      <DependentUpon>ctlCommandEND_P.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandEND_V.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandEND_V.Designer.cs">
+      <DependentUpon>ctlCommandEND_V.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandHOME.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandHOME.Designer.cs">
+      <DependentUpon>ctlCommandHOME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP0.Designer.cs">
+      <DependentUpon>ctlCommandJMP0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP_IN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP_IN.Designer.cs">
+      <DependentUpon>ctlCommandJMP_IN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP_IN_OFF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP_IN_OFF.Designer.cs">
+      <DependentUpon>ctlCommandJMP_IN_OFF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP_STS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP_STS.designer.cs">
+      <DependentUpon>ctlCommandJMP_STS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP_TRQ.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandJMP_TRQ.Designer.cs">
+      <DependentUpon>ctlCommandJMP_TRQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandMOVE_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandMOVE_C.Designer.cs">
+      <DependentUpon>ctlCommandMOVE_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandMOVE_END.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandMOVE_END.Designer.cs">
+      <DependentUpon>ctlCommandMOVE_END.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandMOVE_ST.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandMOVE_ST.Designer.cs">
+      <DependentUpon>ctlCommandMOVE_ST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandMOVE_V.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandMOVE_V.Designer.cs">
+      <DependentUpon>ctlCommandMOVE_V.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandNOP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandNOP.Designer.cs">
+      <DependentUpon>ctlCommandNOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandOUT0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandOUT0.Designer.cs">
+      <DependentUpon>ctlCommandOUT0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandPARA_W.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandPARA_W.Designer.cs">
+      <DependentUpon>ctlCommandPARA_W.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandPC_RESET.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandPC_RESET.Designer.cs">
+      <DependentUpon>ctlCommandPC_RESET.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandPC_RST_SP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandPC_RST_SP.Designer.cs">
+      <DependentUpon>ctlCommandPC_RST_SP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandP_RESET.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandP_RESET.Designer.cs">
+      <DependentUpon>ctlCommandP_RESET.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandSV_OFF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandSV_OFF.Designer.cs">
+      <DependentUpon>ctlCommandSV_OFF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandSV_ON.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandSV_ON.Designer.cs">
+      <DependentUpon>ctlCommandSV_ON.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandWAIT0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\ctlCommandWAIT0.Designer.cs">
+      <DependentUpon>ctlCommandWAIT0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleControl\frmBasicProgramOperation2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleControl\frmBasicProgramOperation2.Designer.cs">
+      <DependentUpon>frmBasicProgramOperation2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\GradientLabel l.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubForm\AlarmHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\AlarmHistoryForm.Designer.cs">
+      <DependentUpon>AlarmHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\IoMonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\IoMonitorForm.Designer.cs">
+      <DependentUpon>IoMonitorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\IoMonitorHikariForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\IoMonitorHikariForm.designer.cs">
+      <DependentUpon>IoMonitorHikariForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\ManualNavigatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\ManualNavigatorForm.Designer.cs">
+      <DependentUpon>ManualNavigatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenDriveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenDriveForm.Designer.cs">
+      <DependentUpon>OpenDriveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\OptionSettingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\OptionSettingDialog.Designer.cs">
+      <DependentUpon>OptionSettingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterHelpForm.Designer.cs">
+      <DependentUpon>ParameterHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\PasswordDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\PasswordDialog.designer.cs">
+      <DependentUpon>PasswordDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\ServoMonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\ServoMonitorForm.Designer.cs">
+      <DependentUpon>ServoMonitorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\TeachingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\TeachingDialog.Designer.cs">
+      <DependentUpon>TeachingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\TuningSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\TuningSelectDialog.Designer.cs">
+      <DependentUpon>TuningSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Version.cs" />
+    <Compile Include="Dialog\WizardDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\WizardDialog.Designer.cs">
+      <DependentUpon>WizardDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\ComSettingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\ComSettingDialog.designer.cs">
+      <DependentUpon>ComSettingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FFT_IF.cs" />
+    <Compile Include="Dialog\FirmwareUpgradeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FirmwareUpgradeDialog.Designer.cs">
+      <DependentUpon>FirmwareUpgradeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMainForm.Designer.cs">
+      <DependentUpon>ViewMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicClass\CDataTool.cs" />
+    <Compile Include="BasicClass\CCommandTx.cs" />
+    <Compile Include="BasicClass\CMonitor.cs" />
+    <Compile Include="BasicControl\CtlBodePlot\CtlBodePlot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicControl\CtlBodePlot\CtlBodePlot.designer.cs">
+      <DependentUpon>CtlBodePlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicClass\FFT.cs" />
+    <Compile Include="BasicControl\CtlJogControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicControl\CtlJogControl.designer.cs">
+      <DependentUpon>CtlJogControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicControl\CtlPlotMenu\CtlPlotMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicControl\CtlPlotMenu\CtlPlotMenu.designer.cs">
+      <DependentUpon>CtlPlotMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicClass\CUsb.cs" />
+    <Compile Include="GainControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GainControlForm.designer.cs">
+      <DependentUpon>GainControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JogControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JogControlForm.designer.cs">
+      <DependentUpon>JogControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\LineSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialog\LineSetting.Designer.cs">
+      <DependentUpon>LineSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\LineStyleDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\LineStyleDialog.designer.cs">
+      <DependentUpon>LineStyleDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicClass\Message.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Dialog\DataProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\DataProgressDialog.designer.cs">
+      <DependentUpon>DataProgressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AutoTuningForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoTuningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoTuningForm.ja-JP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoTuningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\CtlJogControl.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtlJogControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\CtlPlotMenu\CtlPlotMenu.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtlPlotMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BodeGraphForm.en-US.resx">
+      <DependentUpon>BodeGraphForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugMonitorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DebugMonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AboutBoxDialog.resx">
+      <DependentUpon>AboutBoxDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AboutBoxDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBoxDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoTuningForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoTuningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoTuningForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoTuningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AutoTuningSaveDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoTuningSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AutoTuningSaveDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoTuningSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AutoTuningSaveDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoTuningSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\CtlJogControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtlJogControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BodeGraphForm.resx">
+      <DependentUpon>BodeGraphForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BodeGraphForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BodeGraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\CtlBodePlot\CtlBodePlot.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtlBodePlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\CtlPlotMenu\CtlPlotMenu.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtlPlotMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\ComSettingDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ComSettingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DataProgressDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataProgressDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DriveCloseDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DriveCloseDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FirmwareUpgradeDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FirmwareUpgradeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FrequencySweepDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrequencySweepDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FrictionControlDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrictionControlDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\LineStyleDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineStyleDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\CustomControl\ctlInspectionParamter.resx">
+      <DependentUpon>ctlInspectionParamter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\Dialog\InputMessage.resx">
+      <DependentUpon>InputMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\Dialog\DataBaseDialog.resx">
+      <DependentUpon>DataBaseDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\Dialog\InspectionCycle.resx">
+      <DependentUpon>InspectionCycle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\Dialog\OptionPhoto.resx">
+      <DependentUpon>OptionPhoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\Dialog\OptionInspection.resx">
+      <DependentUpon>OptionInspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\OptionSettingDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionSettingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\PasswordDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PasswordDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SelectColumnDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectColumnDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\TeachingDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TeachingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\TuningSelectDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TuningSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\WizardDialog.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WizardDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DigitalOsilloForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DigitalOsilloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DigitalOsilloForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DigitalOsilloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DriveCloseDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DriveCloseDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DriveCloseDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DriveCloseDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FirmwareUpgradeDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FirmwareUpgradeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FrequencySweepDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrequencySweepDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FrequencySweepDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrequencySweepDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FrictionControlDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrictionControlDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FrictionControlDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrictionControlDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GainControlForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GainControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GainControlForm.ja-JP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GainControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GainControlForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GainControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\Dialog\ResultMessage.resx">
+      <DependentUpon>ResultMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\PhotoSensorForm.resx">
+      <DependentUpon>PhotoSensorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\ResolverMountForm.resx">
+      <DependentUpon>ResolverMountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\InspectionForm.resx">
+      <DependentUpon>InspectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\CustomControl\ctlPhotoParamter.resx">
+      <DependentUpon>ctlPhotoParamter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JogControlForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>JogControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JogControlForm.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>JogControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenDriveForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenDriveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParameterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterHelpForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParameterHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileMovementTable\ProfileMovementTableForm.en-US.resx">
+      <DependentUpon>ProfileMovementTableForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileMovementTable\ProfileMovementTableForm.resx">
+      <DependentUpon>ProfileMovementTableForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileMovementTable\ProfileMovementTableForm.zh-CN.resx">
+      <DependentUpon>ProfileMovementTableForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramHelpForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgramHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandAL_RESET.resx">
+      <DependentUpon>ctlCommandAL_RESET.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandEND_C.resx">
+      <DependentUpon>ctlCommandEND_C.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandEND_OFF.resx">
+      <DependentUpon>ctlCommandEND_OFF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandEND_P.resx">
+      <DependentUpon>ctlCommandEND_P.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandEND_V.resx">
+      <DependentUpon>ctlCommandEND_V.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandHOME.resx">
+      <DependentUpon>ctlCommandHOME.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP0.en-US.resx">
+      <DependentUpon>ctlCommandJMP0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP0.resx">
+      <DependentUpon>ctlCommandJMP0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP0.zh-CN.resx">
+      <DependentUpon>ctlCommandJMP0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_IN.en-US.resx">
+      <DependentUpon>ctlCommandJMP_IN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_IN.resx">
+      <DependentUpon>ctlCommandJMP_IN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_IN.zh-CN.resx">
+      <DependentUpon>ctlCommandJMP_IN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_IN_OFF.en-US.resx">
+      <DependentUpon>ctlCommandJMP_IN_OFF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_IN_OFF.resx">
+      <DependentUpon>ctlCommandJMP_IN_OFF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_IN_OFF.zh-CN.resx">
+      <DependentUpon>ctlCommandJMP_IN_OFF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_STS.en-US.resx">
+      <DependentUpon>ctlCommandJMP_STS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_STS.resx">
+      <DependentUpon>ctlCommandJMP_STS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_STS.zh-CN.resx">
+      <DependentUpon>ctlCommandJMP_STS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_TRQ.en-US.resx">
+      <DependentUpon>ctlCommandJMP_TRQ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_TRQ.resx">
+      <DependentUpon>ctlCommandJMP_TRQ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandJMP_TRQ.zh-CN.resx">
+      <DependentUpon>ctlCommandJMP_TRQ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_C.en-US.resx">
+      <DependentUpon>ctlCommandMOVE_C.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_C.resx">
+      <DependentUpon>ctlCommandMOVE_C.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_C.zh-CN.resx">
+      <DependentUpon>ctlCommandMOVE_C.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_END.en-US.resx">
+      <DependentUpon>ctlCommandMOVE_END.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_END.resx">
+      <DependentUpon>ctlCommandMOVE_END.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_END.zh-CN.resx">
+      <DependentUpon>ctlCommandMOVE_END.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_ST.en-US.resx">
+      <DependentUpon>ctlCommandMOVE_ST.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_ST.resx">
+      <DependentUpon>ctlCommandMOVE_ST.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_ST.zh-CN.resx">
+      <DependentUpon>ctlCommandMOVE_ST.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_V.en-US.resx">
+      <DependentUpon>ctlCommandMOVE_V.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_V.resx">
+      <DependentUpon>ctlCommandMOVE_V.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandMOVE_V.zh-CN.resx">
+      <DependentUpon>ctlCommandMOVE_V.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandNOP.resx">
+      <DependentUpon>ctlCommandNOP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandOUT0.en-US.resx">
+      <DependentUpon>ctlCommandOUT0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandOUT0.resx">
+      <DependentUpon>ctlCommandOUT0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandOUT0.zh-CN.resx">
+      <DependentUpon>ctlCommandOUT0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandPARA_W.en-US.resx">
+      <DependentUpon>ctlCommandPARA_W.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandPARA_W.resx">
+      <DependentUpon>ctlCommandPARA_W.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandPARA_W.zh-CN.resx">
+      <DependentUpon>ctlCommandPARA_W.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandPC_RESET.resx">
+      <DependentUpon>ctlCommandPC_RESET.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandPC_RST_SP.en-US.resx">
+      <DependentUpon>ctlCommandPC_RST_SP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandPC_RST_SP.resx">
+      <DependentUpon>ctlCommandPC_RST_SP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandPC_RST_SP.zh-CN.resx">
+      <DependentUpon>ctlCommandPC_RST_SP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandP_RESET.resx">
+      <DependentUpon>ctlCommandP_RESET.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandSV_OFF.resx">
+      <DependentUpon>ctlCommandSV_OFF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandSV_ON.resx">
+      <DependentUpon>ctlCommandSV_ON.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandWAIT0.en-US.resx">
+      <DependentUpon>ctlCommandWAIT0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandWAIT0.resx">
+      <DependentUpon>ctlCommandWAIT0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\ctlCommandWAIT0.zh-CN.resx">
+      <DependentUpon>ctlCommandWAIT0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\frmBasicProgramOperation2.en-US.resx">
+      <DependentUpon>frmBasicProgramOperation2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\frmBasicProgramOperation2.resx">
+      <DependentUpon>frmBasicProgramOperation2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleControl\frmBasicProgramOperation2.zh-CN.resx">
+      <DependentUpon>frmBasicProgramOperation2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\AlarmHistoryForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AlarmHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\AlarmHistoryForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AlarmHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\IoMonitorForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IoMonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\IoMonitorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IoMonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JogControlForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>JogControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\IoMonitorForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IoMonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\IoMonitorHikariForm.en-US.resx">
+      <DependentUpon>IoMonitorHikariForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\IoMonitorHikariForm.resx">
+      <DependentUpon>IoMonitorHikariForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\IoMonitorHikariForm.zh-CN.resx">
+      <DependentUpon>IoMonitorHikariForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ManualNavigatorForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManualNavigatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ManualNavigatorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManualNavigatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ManualNavigatorForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManualNavigatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenDriveForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenDriveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenDriveForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenDriveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\OptionSettingDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionSettingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\OptionSettingDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionSettingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParameterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterHelpForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParameterHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterHelpForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParameterHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\PasswordDialog.resx">
+      <DependentUpon>PasswordDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\PasswordDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PasswordDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ServoMonitorForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ServoMonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ServoMonitorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ServoMonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ServoMonitorForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ServoMonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\ComSettingDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ComSettingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\LineStyleDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineStyleDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DataProgressDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataProgressDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SelectColumnDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectColumnDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\TeachingDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TeachingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\TeachingDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TeachingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\TuningSelectDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TuningSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\TuningSelectDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TuningSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMainForm.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMainForm.ja-JP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMainForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\WizardDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WizardDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\ComSettingDialog.resx">
+      <DependentUpon>ComSettingDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FirmwareUpgradeDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FirmwareUpgradeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\CtlBodePlot\CtlBodePlot.resx">
+      <DependentUpon>CtlBodePlot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\CtlJogControl.resx">
+      <DependentUpon>CtlJogControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\CtlPlotMenu\CtlPlotMenu.resx">
+      <DependentUpon>CtlPlotMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GainControlForm.resx">
+      <DependentUpon>GainControlForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JogControlForm.resx">
+      <DependentUpon>JogControlForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\LineSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\LineStyleDialog.resx">
+      <DependentUpon>LineStyleDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DataProgressDialog.resx">
+      <DependentUpon>DataProgressDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SaveProgressDialog.resx">
+      <DependentUpon>SaveProgressDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SelectColumnDialog.resx">
+      <DependentUpon>SelectColumnDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForm.resx">
+      <DependentUpon>ParameterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DigitalOsilloForm.resx">
+      <DependentUpon>DigitalOsilloForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\NumericInput\CtlNumericInputInt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtlNumericInputInt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\NumericInput\CtlNumericInputEx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtlNumericInputEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\NumericInput\CtlNumericUpDown.resx">
+      <DependentUpon>CtlNumericUpDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl\NumericInput\CtlSignedUpDown.resx">
+      <DependentUpon>CtlSignedUpDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\WizardDialog.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WizardDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Dialog\SaveProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\SaveProgressDialog.designer.cs">
+      <DependentUpon>SaveProgressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\SelectColumnDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\SelectColumnDialog.designer.cs">
+      <DependentUpon>SelectColumnDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="ParameterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForm.designer.cs">
+      <DependentUpon>ParameterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalOsilloForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DigitalOsilloForm.designer.cs">
+      <DependentUpon>DigitalOsilloForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\CtlNumericInputInt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\CtlNumericInputInt.Designer.cs">
+      <DependentUpon>CtlNumericInputInt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\CtlNumericInputEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\CtlNumericInputEx.Designer.cs">
+      <DependentUpon>CtlNumericInputEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\CtlNumericUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\CtlNumericUpDown.designer.cs">
+      <DependentUpon>CtlNumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\CtlSignedUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\CtlSignedUpDown.designer.cs">
+      <DependentUpon>CtlSignedUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\NumericUpDownEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BasicControl\NumericInput\NumericUpDownEx.Designer.cs">
+      <DependentUpon>NumericUpDownEx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handclose.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handopen.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\playhs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausehs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Drive.ico" />
+    <None Include="Resources\PlayHS1.png" />
+    <None Include="Resources\PauseHS1.png" />
+    <None Include="Resources\pausehs2.png" />
+    <None Include="Resources\ActualSizeHS.png" />
+    <Content Include="Resources\運転台形1.GIF" />
+    <Content Include="Resources\運転台形_CN1.GIF" />
+    <Content Include="Resources\運転台形_US1.GIF" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

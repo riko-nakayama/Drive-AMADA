@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblProject.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblProject.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lblProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 15</value>
+  </data>
+  <data name="lblProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 20</value>
+  </data>
+  <data name="lblProject.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblProject.Text" xml:space="preserve">
+    <value>Driveの画面レイアウトを選択します</value>
+  </data>
+  <data name="&gt;&gt;lblProject.Name" xml:space="preserve">
+    <value>lblProject</value>
+  </data>
+  <data name="&gt;&gt;lblProject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProject.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblProject.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="rdoJog.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoJog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="rdoJog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="rdoJog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="rdoJog.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdoJog.Text" xml:space="preserve">
+    <value>試運転レイアウト</value>
+  </data>
+  <data name="&gt;&gt;rdoJog.Name" xml:space="preserve">
+    <value>rdoJog</value>
+  </data>
+  <data name="&gt;&gt;rdoJog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoJog.Parent" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;rdoJog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rdoParameter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoParameter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="rdoParameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 85</value>
+  </data>
+  <data name="rdoParameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="rdoParameter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdoParameter.Text" xml:space="preserve">
+    <value>パラメータ設定レイアウト</value>
+  </data>
+  <data name="&gt;&gt;rdoParameter.Name" xml:space="preserve">
+    <value>rdoParameter</value>
+  </data>
+  <data name="&gt;&gt;rdoParameter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoParameter.Parent" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;rdoParameter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rdoAutoTuning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoAutoTuning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="rdoAutoTuning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 140</value>
+  </data>
+  <data name="rdoAutoTuning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="rdoAutoTuning.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdoAutoTuning.Text" xml:space="preserve">
+    <value>オートチューニングレイアウト</value>
+  </data>
+  <data name="&gt;&gt;rdoAutoTuning.Name" xml:space="preserve">
+    <value>rdoAutoTuning</value>
+  </data>
+  <data name="&gt;&gt;rdoAutoTuning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoAutoTuning.Parent" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;rdoAutoTuning.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="rdoManualTuning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoManualTuning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="rdoManualTuning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 190</value>
+  </data>
+  <data name="rdoManualTuning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="rdoManualTuning.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdoManualTuning.Text" xml:space="preserve">
+    <value>ゲイン調整レイアウト</value>
+  </data>
+  <data name="&gt;&gt;rdoManualTuning.Name" xml:space="preserve">
+    <value>rdoManualTuning</value>
+  </data>
+  <data name="&gt;&gt;rdoManualTuning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoManualTuning.Parent" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;rdoManualTuning.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblJog.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblJog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblJog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 55</value>
+  </data>
+  <data name="lblJog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 17</value>
+  </data>
+  <data name="lblJog.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblJog.Text" xml:space="preserve">
+    <value>※モータの動作を確認する時に選択します。</value>
+  </data>
+  <data name="&gt;&gt;lblJog.Name" xml:space="preserve">
+    <value>lblJog</value>
+  </data>
+  <data name="&gt;&gt;lblJog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJog.Parent" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;lblJog.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblGain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 215</value>
+  </data>
+  <data name="lblGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 17</value>
+  </data>
+  <data name="lblGain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblGain.Text" xml:space="preserve">
+    <value>※手動でゲイン調整する時に選択します。</value>
+  </data>
+  <data name="&gt;&gt;lblGain.Name" xml:space="preserve">
+    <value>lblGain</value>
+  </data>
+  <data name="&gt;&gt;lblGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGain.Parent" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;lblGain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblAutoTuning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAutoTuning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblAutoTuning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 162</value>
+  </data>
+  <data name="lblAutoTuning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 17</value>
+  </data>
+  <data name="lblAutoTuning.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblAutoTuning.Text" xml:space="preserve">
+    <value>※オートチューニングを実行する時に選択します。</value>
+  </data>
+  <data name="&gt;&gt;lblAutoTuning.Name" xml:space="preserve">
+    <value>lblAutoTuning</value>
+  </data>
+  <data name="&gt;&gt;lblAutoTuning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAutoTuning.Parent" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;lblAutoTuning.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblParameter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblParameter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblParameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 110</value>
+  </data>
+  <data name="lblParameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 17</value>
+  </data>
+  <data name="lblParameter.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblParameter.Text" xml:space="preserve">
+    <value>※パラメータを設定する時に選択します。</value>
+  </data>
+  <data name="&gt;&gt;lblParameter.Name" xml:space="preserve">
+    <value>lblParameter</value>
+  </data>
+  <data name="&gt;&gt;lblParameter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblParameter.Parent" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;lblParameter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpLayout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 50</value>
+  </data>
+  <data name="grpLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 250</value>
+  </data>
+  <data name="grpLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="grpLayout.Text" xml:space="preserve">
+    <value>レイアウト選択</value>
+  </data>
+  <data name="&gt;&gt;grpLayout.Name" xml:space="preserve">
+    <value>grpLayout</value>
+  </data>
+  <data name="&gt;&gt;grpLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpLayout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpLayout.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkCollapse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCollapse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkCollapse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 310</value>
+  </data>
+  <data name="chkCollapse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 21</value>
+  </data>
+  <data name="chkCollapse.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkCollapse.Text" xml:space="preserve">
+    <value>ワークスペースを縮小レイアウトで表示する</value>
+  </data>
+  <data name="&gt;&gt;chkCollapse.Name" xml:space="preserve">
+    <value>chkCollapse</value>
+  </data>
+  <data name="&gt;&gt;chkCollapse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCollapse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkCollapse.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 335</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>※View Workspaceの表示エリアが拡大します。</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 420</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="TimerOpenDrive.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>16, 17</value>
+  </metadata>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 420</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStartView.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="lblStartView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 384</value>
+  </data>
+  <data name="lblStartView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 17</value>
+  </data>
+  <data name="lblStartView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblStartView.Text" xml:space="preserve">
+    <value>※本設定はレイアウトMenuから変更可能です。</value>
+  </data>
+  <data name="&gt;&gt;lblStartView.Name" xml:space="preserve">
+    <value>lblStartView</value>
+  </data>
+  <data name="&gt;&gt;lblStartView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblStartView.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkStartView.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkStartView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt</value>
+  </data>
+  <data name="chkStartView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 360</value>
+  </data>
+  <data name="chkStartView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 21</value>
+  </data>
+  <data name="chkStartView.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkStartView.Text" xml:space="preserve">
+    <value>次回からこの画面を表示しない</value>
+  </data>
+  <data name="&gt;&gt;chkStartView.Name" xml:space="preserve">
+    <value>chkStartView</value>
+  </data>
+  <data name="&gt;&gt;chkStartView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkStartView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkStartView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>320, 460</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;TimerOpenDrive.Name" xml:space="preserve">
+    <value>TimerOpenDrive</value>
+  </data>
+  <data name="&gt;&gt;TimerOpenDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>OpenDriveForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

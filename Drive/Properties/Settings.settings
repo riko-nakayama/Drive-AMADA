@@ -1,0 +1,375 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Motion_Designer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WAVE_TimeScaleIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_TimeMeasView" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_TrgEnable" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_WindowColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="WAVE_TimeScaleColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">DarkOliveGreen</Value>
+    </Setting>
+    <Setting Name="WAVE_InposColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Lime</Value>
+    </Setting>
+    <Setting Name="WAVE_PosLineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_PosLineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_PosColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Cyan</Value>
+    </Setting>
+    <Setting Name="WAVE_VelColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">CornflowerBlue</Value>
+    </Setting>
+    <Setting Name="WAVE_CurColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Pink</Value>
+    </Setting>
+    <Setting Name="WAVE_VelLineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_VelLineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_CurLineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_CurLineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_InposOffset" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-6</Value>
+    </Setting>
+    <Setting Name="WAVE_InposLineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_InposLineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_PosView" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_VelView" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_InposView" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_CurView" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_ItemY_L_View" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_TimeMeasColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">GreenYellow</Value>
+    </Setting>
+    <Setting Name="WAVE_TimeMeasLineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_TimeMeasLineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Dot</Value>
+    </Setting>
+    <Setting Name="WAVE_P_Div" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="WAVE_V_Div" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="WAVE_I_Div" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="WAVE_T_DIV" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="WAVE_TimeScaleView" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_ItemY_R_View" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_CmdposOffset" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-5</Value>
+    </Setting>
+    <Setting Name="WAVE_CmdposView" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WAVE_CmdposLineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_CmdposLineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_CmdposColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Orange</Value>
+    </Setting>
+    <Setting Name="WAVE_TrgColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Crimson</Value>
+    </Setting>
+    <Setting Name="WAVE_TrgLineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_TrgLineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Dash</Value>
+    </Setting>
+    <Setting Name="WAVE_TimeScaleLineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_TimeScaleLineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_TrgPosition" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm1Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm1LineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm2Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm1LineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm2LineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm2LineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm3Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm3LineSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm3LineType" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm1View" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm2View" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm3View" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm1_Div" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm2_Div" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm3_Div" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="CollapseLayout" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ViewOpenDrive" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ThisLayout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_ViewSetting_View" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PASSWORD_LOCK" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CLOSE_MSG_DISABLE" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CultureType" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MainTimerInterval" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="LogPeriod" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_XScale" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="LogTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="WAVE_YScale" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="WAVE_P_Mul" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_V_Mul" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_I_Mul" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm1_Mul" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm2_Mul" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm3_Mul" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_P_Pos" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_V_Pos" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_I_Pos" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm1_Pos" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm2_Pos" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm3_Pos" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_BackupHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PASSWORD_TEMP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PASSWORD_TRI" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WAVE_Pos_Idx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_Vel_Idx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_Cur_Idx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm1_Idx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm2_Idx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WAVE_Prm3_Idx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="DEV_CON_ENABLE" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PASSWORD_HIKARI" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PASSWORD_KASHIYAMA" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PASSWORD_AMADA" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PASSWORD_TAD8821" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WAVE_AlarmAutoStop" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PASSWORD_AMADATEST" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="COMPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Cycle" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Inspection1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TSM3510N8060,94,500,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,100</Value>
+    </Setting>
+    <Setting Name="Inspection2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TSM2261N9030,75,500,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,100</Value>
+    </Setting>
+    <Setting Name="Inspection3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0</Value>
+    </Setting>
+    <Setting Name="Inspection4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0</Value>
+    </Setting>
+    <Setting Name="Inspection5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0</Value>
+    </Setting>
+    <Setting Name="Inspection6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0</Value>
+    </Setting>
+    <Setting Name="Inspection7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0</Value>
+    </Setting>
+    <Setting Name="Inspection8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0</Value>
+    </Setting>
+    <Setting Name="Inspection9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0</Value>
+    </Setting>
+    <Setting Name="Inspection10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0</Value>
+    </Setting>
+    <Setting Name="MotorDir" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="NumberFiles" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="DataBase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\osm-server\sqlexspress,HD_2014,sa,tamagawa</Value>
+    </Setting>
+    <Setting Name="Photo1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TSM3510N8060,1000,4324,1000,3603,4325,3603,5.5,10.0</Value>
+    </Setting>
+    <Setting Name="Photo2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TSM2261N9030,1000,1688,1000,1583,1688,1583,8.5,12.0</Value>
+    </Setting>
+    <Setting Name="Photo3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
+    </Setting>
+    <Setting Name="Photo4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
+    </Setting>
+    <Setting Name="Photo5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
+    </Setting>
+    <Setting Name="Photo6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
+    </Setting>
+    <Setting Name="Photo7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
+    </Setting>
+    <Setting Name="Photo8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
+    </Setting>
+    <Setting Name="Photo9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
+    </Setting>
+    <Setting Name="Photo10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

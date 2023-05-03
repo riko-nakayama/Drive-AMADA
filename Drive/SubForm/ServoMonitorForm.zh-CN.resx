@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnNext.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAARZJREFUOE9j+P//PwZO6HnCjE0cG8YqCDRABoiZsMmhY6yChbOe/4+f/FaJGEOwCubO
+        fPY/ofve/7gJrzUIeQerYMaUp//n7f/9P6jh5mugAbb4DMEqCNTwf/a+X/87t/7971Z6+T+Qb4/LEAwB
+        EI7sevR/yrZf/0uW/v2fMP3vf5vcszgNQeHAcGDzw/+ta9+DNRuXfPkvHX3tv3Hksv8ORWfj0Q1B0QjD
+        HlX3/5fMfQfXrOjS81/aZ3UgNrUYAiBsX3r3f2DLMyTNK72wqQNhrIIWeXf+2xRcgWm2waYGhrEKGmbd
+        BmuW8lruik0eGWMV1Em7AbR5jS82OXSMVVDKe62ftPcKnIkHGWMVJAVjFSQe/2cAAOHY1PSOXStVAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="lblDummy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="btnPrev.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAATxJREFUOE9j+P//P0UYqyA2nNDzhBmbOIYAOgZqZIqf/FYlvP0BkIspjyGAjEG2xk14
+        rRHf/eB/cMM1oBCmGgwBGAZpBmLbmK4Hv5bu///fv/oCUBhTHYYACEM120e03/8P0pw56/9/r9ITQClM
+        tRgCMM2hrffAmlvXAW3v/PvfJf8AUBpVLQhjCDgUnXUKbrn7f9He//87gJoz5vz8b1f38799xnagNKpa
+        EMYQAGFpn9WBdsW3/6fP+f3fv+vbf53Cd/8tEtYDpTDVYgjAsLTPSi/9lPP/TYpe/FfJ+vTfOHIZUBhT
+        HYYAMgYaYmOQdOK/bNrX/7rB84BCmGowBNCxlNdyV/3Uy/81fKcBuZjyEEaWFRO6BDKW9lnjq+IxAcjE
+        lMMQwIalvVcwS3mv9cMmhyFAKsYqSDz+zwAAcYDYAyLJIhkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lblBit0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblBit0.Text" xml:space="preserve">
+    <value>伺服ON</value>
+  </data>
+  <data name="lblBit1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblBit1.Text" xml:space="preserve">
+    <value>配置文件</value>
+  </data>
+  <data name="lblBit2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblBit2.Text" xml:space="preserve">
+    <value>定位</value>
+  </data>
+  <data name="lblBit3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblBit3.Text" xml:space="preserve">
+    <value>报警检测</value>
+  </data>
+  <data name="lblBit4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblBit4.Text" xml:space="preserve">
+    <value>正方向界限</value>
+  </data>
+  <data name="lblBit5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblBit5.Text" xml:space="preserve">
+    <value>负方向界限</value>
+  </data>
+  <data name="lblBit6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblBit6.Text" xml:space="preserve">
+    <value>电流界限</value>
+  </data>
+  <data name="lblBit7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblBit7.Text" xml:space="preserve">
+    <value>速度界限</value>
+  </data>
+  <data name="grpStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="grpStatus.Text" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="lblPosition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 6.75pt</value>
+  </data>
+  <data name="lblVelocity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 6.75pt</value>
+  </data>
+  <data name="lblCurrent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 6.75pt</value>
+  </data>
+  <data name="lblCurrent.Text" xml:space="preserve">
+    <value>电流</value>
+  </data>
+  <data name="lblOverLoad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 6.75pt</value>
+  </data>
+  <data name="lblOverLoad.Text" xml:space="preserve">
+    <value>负载率</value>
+  </data>
+  <data name="lblDriverTemp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 6.75pt</value>
+  </data>
+  <data name="lblPowerVoltage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 6.75pt</value>
+  </data>
+  <data name="lblPowerVoltage.Text" xml:space="preserve">
+    <value>驱动电源</value>
+  </data>
+  <data name="grpServoFeedBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="grpServoFeedBack.Text" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/////rZGB/4x1Y/+Hb1z/gmlW/31kUf94X0z/dFpH/29VQv9sUT3/aE05/2VLNv9jSDP/////////
+        /////////////7CVhf/67+n/6+Pd/+fc1//i19H/39HK/9vLxP/Xxr7/08C4/868sf/Ktqv/ZUs1////
+        //////////////////+zmIn/+/Lt//rw6v/nz8L/slUn/6ZPJf+bSyT/5ci5//fk2v/24tj/zrux/2lO
+        Of//////////////////////tpyN//z08P/p0sf/xV4s/+jPw//67Ob/58u//5dJI//lybr/9+Tc/9LB
+        t/9sUT3/////////////////6oNN/7OQff/q1cv/1mgw/+nTyP/78e3/++/q//rt6P/nzcD/lEgi//jo
+        4P+xpcD/HCPJ/xMZxv/////////////////pgEn/4XE4/+nWzP/89vP/WF7a/87I5v/68Ov/+u7o//rt
+        5v/Nw93/JizM/2FOX///////ExnG////////////wKeb//77+f/9+vf//Pj1/9DM6v9UWdn/zsnm//vx
+        7P/OxuP/MjfP/7euyf94X0z//////////////////////8Krnv/+/Pv//vv5//76+P/9+ff/0Mzr/1BV
+        2P9HTdX/PkTT/87H5P/j19H/fWRQ///////////////////////FrqP//v7+//78/f/++/v//vr5//35
+        9//99/X//PXz//z08P/78u7/5t3Y/4JpV///////////////////////yLOo////////////aGho/2ho
+        aP9oaGj/aGho/2hoaP9oaGj/aGho/2hoaP9oaGj/aGho/2hoaP///////////8u2rf//////aGho/+Li
+        4v/////////////////////////////////////////////////i4uL/aGho///////Ou7H//////2ho
+        aP//////RNdB/0TXQf//////RNdB/0TXQf//////RNdB/0TXQf///////////2hoaP//////0sC2////
+        //9oaGj//////zjVNf841TX//////zjVNf841TX//////zjVNf841TX///////////9oaGj//////9XE
+        vP//////aGho//////9Q2k3/UNpO//////9Q2k3/UNpO//////9Q2k3/UNpO////////////aGho////
+        ///YycH/1cS8/2hoaP/W1tb/////////////////////////////////////////////////4uLi/2ho
+        aP//////////////////////aGho/2hoaP9oaGj/aGho/2hoaP9oaGj/aGho/2hoaP9oaGj/aGho/2ho
+        aP//////AACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAA
+        nEEAAJxBAACcQQ==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Servo监控</value>
+  </data>
+</root>

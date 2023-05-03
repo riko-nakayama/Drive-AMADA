@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ctlNumFrqSweepVelocity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="ctlNumFrqSweepVelocity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ctlNumFrqSweepVelocity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ctlNumFrqSweepVelocity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 85</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ctlNumFrqSweepVelocity.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlNumFrqSweepVelocity.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ctlNumFrqSweepVelocity.TitleText" xml:space="preserve">
+    <value>目標速度 </value>
+  </data>
+  <data name="ctlNumFrqSweepVelocity.UnitText" xml:space="preserve">
+    <value>[rpm]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepVelocity.Name" xml:space="preserve">
+    <value>ctlNumFrqSweepVelocity</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepVelocity.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputInt, drive, Version=0.34.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepVelocity.Parent" xml:space="preserve">
+    <value>grpVelocity</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepVelocity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpVelocity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpVelocity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 65</value>
+  </data>
+  <data name="grpVelocity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 115</value>
+  </data>
+  <data name="grpVelocity.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="grpVelocity.Text" xml:space="preserve">
+    <value>スイープ速度</value>
+  </data>
+  <data name="&gt;&gt;grpVelocity.Name" xml:space="preserve">
+    <value>grpVelocity</value>
+  </data>
+  <data name="&gt;&gt;grpVelocity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVelocity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpVelocity.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 85</value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.TitleText" xml:space="preserve">
+    <value>目標速度 </value>
+  </data>
+  <data name="ctlNumFrqSweepMinFrq.UnitText" xml:space="preserve">
+    <value>[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepMinFrq.Name" xml:space="preserve">
+    <value>ctlNumFrqSweepMinFrq</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepMinFrq.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputInt, drive, Version=0.34.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepMinFrq.Parent" xml:space="preserve">
+    <value>grpMaxFrq</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepMinFrq.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblTo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblTo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 45</value>
+  </data>
+  <data name="lblTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="lblTo.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="lblTo.Text" xml:space="preserve">
+    <value>--&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblTo.Name" xml:space="preserve">
+    <value>lblTo</value>
+  </data>
+  <data name="&gt;&gt;lblTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTo.Parent" xml:space="preserve">
+    <value>grpMaxFrq</value>
+  </data>
+  <data name="&gt;&gt;lblTo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlNumFrqSweepMaxFrq.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="ctlNumFrqSweepMaxFrq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="ctlNumFrqSweepMaxFrq.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ctlNumFrqSweepMaxFrq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 85</value>
+  </data>
+  <data name="ctlNumFrqSweepMaxFrq.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlNumFrqSweepMaxFrq.TitleFont" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ctlNumFrqSweepMaxFrq.TitleText" xml:space="preserve">
+    <value>目標速度 </value>
+  </data>
+  <data name="ctlNumFrqSweepMaxFrq.UnitText" xml:space="preserve">
+    <value>[Hz]</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepMaxFrq.Name" xml:space="preserve">
+    <value>ctlNumFrqSweepMaxFrq</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepMaxFrq.Type" xml:space="preserve">
+    <value>Motion_Designer.CtlNumericInputInt, drive, Version=0.34.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepMaxFrq.Parent" xml:space="preserve">
+    <value>grpMaxFrq</value>
+  </data>
+  <data name="&gt;&gt;ctlNumFrqSweepMaxFrq.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpMaxFrq.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="grpMaxFrq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 65</value>
+  </data>
+  <data name="grpMaxFrq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 115</value>
+  </data>
+  <data name="grpMaxFrq.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="grpMaxFrq.Text" xml:space="preserve">
+    <value>スイープ周波数</value>
+  </data>
+  <data name="&gt;&gt;grpMaxFrq.Name" xml:space="preserve">
+    <value>grpMaxFrq</value>
+  </data>
+  <data name="&gt;&gt;grpMaxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpMaxFrq.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpMaxFrq.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFrqSweep.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFrqSweep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lblFrqSweep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFrqSweep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="lblFrqSweep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 20</value>
+  </data>
+  <data name="lblFrqSweep.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="lblFrqSweep.Text" xml:space="preserve">
+    <value>※周波数スイープの設定を行います。</value>
+  </data>
+  <data name="&gt;&gt;lblFrqSweep.Name" xml:space="preserve">
+    <value>lblFrqSweep</value>
+  </data>
+  <data name="&gt;&gt;lblFrqSweep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFrqSweep.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFrqSweep.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 215</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 215</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>334, 272</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>周波数スイープ設定</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrequencySweepDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblProject.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 12pt</value>
+  </data>
+  <data name="lblProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 15</value>
+  </data>
+  <data name="lblProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="lblProject.Text" xml:space="preserve">
+    <value>Select screen lyaout</value>
+  </data>
+  <data name="rdoJog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="rdoJog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
+  </data>
+  <data name="rdoJog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 24</value>
+  </data>
+  <data name="rdoJog.Text" xml:space="preserve">
+    <value>Jog layout</value>
+  </data>
+  <data name="rdoParameter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="rdoParameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 80</value>
+  </data>
+  <data name="rdoParameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="rdoParameter.Text" xml:space="preserve">
+    <value>Parameter setting layout</value>
+  </data>
+  <data name="rdoAutoTuning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="rdoAutoTuning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 135</value>
+  </data>
+  <data name="rdoAutoTuning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 24</value>
+  </data>
+  <data name="rdoAutoTuning.Text" xml:space="preserve">
+    <value>Auto tuning layout</value>
+  </data>
+  <data name="rdoManualTuning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="rdoManualTuning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 185</value>
+  </data>
+  <data name="rdoManualTuning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 24</value>
+  </data>
+  <data name="rdoManualTuning.Text" xml:space="preserve">
+    <value>Gain tuning layout</value>
+  </data>
+  <data name="lblJog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="lblJog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 50</value>
+  </data>
+  <data name="lblJog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 18</value>
+  </data>
+  <data name="lblJog.Text" xml:space="preserve">
+    <value>Select when motor movement is checked</value>
+  </data>
+  <data name="lblGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 210</value>
+  </data>
+  <data name="lblGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 17</value>
+  </data>
+  <data name="lblGain.Text" xml:space="preserve">
+    <value>Select when Manual gain tuning is operated</value>
+  </data>
+  <data name="lblAutoTuning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 157</value>
+  </data>
+  <data name="lblAutoTuning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 17</value>
+  </data>
+  <data name="lblAutoTuning.Text" xml:space="preserve">
+    <value>Select when Auto Tuning is operated</value>
+  </data>
+  <data name="lblParameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 105</value>
+  </data>
+  <data name="lblParameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 17</value>
+  </data>
+  <data name="lblParameter.Text" xml:space="preserve">
+    <value>Select when parameter setting is operated</value>
+  </data>
+  <data name="grpLayout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="grpLayout.Text" xml:space="preserve">
+    <value>Layout selection</value>
+  </data>
+  <data name="chkCollapse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="chkCollapse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="chkCollapse.Text" xml:space="preserve">
+    <value>Display work space at small layout</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Enlarge View Workspace display area</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblStartView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 17</value>
+  </data>
+  <data name="lblStartView.Text" xml:space="preserve">
+    <value>This setting can be chaged in Layout menu</value>
+  </data>
+  <data name="chkStartView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="chkStartView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="chkStartView.Text" xml:space="preserve">
+    <value>Don't display from next time</value>
+  </data>
+</root>
