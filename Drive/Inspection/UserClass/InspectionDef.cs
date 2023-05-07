@@ -4,8 +4,9 @@ namespace Motion_Designer
     static public class InspectionDef
     {
         public const long WAIT_10ms = 10;                          // 待ち時間 [10ms]
-        public const long WAIT_200ms = 200;                        // 待ち時間 [200ms]
-        public const long WAIT_500ms = 500;                        // 待ち時間 [500ms]
+		public const long WAIT_200ms = 200;                        // 待ち時間 [200ms]
+		public const long WAIT_250ms = 250;                        // 待ち時間 [250ms]	nakayama add amada
+		public const long WAIT_500ms = 500;                        // 待ち時間 [500ms]
 
         public const long WAIT_1s = 1000;                          // 待ち時間 [1s]
         public const long WAIT_2s = 2000;                          // 待ち時間 [2s]
@@ -13,7 +14,13 @@ namespace Motion_Designer
         public const long WAIT_5s = 5000;                          // 待ち時間 [5s]
         public const long WAIT_10s = 10000;                        // 待ち時間 [10s]
 
-        public const long WAIT_10m = 600000;                       // 待ち時間 [10min]
+		// nakayama add amada
+		public const long WAIT_0_5m = 30000;                       // 待ち時間 [0.5min]
+		public const long WAIT_1m = 60000;                         // 待ち時間 [1min]
+		public const long WAIT_1_5m = 90000;                       // 待ち時間 [1.5min]
+	   // nakayama add amada end
+
+		public const long WAIT_10m = 600000;                       // 待ち時間 [10min]
 
         /// <summary>
         /// 環境設定変更パスワード

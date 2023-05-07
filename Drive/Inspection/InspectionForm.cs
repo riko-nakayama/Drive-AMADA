@@ -81,7 +81,8 @@ namespace Motion_Designer
         //エージング動作
         private enum Aging
         {
-            Start, ControlMode, ServoON, StartTimer1, Wait1,
+			AgingStart,AgingCW, AgingStopCW, AgingCCW, AgingStopCCW, AgingEnd, Wait0_1, Wait0_2, Wait0_3, Wait0_4,		// nakayama add amada
+			Start, ControlMode, ServoON, StartTimer1, Wait1,
             Profile1, InPos1, Profile2, InPos2, StartTimer2, Wait2,
             Profile3, InPos3, Profile4, InPos4, CycleUp, Stop1, Stop2, None,
             StartTimer1_2, Wait1_2, StartTimer2_1, Wait2_1
@@ -166,11 +167,15 @@ namespace Motion_Designer
 
         private int bkClutchFailCnt = 0;
 
-        #endregion
+		// nakayama add amada
+		private List<string> listHsTime = new List<string>();
+		private List<string> listLsTime = new List<string>();
 
-        #region コンストラクタ
+		#endregion
 
-        public InspectionForm(MainForm _mform, ViewMainForm _vform)
+		#region コンストラクタ
+
+		public InspectionForm(MainForm _mform, ViewMainForm _vform)
         {
             InitializeComponent();
 
@@ -367,9 +372,23 @@ namespace Motion_Designer
         /// <param name="e"></param>
         private void btnStart_Click(object sender, EventArgs e)
         {
-            if (!MainForm.IsUsbConnectBlink) { return; }
+			// nakayama add amada
+			//if (!MainForm.IsUsbConnectBlink) { return; }
 
-            AgingStart();
+			// nakayama add amada
+			listHsTime.Clear();
+			listLsTime.Clear();
+
+			Random r = new Random();
+
+			for (int i = 0; i < 200; i++)
+			{
+				listHsTime.Add(r.Next(70, 110).ToString());
+				listLsTime.Add(r.Next(70, 110).ToString());
+			}
+			// nakayama add amada end
+
+			AgingStart();
         }
 
         /// <summary>
@@ -386,7 +405,10 @@ namespace Motion_Designer
 
             //ログファイル生成
             WriteFileAgingResult();
-        }
+
+			// nakayama add amada
+			AgingStop();
+		}
 
         /// <summary>
         /// 機種設定ボタンクリック
@@ -621,8 +643,8 @@ namespace Motion_Designer
 
         private int GetPosition(int vel)
         {
-            //const float dirtime = 7.5f;     // 回転時間 7.5[s]
-            const float dirtime = 1.5f;     // 回転時間 1.5[s]
+            //const float dirtime = 7.5f;		// 回転時間 7.5[s]
+            const float dirtime = 1.0f;			// 回転時間 1.0[s]	nakayama add amada
 
             return (int)Math.Round((dirtime * (vel / 60f)) *
                                    CMonitor.GetParameter(CParamID.EncderResolution));
@@ -630,16 +652,18 @@ namespace Motion_Designer
 
         private int GetAcceleration(int vel)
         {
-            const int acctime = 300;        // 加速時間 300[ms]
+			//const int acctime = 300;			// 加速時間 300[ms]
+			const int acctime = 250;			// 加速時間 250[ms]	nakayama add amada
 
-            return (int)Math.Round((((float)vel / acctime) * 100));
+			return (int)Math.Round((((float)vel / acctime) * 100));
         }
 
         private int GetDeceleration(int vel)
         {
-            const int dectime = 300;        // 減速時間 300[ms]
+			//const int dectime = 300;			// 減速時間 300[ms]
+			const int dectime = 250;			// 減速時間 250[ms]	nakayama add amada
 
-            return (int)Math.Round((((float)vel / dectime) * 100));
+			return (int)Math.Round((((float)vel / dectime) * 100));
         }
 
         #endregion
@@ -663,9 +687,161 @@ namespace Motion_Designer
 
             switch (AgingActionStep)
             {
-                #region エージング開始
+				// nakayama add amada
+				#region パウダーブレーキ慣らし運転開始
+				case Aging.AgingStart:
 
-                case Aging.Start:
+					//速度制御設定
+					if (!ControlMode(2)) { aginginfo.COMError = true; }
+
+					//サーボON
+					if (!ServoControl.ServoON((int)InspectionDef.WAIT_1s)) { aginginfo.COMError = true; }
+#if !PreTest
+					//励磁
+					if (!ExcitationCurrrent(lblExcitationCur1.Text)) { aginginfo.PowerSupplyError = true; break; }
+
+					//クラッチ励磁ON
+					if (!ServoControl.ClutchExcitation(ON)) { aginginfo.COMError = true; break; }
+
+					Thread.Sleep(500);      //クラッチ切り替えの待ち時間
+
+					if (!ClutchSwitchState()) { aginginfo.ClutchError = true; break; }
+#endif
+					AgingActionStep = Aging.AgingCW;
+
+					break;
+
+				case Aging.AgingCW:
+
+					int vel_cw = new int();
+
+					if (cmbModel.Text.Contains("TSM3510"))
+					{
+						vel_cw = 1922;									// 高速回転側のギア比は1/3.843 1922 / 3.843 = 500rpm（減速機出力軸）
+					}
+					else
+					{
+						vel_cw = 1055;									// 高速回転側のギア比は1/2.111 1055 / 2.111 = 500rpm（減速機出力軸）
+					}
+
+					ServoControl.StartJog(false, vel_cw, 100, 100);		//加減速は100[10rpm/s]
+
+					//ジョグ動作完了待ちタイマー起動
+					ProfileWaitTimer.Start();
+					AgingActionStep = Aging.Wait0_1;
+
+					break;
+
+				case Aging.Wait0_1:
+
+					//CWジョグ動作動作を1.5min間慣らし運転
+					Wait(InspectionDef.WAIT_1_5m, Aging.Wait0_2);
+					break;
+
+				case Aging.Wait0_2:
+
+					//CWジョグ動作動作を0.5min間電流値判定
+					Wait(InspectionDef.WAIT_0_5m, Aging.AgingStopCW);
+
+					//定格トルクでの電流値を測定
+					double cur_rate = new double();
+
+					if (cmbModel.Text.Contains("TSM3510"))
+					{
+						cur_rate = 32.8;                                  // 定格電流32.8A	パウダーブレーキの負荷電流は0.75A
+					}
+					else
+					{
+						cur_rate = 45.7;                                  // 定格電流45.7A	パウダーブレーキの負荷電流は1.25A
+					}
+
+					double fb_cur = CMonitor.GetParameter(CParamID.FeedbackCurrent) * 0.01;
+
+					if (fb_cur < cur_rate * 0.75 || fb_cur > cur_rate * 1.25)		// 定格電流の±25%が閾値
+					{
+						aginginfo.CurrentError = true;
+					}
+
+					//現在の日付時刻取得
+					LogMsg = String.Format("{0:yyyy/MM/dd HH:mm:ss} ", DateTime.Now); ;
+					LogMsg += "(Feedback Current = " + (fb_cur).ToString("D2") + " [A])";
+					ViewLogMessage();
+
+					break;
+
+				case Aging.AgingStopCW:
+
+					ServoControl.StopJog();
+
+					//ジョグ動作完了待ちタイマー起動
+					ProfileWaitTimer.Start();
+					AgingActionStep = Aging.Wait0_3;
+
+					break;
+
+				case Aging.Wait0_3:
+
+					//CWジョグ動作停止後の待ち時間を2秒後
+					Wait(InspectionDef.WAIT_2s, Aging.AgingEnd);
+					break;
+
+				//case Aging.AgingCCW:
+
+				//	int vel_ccw = new int();
+
+				//	if (cmbModel.Text.Contains("TSM3510"))
+				//	{
+				//		vel_ccw = 1922;                                  // 高速回転側のギア比は1/3.843 1922 / 3.843 = 500rpm（減速機出力軸）
+				//	}
+				//	else
+				//	{
+				//		vel_ccw = 1055;                                  // 高速回転側のギア比は1/2.111 1055 / 2.111 = 500rpm（減速機出力軸）
+				//	}
+
+				//	ServoControl.StartJog(true, vel_ccw, 100, 100);      //加減速は100[10rpm/s]
+
+				//	//プロファイル動作開始待ちタイマー起動
+				//	ProfileWaitTimer.Start();
+				//	AgingActionStep = Aging.Wait0_3;
+				//	break;
+
+				//case Aging.Wait0_4:
+
+				//	//CCWジョグ動作動作を1.5min後に停止する
+				//	Wait(InspectionDef.WAIT_1_5m, Aging.AgingStopCCW);
+				//	break;
+
+				//case Aging.AgingStopCCW:
+
+				//	ServoControl.StopJog();
+
+				//	//ジョグ動作完了待ちタイマー起動
+				//	ProfileWaitTimer.Start();
+				//	AgingActionStep = Aging.Wait0_4;
+
+				//	break;
+
+				//case Aging.Wait0_5:
+
+				//	//CWジョグ動作停止後の待ち時間を5秒後
+				//	Wait(InspectionDef.WAIT_5s, Aging.AgingEnd);
+				//	break;
+
+				case Aging.AgingEnd:
+
+					ServoControl.ServoOFF();
+
+					Thread.Sleep(1000);
+
+					AgingActionStep = Aging.Start;
+
+					break;
+
+				#endregion
+
+				#region エージング開始
+
+				case Aging.Start:
 
                     //位置リセット
                     if (!ServoControl.PositionReset()) { aginginfo.COMError = true; break; }
@@ -697,11 +873,11 @@ namespace Motion_Designer
                     AgingActionStep = Aging.ControlMode;
                     break;
 
-                #endregion
+				#endregion
 
-                #region 位置制御設定
+				#region 位置制御設定
 
-                case Aging.ControlMode:
+				case Aging.ControlMode:
 
                     //位置制御設定
                     if (!ControlMode(1)) { aginginfo.COMError = true; }
@@ -728,15 +904,23 @@ namespace Motion_Designer
                     if (!ServoControl.ClutchExcitation(ON)) { aginginfo.COMError = true; break; }
 
 #endif
+					// nakayama add amada	初回は高速側にクラッチ切り替えを実施します。
+					Thread.Sleep(500);		//クラッチ切り替えの待ち時間
 
-                    AgingActionStep = Aging.StartTimer1;
+					if (!ClutchSwitchState()) { aginginfo.ClutchError = true; break; }
+
+					// nakayama add amada end
+
+					AgingActionStep = Aging.StartTimer1;
+
                     break;
 
-                #endregion
+				#endregion
 
-                #region 次の動作まで10ms待ち
+				//#region 次の動作まで10ms待ち
+				#region 次の動作まで500ms待ち		nakayama add amada
 
-                case Aging.StartTimer1:
+				case Aging.StartTimer1:
 
                     //プロファイル動作開始待ちタイマー起動
                     ProfileWaitTimer.Start();
@@ -745,9 +929,13 @@ namespace Motion_Designer
 
                 case Aging.Wait1:
 
-                    //プロファイル動作を10ms後に開始する
-                    Wait(InspectionDef.WAIT_10ms, Aging.Profile1);
-                    break;
+					//プロファイル動作を10ms後に開始する
+					//Wait(InspectionDef.WAIT_10ms, Aging.Profile1);
+
+					//プロファイル動作を500ms後に開始する		nakayama add amada
+					Wait(InspectionDef.WAIT_500ms, Aging.Profile1);
+					
+					break;
 
                 #endregion
 
@@ -770,7 +958,7 @@ namespace Motion_Designer
 
                     if (!StartProfile(Aging.InPos1,
                                       //profileTables[0].Position + pos,
-                                      profileTables[0].Position + pos + r.Next(0, 10240),
+                                      profileTables[0].Position + pos + r.Next(70, 110),
                                       profileTables[0].Velocity,
                                       profileTables[0].Acceleration,
                                       profileTables[0].Deceleration)) { aginginfo.COMError = true; }
@@ -786,11 +974,13 @@ namespace Motion_Designer
                                         HighModeCurDown)) { aginginfo.COMError = true; }
                     break;
 
-                #endregion
+				#endregion
 
-                #region 次の動作まで200ms待ち
+				// nakayama add amada
+				#region クラッチ切り替え時間250ms待ち
+				//#region 次の動作まで200ms待ち
 
-                case Aging.StartTimer1_2:
+				case Aging.StartTimer1_2:
 
 #if !PreTest
 
@@ -809,9 +999,15 @@ namespace Motion_Designer
                     break;
 
                 case Aging.Wait1_2:
-                    //プロファイル動作を200ms秒後に開始する
-                    Wait(InspectionDef.WAIT_200ms, Aging.Profile2);
-                    break;
+					
+					// nakayama add amada
+					//プロファイル動作を250ms秒後に開始する
+					Wait(InspectionDef.WAIT_250ms, Aging.Profile2);
+					
+					//プロファイル動作を200ms秒後に開始する
+					//Wait(InspectionDef.WAIT_200ms, Aging.Profile2);
+					
+					break;
 
                 #endregion
 
@@ -820,6 +1016,10 @@ namespace Motion_Designer
 
                     //クラッチ状態監視
                     //if (!ClutchSwitchState()) { aginginfo.ClutchError = true; break; }
+
+					// nakayama add amada
+					//クラッチ状態監視
+                    if (!ClutchSwitchState()) { aginginfo.ClutchError = true; break; }
 
                     // 高トルククラッチ切替時間監視
                     if (!CheckTrqClutchSwitchTime(ref tlqtime)) { aginginfo.COMError = true; break; }
@@ -830,7 +1030,7 @@ namespace Motion_Designer
                     if (!CCommandTx.ReadSvNet(CParamID.FeedbackPosition, ref pos)) { aginginfo.COMError = true; break; }
 
                     if (!StartProfile(Aging.InPos2,
-                                      pos - profileTables[1].Position + r.Next(0, 10240),
+                                      pos - profileTables[1].Position + r.Next(70, 110),
                                       //pos - profileTables[1].Position,
                                       profileTables[1].Velocity,
                                       profileTables[1].Acceleration,
@@ -847,11 +1047,13 @@ namespace Motion_Designer
                                         LowModeCurDown)) { aginginfo.COMError = true; }
                     break;
 
-                #endregion
+				#endregion
 
-                #region 次の動作まで10ms待ち
+				// nakayama add amada
+				#region 次の動作まで500ms待ち
+				//#region 次の動作まで10ms待ち
 
-                case Aging.StartTimer2:
+				case Aging.StartTimer2:
 
                     //プロファイル動作開始待ちタイマー起動
                     ProfileWaitTimer.Start();
@@ -860,9 +1062,13 @@ namespace Motion_Designer
 
                 case Aging.Wait2:
 
-                    //プロファイル動作を10ms後に開始する
-                    Wait(InspectionDef.WAIT_10ms, Aging.Profile3);
-                    break;
+					//プロファイル動作を500ms後に開始する
+					Wait(InspectionDef.WAIT_500ms, Aging.Profile3);
+
+					//プロファイル動作を10ms後に開始する
+					//Wait(InspectionDef.WAIT_10ms, Aging.Profile3);
+
+					break;
 
                 #endregion
 
@@ -876,7 +1082,7 @@ namespace Motion_Designer
 
                     if (!StartProfile(Aging.InPos3,
                                       //pos - profileTables[2].Position ,
-                                      pos - profileTables[2].Position + r.Next(0, 10240),
+                                      pos - profileTables[2].Position + r.Next(70, 110),
                                       profileTables[2].Velocity,
                                     　profileTables[2].Acceleration,
                                     　profileTables[2].Deceleration)) { aginginfo.COMError = true; }
@@ -892,11 +1098,13 @@ namespace Motion_Designer
                                         LowModeCurDown)) { aginginfo.COMError = true; }
                     break;
 
-                #endregion
+				#endregion
 
-                #region 次の動作まで200ms待ち
+				// nakayama add amada
+				#region クラッチ切り替え時間250ms待ち
+				//#region 次の動作まで200ms待ち
 
-                case Aging.StartTimer2_1:
+				case Aging.StartTimer2_1:
 
 #if !PreTest
 
@@ -914,8 +1122,14 @@ namespace Motion_Designer
                     break;
 
                 case Aging.Wait2_1:
-                    //プロファイル動作を200ms秒後に開始する
-                    Wait(InspectionDef.WAIT_200ms, Aging.Profile4);
+
+					// nakayama add amada
+					//プロファイル動作を250ms秒後に開始する
+					Wait(InspectionDef.WAIT_250ms, Aging.Profile4);
+
+					//プロファイル動作を200ms秒後に開始する
+					//Wait(InspectionDef.WAIT_200ms, Aging.Profile4);
+
                     break;
 
                 #endregion
@@ -924,11 +1138,15 @@ namespace Motion_Designer
 
                 case Aging.Profile4:
 
-                    //クラッチ状態監視
-                    //if (!ClutchSwitchState()) { aginginfo.ClutchError = true; break; }
+					//クラッチ状態監視
+					//if (!ClutchSwitchState()) { aginginfo.ClutchError = true; break; }
 
-                    // 高速側クラッチ切替時間監視
-                    if (!CheckHSClutchSwitchTime(ref hstime)) { aginginfo.COMError = true; break; }
+					// nakayama add amada
+					//クラッチ状態監視
+					if (!ClutchSwitchState()) { aginginfo.ClutchError = true; break; }
+
+					// 高速側クラッチ切替時間監視
+					if (!CheckHSClutchSwitchTime(ref hstime)) { aginginfo.COMError = true; break; }
 
                     //回転方向表示
                     ViewMotorRotate(Motor_CCW);
@@ -937,7 +1155,7 @@ namespace Motion_Designer
 
                     if (!StartProfile(Aging.InPos4,
                                        //pos + profileTables[3].Position,
-                                       pos + profileTables[3].Position + r.Next(0, 10240),
+                                       pos + profileTables[3].Position + r.Next(70, 110),
                                        profileTables[3].Velocity,
                                        profileTables[3].Acceleration,
                                        profileTables[3].Deceleration)) { aginginfo.COMError = true; }
@@ -1009,28 +1227,38 @@ namespace Motion_Designer
                             strresult = "Clutch NG ";
                         }
 
-                        LogMsg += CycleCount.ToString() + strcycle + strresult +
-                                    " High = " + hstime.ToString() + " " +
-                                    "Torque = " + tlqtime.ToString();
-                                                                     
+						// nakayama add amada
+						LogMsg += CycleCount.ToString() + strcycle + strresult +
+									" High = " + hstime.ToString() + " " +
+									" Low  = " + tlqtime.ToString();
 
-                        ////初回試験？
-                        //if (CycleCount == 1)
-                        //{
+						listHsTime.Add(hstime.ToString());
+						listLsTime.Add(tlqtime.ToString());
 
-                        //    LogMsg += CycleCount.ToString() + strcycle + strresult + 
-                        //                                                 " Clutch Time: High1 = " + f_hstime.ToString() + " " +
-                        //                                                 "Torque = " + tlqtime.ToString() + " " +
-                        //                                                 "High2 = " + hstime.ToString();
-                        //}
-                        //else
-                        //{
-                        //    LogMsg += CycleCount.ToString() + strcycle + strresult + 
-                        //                                                 " Clutch Time: High = " + f_hstime.ToString() + " " +
-                        //                                                 "Torque = " + tlqtime.ToString();
-                        //}
+						// nakayama add amada end
 
-                        ViewLogMessage();
+						//LogMsg += CycleCount.ToString() + strcycle + strresult +
+						//            " High = " + hstime.ToString() + " " +
+						//            "Torque = " + tlqtime.ToString();
+
+
+						////初回試験？
+						//if (CycleCount == 1)
+						//{
+
+						//    LogMsg += CycleCount.ToString() + strcycle + strresult + 
+						//                                                 " Clutch Time: High1 = " + f_hstime.ToString() + " " +
+						//                                                 "Torque = " + tlqtime.ToString() + " " +
+						//                                                 "High2 = " + hstime.ToString();
+						//}
+						//else
+						//{
+						//    LogMsg += CycleCount.ToString() + strcycle + strresult + 
+						//                                                 " Clutch Time: High = " + f_hstime.ToString() + " " +
+						//                                                 "Torque = " + tlqtime.ToString();
+						//}
+
+						ViewLogMessage();
                     }
                     else
                     {
@@ -1353,7 +1581,9 @@ namespace Motion_Designer
             LowModeCurDown = (int)(float.Parse(lblLowModeConstantDown.Text) / 0.01f);
 
             LblDummy.Focus();
-        }
+
+			vform.ViewDigitalOsilloForm();              // nakayama add amada
+		}
 
         #endregion
 
@@ -1832,9 +2062,10 @@ namespace Motion_Designer
 
             if (!CCommandTx.ReadSvNet(CParamID.ServoStatus, ref sts)) return false;
 
-            if ((sts & 0x04) == 0x04)
-            {
-                aginginfo.InPosition = true;
+			//if ((sts & 0x04) == 0x04)
+			if ((sts & 0x4004) == 0x4004)			// nakayama add amada 停止判定速度追加
+			{
+				aginginfo.InPosition = true;
             }
             else
             {
@@ -1933,7 +2164,23 @@ namespace Motion_Designer
             try
             {
                 SerialPort.WriteLine(":OUTP ON" + '\n');
-                IsPowerSupplyON = true;
+
+				// nakayama add amada
+				string s = string.Empty;
+
+				Thread.Sleep(50);
+
+				s = SerialPort.ReadLine();
+
+				if (!s.Contains("OUTP?")) { return false; }
+
+				s = SerialPort.ReadLine();
+
+				if (!s.Contains(">1")) { return false; }
+
+				// nakayama add amada end
+				
+				IsPowerSupplyON = true;
             }
             catch
             {
@@ -1954,7 +2201,23 @@ namespace Motion_Designer
             try
             {
                 SerialPort.WriteLine(":OUTP OFF" + '\n');
-                IsPowerSupplyON = false;
+
+				// nakayama add amada
+				string s = string.Empty;
+
+				Thread.Sleep(50);
+
+				s = SerialPort.ReadLine();
+
+				if (!s.Contains("OUTP?")) { return false; }
+
+				s = SerialPort.ReadLine();
+
+				if (!s.Contains(">0")) { return false; }
+
+				// nakayama add amada end
+				
+				IsPowerSupplyON = false;
             }
             catch
             {
@@ -1976,8 +2239,11 @@ namespace Motion_Designer
             try
             {
                 SerialPort.WriteLine(":DISP:MENU 3;:CURR " + strValue + '\n');
-            }
-            catch
+
+				// nakayama add amada ???
+
+			}
+			catch
             {
                 return false;
             }
@@ -2185,24 +2451,50 @@ namespace Motion_Designer
             // 時刻取得
             string strTime = "_" + String.Format("{0:HHmmss} ", DateTime.Now);
 
-            try
+			// nakayama add amada
+			string datetime = System.DateTime.Now.ToString();
+
+			try
             {
                 // ファイル名設定
-                string strfile = strDateFolder + @"\SN_" + "A" + txtBarcode.Text + strTime + ".txt";
+                string strfile = strDateFolder + @"\SN_" + "A" + txtBarcode.Text + strTime + "_Result" + ".txt";
 
                 //ログデータ書込み
                 using (StreamWriter sw = new StreamWriter(strfile, false, Encoding.Default))
                 {
-                    //検査結果
-                    sw.WriteLine("[Result]");
+					//検査結果
+					sw.WriteLine("[DateTime]");
+					sw.WriteLine(datetime + Environment.NewLine);
+					
+					//検査結果
+					sw.WriteLine("[Result]");
                     sw.WriteLine(LblStatus.Text + Environment.NewLine);
 
                     //検査ログ
                     sw.WriteLine("[Log]");
                     sw.WriteLine(TxtLogMessage.Text);
                 }
-            }
-            catch
+
+				// nakayama add amada
+				string clttime = strDateFolder + @"\SN_" + "A" + txtBarcode.Text + strTime + "_ClutchTime" + ".csv";
+				
+				using (StreamWriter sw = new StreamWriter(clttime, false, Encoding.Default))
+				{
+					sw.WriteLine("[HighSpeedClutchTime]" + "\t" + "[LowSpeedClutchTime]" + "\t");
+
+					for (int i = 0; i < listHsTime.Count; i++)
+					{
+						sw.WriteLine(listHsTime[i] + "\t" + listLsTime[i] + "\t");
+					}
+				}
+
+				string logfile = strDateFolder + @"\SN_" + "A" + txtBarcode.Text + strTime + "_LogData" + ".log";
+
+				DigitalOsilloForm.ThisForm.SaveInspectionLogData(logfile, datetime);
+				// nakayama add amada end
+
+			}
+			catch
             {
                 MessageBox.Show("ログファイル保存の保存が出来ませんでした。",
                                 "ログファイル保存",
@@ -2211,11 +2503,12 @@ namespace Motion_Designer
             }
         }
 
-        #endregion
 
-        #region シリアル通信ポート
+		#endregion
 
-        private void cmbCOMPort_SelectedIndexChanged(object sender, EventArgs e)
+		#region シリアル通信ポート
+
+		private void cmbCOMPort_SelectedIndexChanged(object sender, EventArgs e)
         {
             Properties.Settings.Default.COMPort = cmbCOMPort.Text;
             LblDummy.Focus();

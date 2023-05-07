@@ -26,7 +26,9 @@ namespace Motion_Designer
 
         private ResolverMountForm rslvForm; // Ver1.34 add 
 
-		private PhotoSensorForm photoForm;	// Ver1.35 add 
+		private PhotoSensorForm photoForm;  // Ver1.35 add 
+
+		private VibrationTestForm vibForm;  // nakayama add amada 
 
 		private ParameterForm prmForm;
 		private DigitalOsilloForm waveForm;
@@ -557,6 +559,14 @@ namespace Motion_Designer
 				photoForm.WindowState = FormWindowState.Normal;
 			}
 			// ↑↑↑ Ver1.35 add
+
+			// nakayama add amada
+			if (vibForm != null)
+			{
+				vibForm.Location = new Point(0, 0);
+				vibForm.Size = new Size(w, h);
+				vibForm.WindowState = FormWindowState.Normal;
+			}
 
 			TimerResize.Enabled = true;
 			
@@ -1496,6 +1506,12 @@ namespace Motion_Designer
 		}
 		// ↑↑↑ Ver1.35 add
 
+		// nakayama add amada
+		private void tbtnVibration_Click(object sender, EventArgs e)
+		{
+			LoadVibrationTest();
+		}
+
 		public void LoadJogControl()
 		{
 			//20171002 del
@@ -1785,7 +1801,7 @@ namespace Motion_Designer
 		{
 			if (photoForm == null)
 			{
-				photoForm = new PhotoSensorForm (this, viewForm);
+				photoForm = new PhotoSensorForm(this, viewForm);
 				photoForm.MdiParent = this;
 				photoForm.IsCollapseLayout = IsCollapseLayout;
 				photoForm.Show();
@@ -1810,8 +1826,42 @@ namespace Motion_Designer
 			photoForm.Activate();
 
 			if (pnlMain.Visible) { pnlMain.Visible = false; }
+
 		}
 		// ↑↑↑ Ver1.35 add
+
+		// nakayama add amada
+		public void LoadVibrationTest()
+		{
+
+			if (vibForm == null)
+			{
+				vibForm = new VibrationTestForm(this, viewForm);
+				vibForm.MdiParent = this;
+				vibForm.IsCollapseLayout = IsCollapseLayout;
+				vibForm.Show();
+			}
+			else if (vibForm.Visible == false)
+			{
+				if (vibForm.IsExist == false)
+				{
+					vibForm = new VibrationTestForm(this, viewForm);
+					vibForm.MdiParent = this;
+					vibForm.IsCollapseLayout = IsCollapseLayout;
+				}
+
+				vibForm.Show();
+				vibForm.InitFormLayout();
+			}
+			else if (vibForm.WindowState == FormWindowState.Minimized)
+			{
+				vibForm.WindowState = FormWindowState.Normal;
+			}
+
+			vibForm.Activate();
+
+			if (pnlMain.Visible) { pnlMain.Visible = false; }
+		}
 
 		public void ViewFormClose()
 		{
@@ -2731,9 +2781,10 @@ namespace Motion_Designer
 
 			dbgMonForm[idx].Activate();
 		}
-    }
 
-    public enum AppLayout
+	}
+
+	public enum AppLayout
 	{
 		Free, Jog, Parameter, AutoTuning, ManualTuning
 	}

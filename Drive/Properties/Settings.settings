@@ -371,5 +371,14 @@
     <Setting Name="Photo10" Type="System.String" Scope="User">
       <Value Profile="(Default)">,0,0,0,0,0,0,0.00,0.00</Value>
     </Setting>
+    <Setting Name="VibrationLowSpeed" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="VibrationMiddleSpeed" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="VibrationHighSpeed" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

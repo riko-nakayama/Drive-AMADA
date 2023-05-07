@@ -205,7 +205,60 @@ namespace Motion_Designer
             return bret; 
         }
 
-        #endregion
+		// nakayama add amada
+		#region ジョグ
 
-    }
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="ccw"></param>
+		/// <param name="vel"></param>
+		/// <returns></returns>
+		static public bool StartJog(bool ccw, int vel, int acc, int dcc)
+		{
+			//const int acc = 100;    //加速度 [10rpm/s]
+			//const int dcc = 100;    //減速度 [10rpm/s]
+
+			int cmd_vel = ccw ? -vel : vel;
+
+			int cmd = CMonitor.GetParameter(CParamID.ServoCommand);
+
+			cmd &= ~0x0030;     //Hard Stop & Smooth Stop Clear
+			if (!CCommandTx.WriteSvNet(CParamID.ServoCommand, cmd)) { return false; }
+
+			cmd |= 0x0080;      //Smoothing On
+
+			if (!CCommandTx.WriteSvNet(CParamID.ServoCommand, cmd)) { return false; }
+
+			if (!CCommandTx.WriteSvNet(CParamID.TargetAcceleration, acc)) { return false; }
+
+			if (!CCommandTx.WriteSvNet(CParamID.TargetDeceleration, dcc)) { return false; }
+
+			if (!CCommandTx.WriteSvNet(CParamID.CommandVelocity, cmd_vel)) { return false; }
+
+			Thread.Sleep(500);
+
+			return true;
+		}
+
+		/// <summary>
+		/// 停止
+		/// </summary>
+		static public bool StopJog()
+		{
+			int cmd = CMonitor.GetParameter(CParamID.ServoCommand);
+			int sts = CMonitor.GetParameter(CParamID.ServoStatus);
+
+			cmd |= 0x0020;      //Smooth Stop bit Set
+
+			if (!CCommandTx.WriteSvNet(CParamID.ServoCommand, cmd)) { return false; }
+
+			return true;
+		}
+
+		#endregion
+
+		#endregion
+
+	}
 }

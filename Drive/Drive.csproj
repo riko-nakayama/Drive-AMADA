@@ -192,6 +192,12 @@
     </Compile>
     <Compile Include="Inspection\UserClass\InspectionDef.cs" />
     <Compile Include="Inspection\UserClass\ServoControl.cs" />
+    <Compile Include="Inspection\VibrationTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspection\VibrationTestForm.Designer.cs">
+      <DependentUpon>VibrationTestForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProfileMovementTable\ctlProgramGrid.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -728,6 +734,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Inspection\CustomControl\ctlPhotoParamter.resx">
       <DependentUpon>ctlPhotoParamter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspection\VibrationTestForm.resx">
+      <DependentUpon>VibrationTestForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JogControlForm.en-US.resx">
       <SubType>Designer</SubType>

@@ -186,11 +186,20 @@ namespace Motion_Designer
                 lblFFT.Enabled = value;
             }
         }
-        // ªªª Ver1.33 add AMADA Inspection
+
+		// nakayama add amada
+		public void ViewDigitalOsilloForm()
+		{
+			tbtnDigitalOsillo.PerformClick();
+
+			DigitalOsilloForm.ThisForm.ViewSettingInspection();
+		}
+
+		// ªªª Ver1.33 add AMADA Inspection
 
 		#region Form Event
 
-        // TAD8821 Mode 20220921 Kimura add 
+		// TAD8821 Mode 20220921 Kimura add 
 		private void ViewMainForm_Load(object sender, EventArgs e)
 		{
             if (Properties.Settings.Default.PASSWORD_TAD8821)
